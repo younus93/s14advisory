@@ -19,3 +19,11 @@ Route::get('/team/piyapa-chongsathien',function(){
     return view('piyapa');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
