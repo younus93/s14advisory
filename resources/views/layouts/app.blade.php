@@ -6,17 +6,18 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/logos/logo-shortcut.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
-    <link rel="stylesheet" type="text/css" href="css/icomoon.css">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation.css" id="navigation_menu">
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" id="main_styles">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/themify-icons.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fontawesome-all.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/icomoon.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css')  }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.css')  }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.css')  }}">
+    <link rel="stylesheet" href="{{ asset('css/slider.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/navigation.css')  }}" id="navigation_menu">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css')  }}" id="main_styles">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
@@ -59,21 +60,27 @@
         </div>
         <div class="nav-menus-wrapper">
             <ul class="nav-menu align-to-right">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About Us</a>
-                </li>
-                <li>
-                    <a href="#services">Our Services</a>
-                </li>
-                <li>
-                    <a href="#team">Our Team</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Us</a>
-                </li>
+                @if(request()->path() == '/')
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#services">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="#team">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                @else
+                    <li>
+                        <a href="/">Return Home</a>
+                    </li>
+                @endif
             </ul>
         </div>
     </nav>
@@ -138,16 +145,16 @@
 </footer>
 
 
-
 <a href="#" class="scroll-to-top"><i class="fas fa-chevron-up"></i></a>
-<script src="js/jquery.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/navigation.js"></script>
-<script src="js/navigation.fixed.js"></script>
-<script src="js/map.js"></script>
-<script src="js/main.js"></script>
+<script src="{{ asset('js/jquery.min.js')  }}"></script>
+<script src="{{ asset('js/plugins.js')  }}"></script>
+<script src="{{ asset('js/navigation.js')  }}"></script>
+<script src="{{ asset('js/navigation.fixed.js')  }}"></script>
+<script src="{{ asset('js/map.js')  }}"></script>
+<script src="{{ asset('js/main.js')  }}"></script>
+
 <script>
-    $(document).on('click', 'a[href^="#"]', function(e) {
+    $(document).on('click', 'a[href^="#"]', function (e) {
         // target element id
         var id = $(this).attr('href');
 
@@ -164,7 +171,7 @@
         var pos = $id.offset().top - 60;
 
         // animated top scrolling
-        $('body, html').animate({scrollTop: pos},2000);
+        $('body, html').animate({scrollTop: pos}, 2000);
     });
 </script>
 </body>
