@@ -1,6 +1,17 @@
 @extends('layouts.app')
 @section('head')
-
+    <style>
+        .profile{
+            max-height: 450px;
+            max-width: 360px;
+            left: -150px;
+            position:relative;
+            transition: ease-in 0.6s;
+        }
+        .team-classic:hover .profile{
+            transform: translateX(150px);
+        }
+    </style>
 @endsection
 @section('content')
 
@@ -238,8 +249,8 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-12">
-                    <div class="team-classic"><img src="img/s14team/md.jpg" style="max-height: 450px; max-width: 360px;"
-                                                   alt="img">
+                    <div class="team-classic" style="overflow: hidden;">
+                        <img src="img/s14team/md.png" class="profile" id="photo" alt="img">
                         <div class="team-classic-overlay">
                             <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
                                             class="fab fa-twitter"></i></a><a href="#"><i
@@ -328,7 +339,7 @@
 
 @endsection
 @section('scripts')
-
+    
 @endsection
 
 
