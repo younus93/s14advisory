@@ -97,7 +97,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
-                <h3>About Us</h3><a href="#"><img src="https://raw.githubusercontent.com/younus93/s14advisory/master/public/img/logos/logo.png" style="max-height: 75px;" alt="img"></a>
+                <h3>About Us</h3><a href="#"><img src="/img/logos/logoWhite.png" style="max-height: 75px;" alt="img"></a>
                 <div class="mt-20">
                     <p>Financial Advisory Services</p>
                 </div>
