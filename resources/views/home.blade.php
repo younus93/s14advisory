@@ -284,19 +284,21 @@
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-4 col-12">
-                    <div class="team-classic"><img
-                                src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
-                                style="max-height: 450px;" alt="img">
-                        <div class="team-classic-overlay">
-                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
-                                            class="fab fa-twitter"></i></a><a href="#"><i
-                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
-                            </div>
-                            <div class="team-classic-name">
-                                <h4>Meet our Team</h4>
+                    <a href="/team">
+                        <div class="team-classic"><img
+                                    src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
+                                    style="max-height: 450px;" alt="img">
+                            <div class="team-classic-overlay">
+                                <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                                                class="fab fa-twitter"></i></a><a href="#"><i
+                                                class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
+                                </div>
+                                <div class="team-classic-name">
+                                    <h4>Meet our Team</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
