@@ -169,16 +169,16 @@ function initMap() {
 
     // Create a map object, and include the MapTypeId to add
     // to the map type control.
-    var myLatlng = new google.maps.LatLng(51.5165957, -0.1277179);
+    var myLatlng = new google.maps.LatLng(13.730561, 100.560455);
     var mapOptions = {
-        zoom: 12,
+        zoom: 15,
         center: myLatlng
     }
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
     var marker = new google.maps.Marker({
         position: myLatlng,
-        title: "Hello World!"
+        title: "S14 Advisory"
     });
 
     // To add the marker to the map, call setMap();

@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navigation.css')  }}" id="navigation_menu">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css')  }}" id="main_styles">
+    <script src="{{ asset('js/map.js')  }}"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -38,7 +39,7 @@
             <div class="col-md-9 col-12">
                 <ul class="top-bar-info">
                     <li><i class="fas fa-map-marker-alt"></i>Klongtoey, Bangkok 10100</li>
-                    <li><i class="fas fa-phone-square"></i> Phone: +1-23-456789</li>
+                    <li><i class="fas fa-phone-square"></i> Phone: +66 64 827 5371</li>
                     <li><i class="fa fa-envelope"></i>Email: info@s14advisory.com</li>
                 </ul>
             </div>
@@ -111,7 +112,7 @@
             <div class="col-md-4 col-sm-6 col-12">
                 <h3>Contact Info</h3>
                 <ul class="footer-style-1-contact-info">
-                    <li><i class="fa fa-phone"></i> <span>+11 (0) 123 456 7890</span></li>
+                    <li><i class="fa fa-phone"></i> <span>+66 64 827 5371</span></li>
                     <li><i class="fa fa-envelope-open"></i> <span>info@s14advisory.com</span></li>
                     <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10100</span></li>
                 </ul>
@@ -153,7 +154,6 @@
 <script src="{{ asset('js/plugins.js')  }}"></script>
 <script src="{{ asset('js/navigation.js')  }}"></script>
 <script src="{{ asset('js/navigation.fixed.js')  }}"></script>
-<script src="{{ asset('js/map.js')  }}"></script>
 <script src="{{ asset('js/main.js')  }}"></script>
 
 <script>

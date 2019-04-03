@@ -1,14 +1,15 @@
 @extends('layouts.app')
 @section('head')
     <style>
-        .profile{
+        .profile {
             max-height: 450px;
             max-width: 360px;
             left: -180px;
-            position:relative;
+            position: relative;
             transition: ease-in 0.6s;
         }
-        .team-classic:hover .profile{
+
+        .team-classic:hover .profile {
             transform: translateX(180px);
         }
     </style>
@@ -19,7 +20,7 @@
     <div class="main-video-section" id="home">
         <div class="video-area" id="video-area">
             <div class="player" id="main-video-play"
-                 data-property="{videoURL:'https://youtu.be/GcSOzmz_LJE',
+                 data-property="{videoURL:'https://youtu.be/zUrj2lR3aEA',
              containment:'#video-area',
              showControls:false,
              optimizeDisplay : true,
@@ -65,14 +66,16 @@
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="feature-block-3 left-holder"><i class="icon-briefcase"></i>
                                 <h4>Flexibility</h4>
-                                <p>Alliance with financial institutions, legal advisors, external and internal auditors. We
+                                <p>Alliance with financial institutions, legal advisors, external and internal auditors.
+                                    We
                                     take no short-cuts yet are highly effective in articulating with our clients</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="feature-block-3 left-holder"><i class="icon-target2"></i>
                                 <h4>Professionalism</h4>
-                                <p>S14 commits to input manpower exhaustively in every project in order to provide the best
+                                <p>S14 commits to input manpower exhaustively in every project in order to provide the
+                                    best
                                     alternative advice to maximize clients benefits.</p>
                             </div>
                         </div>
@@ -107,7 +110,8 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <ul class="primary-list">
-                        <li><i class="fa fa-check-square"></i>We are built on an uncompromising foundation that financial
+                        <li><i class="fa fa-check-square"></i>We are built on an uncompromising foundation that
+                            financial
                             advice should be transparent and honest
                         </li>
                         <li><i class="fa fa-check-square"></i>We deliver services that solve complex problems in a
@@ -116,7 +120,8 @@
                         <li><i class="fa fa-check-square"></i>We strive for the highest level of client service and are
                             focused on creating long term partnership with our clients.
                         </li>
-                        <li><i class="fa fa-check-square"></i>We work to make a positive impact on our nation&#39;s economy.
+                        <li><i class="fa fa-check-square"></i>We work to make a positive impact on our nation&#39;s
+                            economy.
                         </li>
                     </ul>
                 </div>
@@ -124,10 +129,12 @@
         </div>
     </div>
 
-    <div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6" style="background-image: url('img/content/bgs/bg3.png');">
+    <div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6"
+         style="background-image: url('img/content/bgs/bg3.png');">
         <div class="container">
             <div class="large-heading center-holder">
-                <h2 class="white-color">Out to become the most client preferred financial advisory partner across the country.</h2>
+                <h2 class="white-color">Out to become the most client preferred financial advisory partner across the
+                    country.</h2>
                 <div class="section-heading-line"></div>
             </div>
             {{--<div class="mt-25 center-holder"><a href="#" class="white-button button-md">Become a Client</a></div>--}}
@@ -145,7 +152,8 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder">
                         <i class="icon-banking"></i>
                         <h4>Fund Raising</h4>
-                        <p>Equity placement or recapitalization through our extensive network for a private placement or Pre
+                        <p>Equity placement or recapitalization through our extensive network for a private placement or
+                            Pre
                             initial public offering</p>
                     </div>
                 </div>
@@ -167,7 +175,8 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
                                 class="icon-binoculars"></i>
                         <h4>IFA Service</h4>
-                        <p>Provide analysis on financial perspective allowing our clients to make fully informed business
+                        <p>Provide analysis on financial perspective allowing our clients to make fully informed
+                            business
                             decisions.</p>
                     </div>
                 </div>
@@ -177,7 +186,8 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
                                 class="icon-bank"></i>
                         <h4>IPO advisory</h4>
-                        <p>Provides services at all stages of preparing for an IPO and transforming a company from private
+                        <p>Provides services at all stages of preparing for an IPO and transforming a company from
+                            private
                             into a public entity.</p>
                     </div>
                 </div>
@@ -193,7 +203,8 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
                                 class="icon-school-material"></i>
                         <h4>Feasibility study/Business Plan</h4>
-                        <p>Determine the viability of an idea, such an ensuring that a project is legally and technically
+                        <p>Determine the viability of an idea, such an ensuring that a project is legally and
+                            technically
                             feasible as well as economically</p>
                     </div>
                 </div>
@@ -206,8 +217,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-12">
-                    <div class="video-video-box full-width"><img src="img/content/finance/home2.jpg"
-                                                                 class="rounded-border shadow-primary mb-10" alt="img">
+                    <div class="video-video-box full-width">
+                        <img src="{{ asset('img/s14Team.png') }}" class="rounded-border shadow-primary mb-10" alt="img">
                         <div class="video-video-box-overlay">
                             <div class="video-video-box-button-sm">
                                 <button class="video-video-play-icon" data-izimodal-open=".izimodal"><i
@@ -216,23 +227,28 @@
                         </div>
                     </div>
                     <div class="izimodal" data-iziModal-width="800px" data-iziModal-fullscreen="true">
-                        <iframe height="415" src="https://www.youtube.com/embed/nrJtHemSPW4"
-                                class="full-width shadow-primary"></iframe>
+                        <iframe height="415" src="https://www.youtube.com/embed/R8DfDTMXkr0"
+                                class="full-width shadow-primary"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+
+                        </iframe>
+                        {{--<iframe height="415" src="https://www.youtube.com/watch?v=R8DfDTMXkr0&output=embed"--}}
+                        {{--class="full-width shadow-primary"></iframe>--}}
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12">
                     <div class="pl-45-md">
                         <div class="section-heading left-holder mt-30">
-                            <h3 class="bold">Strategic minds for your company's growth.</h3>
+                            <h3 class="bold">Our Work</h3>
                             <div class="section-heading-line"></div>
                         </div>
                         <div class="text-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                            <p>Watch the heart warming story of how we took our client to one of the biggest openings in
+                                SEC History.</p>
                         </div>
-                        <div class="mt-15"><a href="#" class="primary-button button-sm">Learn More</a></div>
+                        {{--<div class="mt-15"><a href="#" class="primary-button button-sm">Learn More</a></div>--}}
                     </div>
                 </div>
             </div>
@@ -249,25 +265,13 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-12">
-                    <div class="team-classic" style="overflow: hidden;
-                            background: url('/img/background.jpg');
-                            background-size: cover;
-                            /*-webkit-filter: blur(5px);*/
-                            /*-moz-filter: blur(5px);*/
-                            /*-o-filter: blur(5px);*/
-                            /*-ms-filter: blur(5px);*/
-                            /*filter: blur(5px);*/
-                        ">
+                    <div class="team-classic" style="overflow: hidden; background: url('/img/background.jpg'); background-size: cover">
                         <img src="img/s14team/piyapa-chongsathien.png" class="profile" id="photo" alt="img">
                         <div class="team-classic-overlay">
-                            {{--<div class="team-classic-content">--}}
-                                {{--<a href="#">--}}
-                                    {{--<i class="fab fa-facebook"></i>--}}
-                                {{--</a>--}}
-                                {{--<a href="#"><i class="fab fa-twitter"></i></a>--}}
-                                {{--<a href="#"><i class="fab fa-instagram"></i></a>--}}
-                                {{--<a href="#"><i class="fab fa-google"></i></a>--}}
-                            {{--</div>--}}
+                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                                            class="fab fa-twitter"></i></a><a href="#"><i
+                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
+                            </div>
                             <a href="/team/piyapa-chongsathien">
                                 <div class="team-classic-name">
                                     <h4>Ms. Piyapa Chongsathien</h4>
@@ -284,11 +288,13 @@
                                 src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
                                 style="max-height: 450px;" alt="img">
                         <div class="team-classic-overlay">
-                            <a href="/team">
-                                <div class="team-classic-name">
-                                    <h4>Meet our Team</h4>
-                                </div>
-                            </a>
+                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                                            class="fab fa-twitter"></i></a><a href="#"><i
+                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="team-classic-name">
+                                <h4>Meet our Team</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -296,60 +302,52 @@
         </div>
     </div>
 
-    <div class="section-block-grey" id="contact">
+    <div class="section-block" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-7 col-12">
-                    <div class="section-heading left-holder">
-                        <h4 class="bold">Delivering results that endure. Strategy and technology consultants to the
-                            world.</h4>
-                        <div class="section-heading-line"></div>
+            <div class="section-heading center-holder">
+                <h2 class="bold">Have any questions? <span class="italic libre-baskerville primary-color">Contact us now!</span>
+                </h2>
+            </div>
+            <div class="section-heading-line"></div>
+            <div class="row mt-40">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div class="contact-1-box pb-5">
+                        <div>
+                            <div class="get-contact-1 rounded-border">
+                                <div class="contact-1-box-social"><i class="fas fa-map-marker-alt"></i>
+                                    <div class="contact-1-box-text"><span>Address :</span>
+                                        <p>170/37 Ocean Towers 1, 13th Fl, Khwaeng Khlong Toei, Klongtoey, Bangkok 10100.</p></div>
+                                </div>
+                                <div class="contact-1-box-social social-left clearfix"><i class="fa fa-envelope"></i>
+                                    <div class="contact-1-box-text"><span>Email :</span>
+                                        <p>info@s14advisory.com</p></div>
+                                </div>
+                                <div class="contact-1-box-social social-left clearfix"><i
+                                            class="fas fa-phone-volume"></i>
+                                    <div class="contact-1-box-text"><span>Phone :</span>
+                                        <p>+66 64 827 5371</p></div>
+                                </div>
+                                <div class="contact-1-box-social social-left clearfix"><i
+                                            class="fas fa-clock"></i>
+                                    <div class="contact-1-box-text"><span>Working Hours :</span>
+                                        <p>We work on Mon - Fri 8:00 - 18:00</p></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodoconsequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
-                    </div>
-                    <div class="mt-20"><a href="#" class="primary-button-bordered button-md">Contact Us</a></div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-12 offset-md-1">
-                    <div class="contact-form-md white-background shadow-light center-holder">
-                        <h5>Request a Callback</h5>
-                        <form method="get" action="#" class="mt-30"><input type="text" name="name"
-                                                                           placeholder="Your Name"><input type="email"
-                                                                                                          name="email"
-                                                                                                          placeholder="Your Email"><input
-                                    type="text" name="phone" placeholder="Your Phone Number">
-                            <button type="submit" class="primary-button button-sm full-width">Send Message</button>
-                        </form>
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div id="map" class="map-1">
+                        <script async="" defer=""
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA&amp;callback=initMap"></script>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="section-block section-sm">
-        <div class="container">
-            <div class="owl-carousel owl-theme clients" id="clients">
-                <div class="item"><img src="img/content/clients/c-1.png" alt="img"></div>
-                <div class="item"><img src="img/content/clients/c-2.png" alt="img"></div>
-                <div class="item"><img src="img/content/clients/c-3.png" alt="img"></div>
-                <div class="item"><img src="img/content/clients/c-4.png" alt="img"></div>
-                <div class="item"><img src="img/content/clients/c-5.png" alt="img"></div>
-                <div class="item"><img src="img/content/clients/c-6.png" alt="img"></div>
-            </div>
-        </div>
-    </div>
-
-
-
-
 @endsection
 @section('scripts')
-    
+
+
 @endsection
 
 
