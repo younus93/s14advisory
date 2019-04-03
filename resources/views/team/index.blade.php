@@ -37,21 +37,20 @@
             </div>
             <div class="row justify-content-center mt-0">
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="team-member">
-                        <div class="team-member-image"><img class="profile" src="/img/s14team/piyapa-chongsathien.png"
-                                                            alt="img">
-                            <div class="team-member-overlay">
-                                <div class="team-member-content">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
+                    <div class="team-circle">
+                        <a href="{{ url("team/piyapa-chongsathien") }}">
+                            <div class="team-circle-img"><img src="/img/s14team/piyapa-chongsathien.png" alt="img">
                             </div>
-                        </div>
-                        <div class="team-member-name"><h4><a href="{{ url('/team/piyapa-chongsathien') }}">Ms. Piyapa Chongsathien</a></h4><h6></h6></div>
+                            <div class="team-circle-text"><h4><a href="#"></a></h4> <h5
+                                        class="italic libre-baskerville">Ms. Piyapa Chongsathien</h5>
+                                <ul class="team-circle-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -60,23 +59,21 @@
                 @foreach($team as $slug => $person)
                     @if($person['role'] == 'Vice President')
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="team-member">
-                                <div class="team-member-image"><img class="profile"
-                                                                    src="/img/s14team/{{ $slug }}.png"
-                                                                    alt="img">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-content">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
+                            <div class="team-circle">
+                                <a href="{{ url("team/{$slug}") }}">
+
+                                    <div class="team-circle-img"><img src="/img/s14team/{{ $slug }}.png" alt="img">
                                     </div>
-                                </div>
-                                <div class="team-member-name"><h4><a href="{{ url('/team/'.$slug) }}">{{ $person['name'] }}</a></h4><h6></h6>
-                                </div>
+                                    <div class="team-circle-text"><h4><a href="#"></a></h4> <h5
+                                                class="italic libre-baskerville">{{ $person['name'] }}</h5>
+                                        <ul class="team-circle-social">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     @endif
@@ -88,24 +85,21 @@
                 @foreach($team as $slug => $person)
                     @if($person['role'] == 'Manager')
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="team-member">
-                                <div class="team-member-image"><img class="profile"
-                                                                    src="/img/s14team/{{ $slug }}.png" alt="img">
-                                    <div class="team-member-overlay">
-                                        <div class="team-member-content">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
+                            <div class="team-circle">
+                                <a href="{{ url("team/{$slug}") }}">
+
+                                    <div class="team-circle-img"><img src="/img/s14team/{{ $slug }}.png" alt="img">
                                     </div>
-                                </div>
-                                <div class="team-member-name"><h4>
-                                        <a href="{{ url('/team/'.$slug) }}">{{ $person['name'] }}</a>
-                                    </h4><h6></h6>
-                                </div>
+                                    <div class="team-circle-text"><h4><a href="#"></a></h4> <h5
+                                                class="italic libre-baskerville">{{ $person['name'] }}</h5>
+                                        <ul class="team-circle-social">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     @endif
