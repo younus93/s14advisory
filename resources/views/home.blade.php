@@ -4,12 +4,12 @@
         .profile{
             max-height: 450px;
             max-width: 360px;
-            left: -150px;
+            left: -180px;
             position:relative;
             transition: ease-in 0.6s;
         }
         .team-classic:hover .profile{
-            transform: translateX(150px);
+            transform: translateX(180px);
         }
     </style>
 @endsection
@@ -42,28 +42,28 @@
                                                class="rounded-border shadow-primary full-width" alt="img"></div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-12">
-                    <div class="section-heading left-holder">
+                    <div class="section-heading left-holder mb-0">
                         <h3 class="bold">Our guarantee is to take your business <span
                                     class="italic libre-baskerville primary-color">From Good to Great.</span></h3>
                         <div class="section-heading-line"></div>
                     </div>
-                    <div class="row mt-20">
+                    <div class="row">
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="feature-block-3 left-holder"><i class="icon-shield-1"></i>
                                 <h4>Financial Advisory Experts</h4>
                                 <p>S14 has a plentiful Experience in advising financial services such as merger and
-                                    acquisition, fundraising and financial restructuring,</p>
+                                    acquisition, fundraising and financial restructuring.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="feature-block-3 left-holder"><i class="icon-wallet2"></i>
+                            <div class="feature-block-3 left-holder"><i class="icon-networking-12"></i>
                                 <h4>Extensive client network</h4>
                                 <p>A vast client network of local investors and including regional investors. S14 will
                                     commit to search thoroughly a project investor from the existing pool investors.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="feature-block-3 left-holder"><i class="icon-compass2"></i>
+                            <div class="feature-block-3 left-holder"><i class="icon-briefcase"></i>
                                 <h4>Flexibility</h4>
                                 <p>Alliance with financial institutions, legal advisors, external and internal auditors. We
                                     take no short-cuts yet are highly effective in articulating with our clients</p>
@@ -249,13 +249,25 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-12">
-                    <div class="team-classic" style="overflow: hidden;">
-                        <img src="img/s14team/md.png" class="profile" id="photo" alt="img">
+                    <div class="team-classic" style="overflow: hidden;
+                            background: url('/img/background.jpg');
+                            background-size: cover;
+                            /*-webkit-filter: blur(5px);*/
+                            /*-moz-filter: blur(5px);*/
+                            /*-o-filter: blur(5px);*/
+                            /*-ms-filter: blur(5px);*/
+                            /*filter: blur(5px);*/
+                        ">
+                        <img src="img/s14team/piyapa-chongsathien.png" class="profile" id="photo" alt="img">
                         <div class="team-classic-overlay">
-                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
-                                            class="fab fa-twitter"></i></a><a href="#"><i
-                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
-                            </div>
+                            {{--<div class="team-classic-content">--}}
+                                {{--<a href="#">--}}
+                                    {{--<i class="fab fa-facebook"></i>--}}
+                                {{--</a>--}}
+                                {{--<a href="#"><i class="fab fa-twitter"></i></a>--}}
+                                {{--<a href="#"><i class="fab fa-instagram"></i></a>--}}
+                                {{--<a href="#"><i class="fab fa-google"></i></a>--}}
+                            {{--</div>--}}
                             <a href="/team/piyapa-chongsathien">
                                 <div class="team-classic-name">
                                     <h4>Ms. Piyapa Chongsathien</h4>
@@ -272,13 +284,11 @@
                                 src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
                                 style="max-height: 450px;" alt="img">
                         <div class="team-classic-overlay">
-                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
-                                            class="fab fa-twitter"></i></a><a href="#"><i
-                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
-                            </div>
-                            <div class="team-classic-name">
-                                <h4>Meet our Team</h4>
-                            </div>
+                            <a href="/team">
+                                <div class="team-classic-name">
+                                    <h4>Meet our Team</h4>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

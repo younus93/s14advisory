@@ -55,7 +55,7 @@
 <header>
     <nav id="navigation4" class="container navigation">
         <div class="nav-header">
-            <a class="nav-brand" href="/"><img src="img/logos/blackLogo.png" style="max-height: 40px;" alt="logo"
+            <a class="nav-brand" href="/"><img src="/img/logos/logo.png" style="max-height: 40px;" alt="logo"
                                                id="main_logo"></a>
             <div class="nav-toggle"></div>
         </div>
@@ -79,6 +79,9 @@
                     </li>
                 @else
                     <li>
+                        <a href="/team">Our Team</a>
+                    </li>
+                    <li>
                         <a href="/">Return Home</a>
                     </li>
                 @endif
@@ -93,7 +96,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
-                <h3>About Us</h3><a href="#"><img src="img/logos/logo.png" style="max-height: 75px;" alt="img"></a>
+                <h3>About Us</h3><a href="#"><img src="https://raw.githubusercontent.com/younus93/s14advisory/master/public/img/logos/logo.png" style="max-height: 75px;" alt="img"></a>
                 <div class="mt-20">
                     <p>Financial Advisory Services</p>
                 </div>
@@ -111,7 +114,6 @@
                     <li><i class="fa fa-phone"></i> <span>+11 (0) 123 456 7890</span></li>
                     <li><i class="fa fa-envelope-open"></i> <span>info@s14advisory.com</span></li>
                     <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10100</span></li>
-                    <li><i class="fa fa-phone-square"></i> <span>+11 (0) 123 456 7890</span></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6 col-12">
