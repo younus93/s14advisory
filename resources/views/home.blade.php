@@ -258,19 +258,24 @@
     <div class="section-block" id="team">
         <div class="container">
             <div class="section-heading center-holder">
-                <h2 class="bold">Our team. <span class="italic libre-baskerville primary-color">Your advantage</span></h2>
+                <h2 class="bold">Our team. <span class="italic libre-baskerville primary-color">Your advantage</span>
+                </h2>
                 <div class="section-heading-line"></div>
-                <p>We work on a strategic review process with a predefined agenda which ensures that the financial advise
+                <p>We work on a strategic review process with a predefined agenda which ensures that the financial
+                    advise
                     matters are addressed at the right time with In-Depth discussions.</p>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-12">
-                    <div class="team-classic" style="overflow: hidden; background: url('/img/background.jpg'); background-size: cover">
+                    <div class="team-classic"
+                         style="overflow: hidden; background: url('/img/background.jpg'); background-size: cover">
                         <img src="img/s14team/piyapa-chongsathien.png" class="profile" id="photo" alt="img">
                         <div class="team-classic-overlay">
-                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                            <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a
+                                        href="#"><i
                                             class="fab fa-twitter"></i></a><a href="#"><i
-                                            class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
+                                            class="fab fa-instagram"></i></a><a href="#"><i
+                                            class="fab fa-google"></i></a>
                             </div>
                             <a href="/team/piyapa-chongsathien">
                                 <div class="team-classic-name">
@@ -284,21 +289,23 @@
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-4 col-12">
-                    <a href="/team">
-                        <div class="team-classic"><img
-                                    src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
-                                    style="max-height: 450px;" alt="img">
+                    <div class="team-classic">
+                        <a href="/team">
+                            <img src="https://images.pexels.com/photos/1571877/pexels-photo-1571877.jpeg?cs=srgb&dl=accomplishment-achievement-adult-1571877.jpg&fm=jpg"
+                                 style="max-height: 450px;" alt="img">
                             <div class="team-classic-overlay">
-                                <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                                <div class="team-classic-content"><a href="#"><i class="fab fa-facebook"></i></a><a
+                                            href="#"><i
                                                 class="fab fa-twitter"></i></a><a href="#"><i
-                                                class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-google"></i></a>
+                                                class="fab fa-instagram"></i></a><a href="#"><i
+                                                class="fab fa-google"></i></a>
                                 </div>
                                 <div class="team-classic-name">
                                     <h4>Meet our Team</h4>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -318,7 +325,8 @@
                             <div class="get-contact-1 rounded-border">
                                 <div class="contact-1-box-social"><i class="fas fa-map-marker-alt"></i>
                                     <div class="contact-1-box-text"><span>Address :</span>
-                                        <p>170/37 Ocean Towers 1, 13th Fl, Khwaeng Khlong Toei, Klongtoey, Bangkok 10100.</p></div>
+                                        <p>170/37 Ocean Towers 1, 13th Fl, Khwaeng Khlong Toei, Klongtoey, Bangkok
+                                            10100.</p></div>
                                 </div>
                                 <div class="contact-1-box-social social-left clearfix"><i class="fa fa-envelope"></i>
                                     <div class="contact-1-box-text"><span>Email :</span>
