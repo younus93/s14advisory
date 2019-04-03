@@ -56,6 +56,61 @@ return [
             ],
             'closing' => 'He also worked as Assistant Project Manager in Strategic Planning Department at Thai Beverage Public Limited Company, Business Analyst in Business Development Department at Mitrphol Biofuel Company limited, Senior Analyst in Investment Banking Department at KTB Advisory Company limited.'
         ],
+        'sitthiphat-sinfaphanit' => [
+            'name' => 'Sitthiphat Sinfaphanit',
+            'bio' => 'Sitthiphat Sinfaphanit is a manager in S14 Advisory Company Limited who graduated from Mahidol University International College with Business Administration Degree in Finance. After graduated, He worked with PwC (Thailand) Ltd. as a Tax Consultant responsible for Corporate Tax Advise, Tax Structuring and Tax due diligence. He also successfully completed his Student internship program (SIP 65) in Bangkok Bank S14 Advisory is his second career in the financial sector after graduation.',
+            'role' => 'Manager',
+            'experience' => [
+                'The FA for IPO of CAZ (Thailand) Plc. In 2019 (First-day trade on Jan 22, 2019)',
+                'The FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd.',
+                'IFA on Food Capitals Plc. (FC) – Acquisition and Disposal of Assets and Connected Transaction',
+            ]
+        ],
+        'pawarunch-nopsiri' => [
+            'name' => 'Pawarunch Nopsiri',
+            'bio' => 'Pawarunch Nopsiri is a Manager in S14 Advisory Company Limited. She graduated from Thammasat University in Engineering Management. She also holds Bachelor Degree in Business Administration majoring in Accounting from Ramkhamhaeng University. After graduated, she worked as consultant at PWC in Operation Consulting. Later, She worked with Underwriters Laboratories Ltd. as Engineer. S14 Advisory is her first career in the financial sector.',
+            'role' => 'Manager',
+            'experience' => [
+                'FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd. in 2017',
+                'IFA on backdoor and EBT transaction of Food Capital in 2018',
+                'IFA in related party transaction of Takuni Group PCL (“TAKUNI”)'
+            ],
+            'closing' => 'She also excelled in internship programs such as Credit Control Intern in Chiatai Company limited and Assistant Auditor Intern in Kamolwan Audit Company.'
+        ],
+        'sithavut-kayuraphan' => [
+            'name' => 'Sithavut Kayuraphan',
+            'bio' => 'Sithavut Kayuraphan is a manager in S14 Advisory Company Limited. He was graduated from Northumbria University, United Kingdom with masters of Science in Business with Management with Commendation and Bachelor of Science in Agribusiness from Kasetsart University with 4 years of work experiences. He has excelled in certification programs such as Business Law for non-legal professionals from Thammasat University, Tax Planning for Business from Lawyers council of Thailand. He also holds Complex type 1 Capital Market Investment Consultant License Investment Planner License from the Securities and Exchange Commission, Thailand.',
+            'role' => 'Manager',
+            'experience' => [
+                'The FA for Tender offer of Digital Tech Planet Plc (DIGI) in 2019',
+                'IFA for Food Capitals Plc (FC) in 2018',
+                'Valuation for AQ Estate public company limited (“AQ”) in 2017',
+                'Valuation for Electronic Industry Plc (“EIC”) in 2016'
+            ],
+            'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)'
+        ],
+        'chicha-chotchutima' => [
+            'name' => 'Chicha Chotchutima',
+            'bio' => 'Chicha Chotchutima is a manager in S14 Advisory Company Limited who graduated from Sirindhorn International Institute of Technology Thammasat University with a bachelor of Science in Engineering Management major.',
+            'role' => 'Manager',
+            'experience' => [
+                'IFA for TAKUNI Land',
+                'IFA on backdoor and EBT transaction of Food Capital'
+            ]
+        ],
+        'lalrima-nakthap' => [
+            'name' => 'Lalrima Nakthap',
+            'bio' => 'Lalrima Nakthap is a manager in S14 Advisory Company Limited and She was graduated from Burapha University, a bachelor of Business Administration Program in Finance with 4 years of work experiences in the same field.',
+            'role' => 'Manager',
+            'experience' => [
+                'FA for IPO of CAZ (Thailand) Public Company Limited. In 2019 (First day trade at Jan 22, 2019)',
+                'Print Master share valuation report for Share-Based Payment transaction'
+            ],
+            'past-experience' => [
+                'Consultant at 15 Business Advisory Limited. Where she was responsible of valuation on Business Valuation, Share Valuation, Intangible Assets Valuation, and Purchase Price Allocation.',
+                'Investment Consultant at KT ZMICO Securities Company Limited. As an investment consultant and passed a single license and derivative license exam which held by SEC.'
+            ]
+        ],
         'kiattiyod-siriphan' => [
             'name' => 'Kiattiyod Siriphan',
             'bio' => 'Kiattiyod Siriphan is a manager in S14 Advisory Company Limited who received a Master of Science degree with distinction in International Management from the University of Exeter. He also holds a Bachelor of Business Administration Degree in Tourism and Hospitality Management from Mahidol University International College. He also completed his internship program as a Finance intern at W Hotel Bangkok and Operation intern at Salaya Pavilion Hotel and Training Center. His past experience includes as Consultant at 15 Business Advisory Limited.',
@@ -77,28 +132,6 @@ return [
                 'He also completed his internship as Operations intern at Puravalan Freight Forwarders Private India Limited, Chennai.'
             ]
         ],
-        'sitthiphat-sinfaphanit' => [
-            'name' => 'Sitthiphat Sinfaphanit',
-            'bio' => 'Sitthiphat Sinfaphanit is a manager in S14 Advisory Company Limited who graduated from Mahidol University International College with Business Administration Degree in Finance. After graduated, He worked with PwC (Thailand) Ltd. as a Tax Consultant responsible for Corporate Tax Advise, Tax Structuring and Tax due diligence. He also successfully completed his Student internship program (SIP 65) in Bangkok Bank S14 Advisory is his second career in the financial sector after graduation.',
-            'role' => 'Manager',
-            'experience' => [
-                'The FA for IPO of CAZ (Thailand) Plc. In 2019 (First-day trade on Jan 22, 2019)',
-                'The FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd.',
-                'IFA on Food Capitals Plc. (FC) – Acquisition and Disposal of Assets and Connected Transaction',
-            ]
-        ],
-        'sithavut-kayuraphan' => [
-            'name' => 'Sithavut Kayuraphan',
-            'bio' => 'Sithavut Kayuraphan is a manager in S14 Advisory Company Limited. He was graduated from Northumbria University, United Kingdom with masters of Science in Business with Management with Commendation and Bachelor of Science in Agribusiness from Kasetsart University with 4 years of work experiences. He has excelled in certification programs such as Business Law for non-legal professionals from Thammasat University, Tax Planning for Business from Lawyers council of Thailand. He also holds Complex type 1 Capital Market Investment Consultant License Investment Planner License from the Securities and Exchange Commission, Thailand.',
-            'role' => 'Manager',
-            'experience' => [
-                'The FA for Tender offer of Digital Tech Planet Plc (DIGI) in 2019',
-                'IFA for Food Capitals Plc (FC) in 2018',
-                'Valuation for AQ Estate public company limited (“AQ”) in 2017',
-                'Valuation for Electronic Industry Plc (“EIC”) in 2016'
-            ],
-            'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)'
-        ],
         'vasiphong-vongvuttipornchai' => [
             'name' => 'Vasiphong Vongvuttipornchai',
             'bio' => 'Vasiphong Vongvuttipornchai graduated from the University of Westminster with first honors Bachelor of Arts in International Business. Following that he also received a degree in Master of Science in Banking and Finance with merit from King&#39;s College London. He is also interned at CLSA as a junior analyst. He successfully completed his Student Internship Program in Bangkok Bank PLC (SIP). He is also an Independent Stock Trader on The Stock Exchange of Thailand (SET).',
@@ -107,40 +140,6 @@ return [
                 'FA for Bliss-Tel Plc at S14 Advisory'
             ]
         ],
-        'chicha-chotchutima' => [
-            'name' => 'Chicha Chotchutima',
-            'bio' => 'Chicha Chotchutima is a manager in S14 Advisory Company Limited who graduated from Sirindhorn International Institute of Technology Thammasat University with a bachelor of Science in Engineering Management major.',
-            'role' => 'Manager',
-            'experience' => [
-                'IFA for TAKUNI Land',
-                'IFA on backdoor and EBT transaction of Food Capital'
-            ]
-        ],
-        'pawarunch-nopsiri' => [
-            'name' => 'Pawarunch Nopsiri',
-            'bio' => 'Pawarunch Nopsiri is a Manager in S14 Advisory Company Limited. She graduated from Thammasat University in Engineering Management. She also holds Bachelor Degree in Business Administration majoring in Accounting from Ramkhamhaeng University. After graduated, she worked as consultant at PWC in Operation Consulting. Later, She worked with Underwriters Laboratories Ltd. as Engineer. S14 Advisory is her first career in the financial sector.',
-            'role' => 'Manager',
-            'experience' => [
-                'FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd. in 2017',
-                'IFA on backdoor and EBT transaction of Food Capital in 2018',
-                'IFA in related party transaction of Takuni Group PCL (“TAKUNI”)'
-            ],
-            'closing' => 'She also excelled in internship programs such as Credit Control Intern in Chiatai Company limited and Assistant Auditor Intern in Kamolwan Audit Company.'
-        ],
-        'lalrima-nakthap' => [
-            'name' => 'Lalrima Nakthap',
-            'bio' => 'Lalrima Nakthap is a manager in S14 Advisory Company Limited and She was graduated from Burapha University, a bachelor of Business Administration Program in Finance with 4 years of work experiences in the same field.',
-            'role' => 'Manager',
-            'experience' => [
-                'FA for IPO of CAZ (Thailand) Public Company Limited. In 2019 (First day trade at Jan 22, 2019)',
-                'Print Master share valuation report for Share-Based Payment transaction'
-            ],
-            'past-experience' => [
-                'Consultant at 15 Business Advisory Limited. Where she was responsible of valuation on Business Valuation, Share Valuation, Intangible Assets Valuation, and Purchase Price Allocation.',
-                'Investment Consultant at KT ZMICO Securities Company Limited. As an investment consultant and passed a single license and derivative license exam which held by SEC.'
-            ]
-        ],
-
     ]
 
 ];

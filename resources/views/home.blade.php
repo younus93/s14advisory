@@ -12,28 +12,42 @@
         .team-classic:hover .profile {
             transform: translateX(180px);
         }
+        video#bgvid {
+            width: 100%;
+            min-height: 400px;
+            background: url('/videoImg.png') no-repeat;
+            background-size: cover;
+        }
     </style>
 @endsection
 @section('content')
 
-
     <div class="main-video-section" id="home">
-        <div class="video-area" id="video-area">
-            <div class="player" id="main-video-play"
-                 data-property="{videoURL:'https://youtu.be/zUrj2lR3aEA',
-             containment:'#video-area',
-             showControls:false,
-             optimizeDisplay : true,
-             autoPlay:true, zoom:10, loop:true, mute:true, startAt:0, opacity:1, quality:'low',}
-        "></div>
-            <div>
-                <div class="main-video-content">
-                    <div class="container">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <video playsinline autoplay muted loop poster="/videoImg.png" id="bgvid">
+            <source src="homeVideo.mp4" type="video/mp4">
+        </video>
     </div>
+
+    {{--<div class="main-video-section" id="home">--}}
+        {{--<div class="video-area" id="video-area">--}}
+            {{--<div class="player" id="main-video-play"--}}
+                 {{--data-property="{videoURL:'https://youtu.be/zUrj2lR3aEA',--}}
+             {{--containment:'#video-area',--}}
+             {{--showControls:false,--}}
+             {{--optimizeDisplay : true,--}}
+             {{--autoPlay:true, zoom:10, loop:true, mute:true, startAt:0, opacity:1, quality:'low',}--}}
+        {{--"></div>--}}
+            {{--<div>--}}
+                {{--<div class="main-video-content">--}}
+                    {{--<div class="container">--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+
+
+
 
     <div class="section-block" id="about">
         <div class="container">
@@ -340,7 +354,7 @@
                                 <div class="contact-1-box-social social-left clearfix"><i
                                             class="fas fa-clock"></i>
                                     <div class="contact-1-box-text"><span>Working Hours :</span>
-                                        <p>We work on Mon - Fri 8:00 - 18:00</p></div>
+                                        <p>We work on Mon - Fri 8:00 - 19:00</p></div>
                                 </div>
                             </div>
                         </div>
@@ -356,7 +370,6 @@
         </div>
 @endsection
 @section('scripts')
-
 
 @endsection
 

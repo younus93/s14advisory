@@ -12,7 +12,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/icomoon.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css')  }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css')  }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.css')  }}">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{ asset('css/slider.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navigation.css')  }}" id="navigation_menu">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css')  }}">
@@ -151,6 +152,7 @@
 
 <a href="#" class="scroll-to-top"><i class="fas fa-chevron-up"></i></a>
 <script src="{{ asset('js/jquery.min.js')  }}"></script>
+<script src="/js/owl.carousel.min.js"></script>
 <script src="{{ asset('js/plugins.js')  }}"></script>
 <script src="{{ asset('js/navigation.js')  }}"></script>
 <script src="{{ asset('js/navigation.fixed.js')  }}"></script>
