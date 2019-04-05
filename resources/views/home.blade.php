@@ -180,29 +180,25 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-12">
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
-                                class="icon-airplane"></i>
+                                class="icon-analytics-1"></i>
                         <h4>Company (or) Share Valuation</h4>
                         <p>Provide services at all stages of preparing a valuation of share/company.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-12">
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
-                                class="icon-binoculars"></i>
+                                class="icon-balance"></i>
                         <h4>IFA Service</h4>
-                        <p>Provide analysis on financial perspective allowing our clients to make fully informed
-                            business
-                            decisions.</p>
+                        <p>Render the opinion regarding the reasonableness of the transactions and the fairness of the price and conditions of the transactions.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-12">
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 left-holder"><i
-                                class="icon-bank"></i>
+                                class="icon-cheque-1"></i>
                         <h4>IPO advisory</h4>
-                        <p>Provides services at all stages of preparing for an IPO and transforming a company from
-                            private
-                            into a public entity.</p>
+                        <p>Provides services at all stages of preparing for an IPO and transforming a company from private into a public entity.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-12">
@@ -260,7 +256,7 @@
                         </div>
                         <div class="text-content">
                             <p>Watch the heart warming story of how we took our client to one of the biggest openings in
-                                SEC History.</p>
+                                SET History.</p>
                         </div>
                         {{--<div class="mt-15"><a href="#" class="primary-button button-sm">Learn More</a></div>--}}
                     </div>
@@ -325,7 +321,7 @@
         </div>
     </div>
 
-    <div class="section-block" id="contact">
+    <div class="section-block pb-0" id="contact">
         <div class="container">
             <div class="section-heading center-holder">
                 <h2 class="bold">Have any questions? <span class="italic libre-baskerville primary-color">Contact us now!</span>
@@ -339,7 +335,7 @@
                             <div class="get-contact-1 rounded-border">
                                 <div class="contact-1-box-social"><i class="fas fa-map-marker-alt"></i>
                                     <div class="contact-1-box-text"><span>Address :</span>
-                                        <p>170/37 Ocean Towers 1, 13th Fl, Khwaeng Khlong Toei, Klongtoey, Bangkok
+                                        <p>170/37 Ocean Towers 1, 13th Floor, Khwaeng Khlong Toei, Klongtoey, Bangkok
                                             10100.</p></div>
                                 </div>
                                 <div class="contact-1-box-social social-left clearfix"><i class="fa fa-envelope"></i>
