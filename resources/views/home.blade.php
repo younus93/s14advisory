@@ -51,17 +51,17 @@
 
     <div class="section-block" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-12">
+            <div class="section-heading center-holder mb-0">
+                <h3 class="bold">Our guarantee is to take your business <span
+                            class="italic libre-baskerville primary-color">From Good to Great.</span></h3>
+                <div class="section-heading-line"></div>
+            </div>
+            <div class="row mt-40">
+                <div class="hidden-md-down col-md-6 col-sm-12 col-12">
                     <div class="pr-45-md"><img src="img/content/finance/home1.jpg"
                                                class="rounded-border shadow-primary full-width" alt="img"></div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-12">
-                    <div class="section-heading left-holder mb-0">
-                        <h3 class="bold">Our guarantee is to take your business <span
-                                    class="italic libre-baskerville primary-color">From Good to Great.</span></h3>
-                        <div class="section-heading-line"></div>
-                    </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center">
                     <div class="row">
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="feature-block-3 left-holder"><i class="icon-shield-1"></i>
