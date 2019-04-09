@@ -10,10 +10,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/themify-icons.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fontawesome-all.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/icomoon.css')  }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css')  }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css')  }}">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{ asset('css/slider.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navigation.css')  }}" id="navigation_menu">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css')  }}">
@@ -54,11 +53,12 @@
     </div>
 </div>
 
-<header>
+<header id="nav-transparent">
     <nav id="navigation4" class="container navigation">
         <div class="nav-header">
-            <a class="nav-brand" href="/"><img src="/img/logos/logo.png" style="max-height: 40px;" alt="logo"
-                                               id="main_logo"></a>
+            <a class="nav-brand" href="/">
+                <img src="/img/logos/logo.png" style="max-height: 50px;" alt="logo" id="main_logo"></a>
+                <img src="/img/logos/logo.png" alt="logo" id="light_logo" style="display: inline-block; max-height: 50px;">
             <div class="nav-toggle"></div>
         </div>
         <div class="nav-menus-wrapper">
@@ -69,6 +69,9 @@
                     </li>
                     <li>
                         <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#values">Our Values</a>
                     </li>
                     <li>
                         <a href="#services">Our Services</a>
@@ -135,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-12">
-                    <h5>S14 Advisory Limited</h5>
+                    <h5>S14 Advisory Company Limited 2019.</h5>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12">
                     <ul class="footer-style-1-bar-links">
@@ -152,11 +155,12 @@
 
 <a href="#" class="scroll-to-top"><i class="fas fa-chevron-up"></i></a>
 <script src="{{ asset('js/jquery.min.js')  }}"></script>
-<script src="/js/owl.carousel.min.js"></script>
 <script src="{{ asset('js/plugins.js')  }}"></script>
 <script src="{{ asset('js/navigation.js')  }}"></script>
 <script src="{{ asset('js/navigation.fixed.js')  }}"></script>
+<script src="{{ asset('js/owl.carousel.min.js')  }}"></script>
 <script src="{{ asset('js/main.js')  }}"></script>
+
 
 <script>
     $(document).on('click', 'a[href^="#"]', function (e) {
@@ -179,6 +183,9 @@
         $('body, html').animate({scrollTop: pos}, 2000);
     });
 </script>
+
+@yield('scripts')
+
 </body>
 
 </html>

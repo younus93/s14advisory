@@ -30,39 +30,8 @@
             {{--<div class="mt-25 center-holder"><a href="#" class="white-button button-md">Become a Client</a></div>--}}
         </div>
     </div>
-    <div class="section-block">
-        <div class="container">
-            <div class="row justify-content-center mt-0">
-                @foreach($team as $slug => $person)
-                    @if($person['role'] == 'Founder & Managing Director')
-                        @include('team.partials._teamBlock',[
-                            'person' => $person
-                        ])
-                    @endif
-                @endforeach
-            </div>
-            <div class="row justify-content-center mt-0">
-                @foreach($team as $slug => $person)
-                    @if($person['role'] == 'Vice President')
-                        @include('team.partials._teamBlock',[
-                            'person' => $person
-                        ])
-                    @endif
-                @endforeach
-            </div>
-            <div class="row justify-content-center mt-0">
-                @foreach($team as $slug => $person)
-                    @if($person['role'] == 'Manager')
-                        @include('team.partials._teamBlock',[
-                            'person' => $person
-                        ])
-                    @endif
-                @endforeach
-            </div>
-        </div>
-    </div>
 
-    <div class="section-block-grey">
+    <div class="section-block">
         <div class="container">
             <div class="row justify-content-center mt-0">
                 @foreach($team as $slug => $person)
