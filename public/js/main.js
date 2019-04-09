@@ -336,8 +336,8 @@ $(document).ready(function() {
             spaceBetween: 0,
             loop: !0,
             simulateTouch: !1,
-            autoplay: 7000,
-            speed: 1000,
+            autoplay: 5000,
+            speed: 4000,
             onSlideChangeEnd: function(swiper) {
                 $('.swiper-slide').each(function() {
                     if ($(this).index() === swiper.activeIndex) {

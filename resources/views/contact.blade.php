@@ -41,3 +41,7 @@
         <div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;http://specthemes.com/webmaker/webmaker-demo/img/content/classic/homebg2.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1920px; height: 590.4px; overflow: hidden; pointer-events: none; margin-top: 48.3px; transform: translate3d(0px, -75.1px, 0px);"></div>
     </div>
 </div>
+<div id="map" class="map-1">
+    <script async="" defer=""
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA&amp;callback=initMap"></script>
+</div>

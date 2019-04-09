@@ -42,9 +42,8 @@
                 </div>
                 <div id="tab-f-4" class="clearfix tab-body-dark" style="display: none;">
                     <h4>Creating a world of brilliant identities.</h4>
-                    <p>Provides independent analyses on financial perspective allows our clients to make fully
-                        informed business decisions. Render the opinion regarding the reasonableness of the
-                        transactions and the fairness of the price and conditions of the transactions.</p>
+                    <p>Render the opinion regarding the reasonableness of the transactions and the fairness of the price
+                        and conditions of the transactions.</p>
                 </div>
                 <div id="tab-f-5" class="clearfix tab-body-dark" style="display: block;">
                     <h4>Forging brands, driving revenue.</h4>
@@ -60,8 +59,7 @@
                     <h4>Plan, Predict and achieve milestones</h4>
                     <p>Provides a maximum range of services in the Feasibility study / Business plan which is used
                         to determine the viability of an idea, such an ensuring that a project is legally and
-                        technically
-                        feasible as well as economically justifiable and also identifies the possible constraints in the
+                        technically feasible as well as economically justifiable and also identifies the possible constraints in the
                         project /Plan. We also provide possible solutions for the constraints.</p>
                 </div>
             </div>
@@ -84,10 +82,10 @@
                 </div>
                 <div class="izimodal" data-iziModal-width="800px" data-iziModal-fullscreen="true">
                     {{--<iframe height="415" src="https://www.youtube.com/embed/R8DfDTMXkr0"--}}
-                            {{--class="full-width shadow-primary"--}}
-                            {{--frameborder="0"--}}
-                            {{--allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"--}}
-                            {{--allowfullscreen>--}}
+                    {{--class="full-width shadow-primary"--}}
+                    {{--frameborder="0"--}}
+                    {{--allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"--}}
+                    {{--allowfullscreen>--}}
                     {{--</iframe>--}}
                 </div>
             </div>
@@ -98,7 +96,7 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content">
-                        <p>Watch the heart warming story of how we took our client to one of our openings in SEC</p>
+                        <p>Watch the heart warming story of how we took our client to one of our openings in SET</p>
                     </div>
                 </div>
             </div>
