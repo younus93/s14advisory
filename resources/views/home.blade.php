@@ -30,7 +30,7 @@
 
     @include('values')
 
-    @include('services')
+    @include('services1')
 
     @include('team')
 
