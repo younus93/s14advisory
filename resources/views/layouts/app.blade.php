@@ -124,12 +124,12 @@
             <div class="col-md-4 col-sm-6 col-12">
                 <h3>Quick Links</h3>
                 <ul class="footer-style-1-links">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Company History</a></li>
-                    <li><a href="#">Recent Posts</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#values">Our Values</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>

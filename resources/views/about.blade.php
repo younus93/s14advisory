@@ -54,7 +54,7 @@
                 <div class="text-content">
                     <p style="color: #222222;">S14 Advisory Company Limited was founded on 29 Aug 2014 by Ms. Piyapa
                         Chongsathien who graduated from Assumption University with Bachelor and master
-                        degree in Business and Administration majoring in Finance and has over 15 years of
+                        degree in Business and Administration majoring in Finance and has over 17 years of
                         work experiences in the same field.
                         S14 advisory company limited is an SEC certified in March 2016 and proudly serves
                         the nations leading companies, small to medium-sized businesses, and other

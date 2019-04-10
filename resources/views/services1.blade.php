@@ -66,7 +66,7 @@
                             <li class="">
                                 <a href="#tab-f-7">
                                     <i class="icon-school-material"></i>
-                                    Business <br> Planning
+                                    Feasibility Study
                                 </a>
                             </li>
                         </ul>

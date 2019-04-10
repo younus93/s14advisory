@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 
-    <div class="swiper-main-slider-fade swiper-container">
+    <div class="swiper-main-slider-fade swiper-container" id="home">
         <div class="swiper-wrapper">
             <div class="swiper-slide black-overlay-40" style="background-image:url(img/banner.jpeg);">
                 <div class="container">
