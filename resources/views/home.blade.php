@@ -28,9 +28,9 @@
 
     @include('about')
 
-    @include('values')
+    @include('values1')
 
-    @include('services1')
+{{--    @include('services1')--}}
 
     @include('team')
 
