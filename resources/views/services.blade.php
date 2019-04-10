@@ -1,3 +1,12 @@
+@section('scripts')
+    @parent
+    <style>
+        .medium-icon-tabs .tabs .tab-menu li a {
+            height: 135px;
+            width: 135px;
+        }
+    </style>
+@append
 <div id="services" class="section-block black-overlay-60"
      style="background-image: url('/img/homebg2.jpg');background-size: cover; z-index: 0;">
     <div class="container">
@@ -9,20 +18,47 @@
         <div class="medium-icon-tabs">
             <div class="tabs tabs_animate mt-70">
                 <ul class="tab-menu center-holder">
-                    <li class="active-tab" style="max-width: 150px;"><a href="#tab-f-1"><i class="icon-banking"></i>Fundraising</a>
+                    <li class="active-tab">
+                        <a href="#tab-f-1">
+                            <i class="icon-banking"></i>Fund <br>Raising
+                        </a>
                     </li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-2"><i class="icon-money-bag-1"></i>Mergers
-                            &amp; Acquistions</a></li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-3"><i class="icon-analytics-3"></i>Share
-                            Valuation</a></li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-4"><i class="icon-balance"></i>IFA
-                            Service</a></li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-5"><i class="icon-cheque-1"></i>IPO Advisory</a>
+                    <li class="">
+                        <a href="#tab-f-2">
+                            <i class="icon-money-bag-1"></i>
+                            Mergers &amp; Acquistions
+                        </a>
                     </li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-6"><i class="icon-watch-1"></i>Restructuring</a>
+                    <li class="">
+                        <a href="#tab-f-3">
+                            <i class="icon-analytics-3"></i>
+                            Share <br> Valuation
+                        </a>
                     </li>
-                    <li class="" style="max-width: 150px;"><a href="#tab-f-7"><i class="icon-school-material"></i>Business
-                            Planning</a></li>
+                    <li class="">
+                        <a href="#tab-f-4">
+                            <i class="icon-balance"></i>
+                            IFA <br>Service
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#tab-f-5">
+                            <i class="icon-cheque-1"></i>
+                            IPO <br>Advisory
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#tab-f-6">
+                            <i class="icon-watch-1"></i>
+                            Restructuring
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#tab-f-7">
+                            <i class="icon-school-material"></i>
+                            Business <br> Planning
+                        </a>
+                    </li>
                 </ul>
                 <div id="tab-f-1" class="clearfix tab-body-dark" style="display: none;">
                     <h4>The power to generate, convince, convert &amp; grow.</h4>
@@ -59,7 +95,8 @@
                     <h4>Plan, Predict and achieve milestones</h4>
                     <p>Provides a maximum range of services in the Feasibility study / Business plan which is used
                         to determine the viability of an idea, such an ensuring that a project is legally and
-                        technically feasible as well as economically justifiable and also identifies the possible constraints in the
+                        technically feasible as well as economically justifiable and also identifies the possible
+                        constraints in the
                         project /Plan. We also provide possible solutions for the constraints.</p>
                 </div>
             </div>
