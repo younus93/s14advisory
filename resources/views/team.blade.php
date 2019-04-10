@@ -15,7 +15,7 @@
 @append
 
 
-<div class="section-block" id="team">
+<div class="section-block-grey" id="team">
     <div class="container">
         <div class="section-heading center-holder">
             <h2 class="bold">Our team. <span class="italic libre-baskerville primary-color">Your advantage</span>
