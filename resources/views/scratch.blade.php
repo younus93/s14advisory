@@ -107,3 +107,103 @@
         {{--<div class="center-holder mt-20"><a href="#" class="primary-button-bordered button-md">View All Services</a></div>--}}
     </div>
 </div>
+
+
+<div class="d-flex justify-content-center">
+    <div class="card">
+        <div class="card-header card-header-active text-center" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                    S
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="true"
+                        aria-controls="collapseTwo">
+                    O
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="true"
+                        aria-controls="collapseThree">
+                    L
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingFour">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="true"
+                        aria-controls="collapseFour">
+                    U
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingFive">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="true"
+                        aria-controls="collapseFive">
+                    T
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingSix">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseSix" aria-expanded="true"
+                        aria-controls="collapseSix">
+                    I
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingSeven">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseSeven" aria-expanded="true"
+                        aria-controls="collapseSeven">
+                    O
+                </button>
+            </h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header text-center" id="headingEight">
+            <h5 class="mb-0">
+                <button class="btn btn-link" style="text-decoration: none !important"
+                        type="button" data-toggle="collapse"
+                        data-target="#collapseEight" aria-expanded="true"
+                        aria-controls="collapseEight">
+                    N
+                </button>
+            </h5>
+        </div>
+    </div>
+</div>
