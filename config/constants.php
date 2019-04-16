@@ -153,6 +153,12 @@ return [
             ],
             'linkedIn' => 'https://www.linkedin.com/in/vasiphong-vongvuttipornchai-6b8046182/'
         ],
+    ],
+    'clients' => [
+        'general-beverage' => [
+            'name' => 'General Beverage COMPANY LIMITED',
+            'work' => 'General Financial Advisory',
+            'year' => '2015',
+        ]
     ]
-
 ];

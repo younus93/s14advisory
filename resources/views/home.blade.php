@@ -14,7 +14,7 @@
                             <img src="/img/logos/logo.png" style="max-height: 200px;" alt="">
                         </h3>
                         {{--<h4 class="light animated fadeInDown">Company Limited</h4>--}}
-                        <h5 class="animated fadeInUp">An SEC – Approved Financial Advisor.</h5>
+                        <h5 class="animated fadeInUp">The SEC – Approved Financial Advisor.</h5>
                         {{--<div class="animated fadeInUp mt-30"><a href="#" class="white-button-bordered semi-rounded button-md w-300">Purchase Now</a> </div>--}}
                     </div>
                 </div>

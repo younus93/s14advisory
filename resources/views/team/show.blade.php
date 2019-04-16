@@ -11,13 +11,13 @@
                         <img src="/img/s14team/{{ $slug }}.png" alt="">
                     </div>
                     <div class="col-md-8 col-sm-8 col-12">
-                        <div class="project-single-text pr-30-md"><h4>{{ $person['name'] }}</h4>
-                            <p>{{ $person['bio'] }}</p>
+                        <div class="project-single-text pr-30-md"><h4>{{ __($person['name']) }}</h4>
+                            <p>{{ __($person['bio']) }}</p>
                             @if(array_key_exists('experience',$person))
                                 <h4 class="mt-30">Work experience with S14 Advisory Includes</h4>
                                 <ul class="primary-list">
                                     @foreach($person['experience'] as $exp)
-                                        <li><i class="fa fa-check-circle"></i>{{ $exp }}</li>
+                                        <li><i class="fa fa-check-circle"></i>{{ __($exp) }}</li>
                                     @endforeach
                                 </ul>
                             @endif
@@ -25,12 +25,12 @@
                                 <h4 class="mt-30">Past work experience includes</h4>
                                 <ul class="primary-list">
                                     @foreach($person['past-experience'] as $exp)
-                                        <li><i class="fa fa-check-circle"></i>{{ $exp }}</li>
+                                        <li><i class="fa fa-check-circle"></i>{{ __($exp) }}</li>
                                     @endforeach
                                 </ul>
                             @endif
                             @if(array_key_exists('closing',$person))
-                                <p class="mt-10">{{ $person['closing'] }}</p>
+                                <p class="mt-10">{{ __($person['closing']) }}</p>
                             @endif
                         </div>
                     </div>

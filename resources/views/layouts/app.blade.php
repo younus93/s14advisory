@@ -45,20 +45,23 @@
             </div>
             <div class="col-md-3 col-12">
                 <ul class="social-icons hidden-sm">
-                    <li><a href="#">EN</a></li>
-                    <li><a href="#">TH</a></li>
+                    <li><a href="/lang/en">EN</a></li>
+                    <li><a href="/lang/th">TH</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 
-<header id="nav-transparent">
+<header @if(request()->path() == '/') id="nav-transparent" @endif>
     <nav id="navigation4" class="container navigation">
         <div class="nav-header">
             <a class="nav-brand" href="/">
                 <img src="/img/logos/logo.png" style="max-height: 50px;" alt="logo" id="main_logo"></a>
-                <img src="/img/logos/logo.png" alt="logo" id="light_logo" style="display: inline-block; max-height: 50px;">
+            @if(request()->path() == '/')
+                <img src="/img/logos/logo.png" alt="logo" id="light_logo"
+                     style="display: inline-block; max-height: 50px;">
+            @endif
             <div class="nav-toggle"></div>
         </div>
         <div class="nav-menus-wrapper">
@@ -75,6 +78,9 @@
                     </li>
                     <li>
                         <a href="#services">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="{{ url("our-clients") }}">Our Clients</a>
                     </li>
                     <li>
                         <a href="#team">Our Team</a>
@@ -101,7 +107,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
-                <h3>About Us</h3><a href="#"><img src="/img/logos/logoWhite.png" style="max-height: 75px;" alt="img"></a>
+                <h3>About Us</h3><a href="#"><img src="/img/logos/logoWhite.png" style="max-height: 75px;"
+                                                  alt="img"></a>
                 <div class="mt-20">
                     <p>Financial Advisory Services</p>
                 </div>
@@ -129,6 +136,7 @@
                     <li><a href="#values">Our Values</a></li>
                     <li><a href="#services">Our Services</a></li>
                     <li><a href="#team">Our Team</a></li>
+                    <li><a href="/clients">Our Clients</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>

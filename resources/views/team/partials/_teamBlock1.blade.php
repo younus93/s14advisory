@@ -10,9 +10,15 @@
             </a>
         </div>
         <div class="team-member-name">
-            <h4><a href="{{ url("/team/{$slug}") }}">{{ $person['name'] }}</a></h4>
+            <h4>
+                <a href="{{ url("/team/{$slug}") }}">{{ __($person['name']) }}</a>
+            </h4>
             <h6>{{ $person['role'] }}</h6>
-            <h6><a target="_blank" href="{{ $person['linkedIn'] }}"><i class="fab fa-linkedin-in"></i></a></h6>
+            <h6>
+                <a target="_blank" href="{{ $person['linkedIn'] }}">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </h6>
         </div>
     </div>
 </div>
