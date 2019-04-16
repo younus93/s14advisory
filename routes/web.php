@@ -23,7 +23,7 @@ Route::get('/lang/{lang}', function ($lang) {
 });
 
 Route::post('/send-contact-email',function(){
-    Mail::to(['itsme@theyounus.com','jagdish@s14advisory.com'])->send(new \App\Mail\SendContact(request()->all()));
+    Mail::to(['itsme@theyounus.com','jagdish@s14advisory.com','info@s14advisory'])->send(new \App\Mail\SendContact(request()->all()));
     return response("Thanks for contacting us");
 });
 
