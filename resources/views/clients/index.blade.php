@@ -356,7 +356,6 @@
             msg.removeClass("d-none");
             otpDiv.removeClass("d-none");
             $('#otpEmail').val(email.val());
-            alert($('#otpEmail').val());
             submitForm(name.val(), email.val(), phone.val());
         }
 

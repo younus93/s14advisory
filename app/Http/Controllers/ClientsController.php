@@ -23,7 +23,7 @@ class ClientsController extends Controller
             }
         }
         return view("clients.index")->with([
-            'visitor' => true
+            'visitor' => $visitor
         ]);
     }
 
@@ -35,7 +35,7 @@ class ClientsController extends Controller
             'phone' => $request->phone,
             'otp' => random_int(0, 9999)
         ]);
-//        Mail::to($visitor->email)->send(new SendOTP($visitor));
+        Mail::to($visitor->email)->send(new SendOTP($visitor));
         return response('Email Sent');
     }
 

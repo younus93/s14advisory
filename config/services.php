@@ -15,9 +15,9 @@ return [
     */
 
     'mailgun' => [
-        'domain' => 'sandboxc90b8e65af614aeab26b5428c64f9262.mailgun.org',
-        'secret' => '9abc959a890416a40de6414f957dd402-6140bac2-128f77a8',
-        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
+        'domain' => env('MAILGUN_DOMAIN'),
+        'secret' => env('MAILGUN_SECRET'),
+//        'endpoint' => 'http://api.mailgun.net/v3/email.s14advisory.com',
     ],
 
     'postmark' => [
