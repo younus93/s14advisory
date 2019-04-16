@@ -39,6 +39,9 @@
                                     Send Message
                                 </button>
                             </div>
+                            <div class="col-12">
+                               <p id="feedbackMsg"></p>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -71,7 +74,7 @@
             let subject = $('#subject').val();
             let message = $('#message').val();
             let btn = $('#contactBtn');
-            btn.css("disabled","disabled");
+            btn.attr("disabled",true);
             sendContactForm(name,phone,email,subject,message)
         }
 
@@ -86,7 +89,9 @@
                         message: message,
                     },
                     function (data, status) {
-                        alert("worked");
+                        $('#contactBtn').attr('disabled',false);
+                        $('#contactForm').trigger("reset");
+                        $('#feedbackMsg').html("Thanks for contacting us! We will respond shortly");
                     }
                 );
         }
