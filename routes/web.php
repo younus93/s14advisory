@@ -11,6 +11,7 @@
 |
 */
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
 Route::get('/', function () {
@@ -19,6 +20,11 @@ Route::get('/', function () {
 Route::get('/lang/{lang}', function ($lang) {
     Session::put('applocale', $lang);
     return back();
+});
+
+Route::post('/send-contact-email',function(){
+    Mail::to(['itsme@theyounus.com','jagdish@s14advisory.com'])->send(new \App\Mail\SendContact(request()->all()));
+    return response("Thanks for contacting us");
 });
 
 Route::get('/our-clients', 'ClientsController@index');
