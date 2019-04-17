@@ -5,7 +5,7 @@
             pointer-events: none;
 
             /* for "disabled" effect */
-            opacity: 0.2;
+            opacity: 0.05;
             /*background: #CCC;*/
         }
         .p-20{
@@ -31,7 +31,7 @@
             <div class="grid-gallery-3col clearfix">
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                        <div class="project-classic d-flex flex-column justify-content-center" style="height: 300px; width: 300px; background: #101949">
+                        <div class="project-classic d-flex flex-column justify-content-center" style="height: 300px; width:300px; background: #101949">
                             <img src="/img/clients/general-beverage.png" class="p-20" alt="img">
                             <div class="project-classic-overlay">
                                 <div class="project-classic-content">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/pylon.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/siam.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -79,8 +79,8 @@
                 </div>
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
-                        <img src="/img/clients/siam.png" class="p-20" alt="img">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
+                        <img src="/img/clients/nathlan.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
                                 <div class="project-classic-content-inner">
@@ -97,7 +97,7 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/eic.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -115,7 +115,7 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/cpl.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -133,7 +133,7 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/cpl.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -151,7 +151,7 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/country.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -169,7 +169,7 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center grey-bg" style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/aq.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -188,7 +188,7 @@
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
                     <div class="project-classic d-flex flex-column justify-content-center grey-bg"
-                         style="background : #034ea2; height: 300px; width: 300px;">
+                         style="background : #034ea2; height: 300px; width:300px;">
                         <img src="/img/clients/blissel.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -207,7 +207,7 @@
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
                     <div class="project-classic d-flex flex-column justify-content-center grey-bg"
-                         style="height: 300px; width: 300px;">
+                         style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/itc.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -225,7 +225,7 @@
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
                     <div class="project-classic d-flex flex-column justify-content-center grey-bg"
-                         style="height: 300px; width: 300px;">
+                         style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/takuni.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -243,8 +243,8 @@
 
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
-                    <div class="project-classic d-flex flex-column justify-content-center grey-bg"
-                         style="height: 300px; width: 300px;">
+                    <div class="project-classic d-flex flex-column justify-content-center"
+                         style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/foodcapitals.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">
@@ -263,7 +263,7 @@
                 <div class="gallery-item mt-0 mb-0">
                     {{--<a href="#">--}}
                     <div class="project-classic d-flex flex-column justify-content-center grey-bg"
-                         style="height: 300px; width: 300px;">
+                         style="height: 300px; width:300px; background : #98989861;">
                         <img src="/img/clients/digi.png" class="p-20" alt="img">
                         <div class="project-classic-overlay">
                             <div class="project-classic-content">

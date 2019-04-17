@@ -25,6 +25,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
           rel="stylesheet">
     @yield('head')
+    <style>
+        body{
+            position: relative;
+        }
+    </style>
 </head>
 
 <body>
@@ -64,7 +69,7 @@
             @endif
             <div class="nav-toggle"></div>
         </div>
-        <div class="nav-menus-wrapper">
+        <div class="nav-menus-wrapper" id="navWrapper">
             <ul class="nav-menu align-to-right">
                 @if(request()->path() == '/')
                     <li>
@@ -84,6 +89,9 @@
                     </li>
                     <li>
                         <a href="#team">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="/careers">Careers</a>
                     </li>
                     <li>
                         <a href="#contact">Contact Us</a>
@@ -195,5 +203,6 @@
 @yield('scripts')
 
 </body>
+
 
 </html>

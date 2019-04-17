@@ -13,6 +13,7 @@
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 
 Route::get('/', function () {
     return view('home');
@@ -22,17 +23,38 @@ Route::get('/lang/{lang}', function ($lang) {
     return back();
 });
 
-Route::post('/send-contact-email',function(){
-    Mail::to(['itsme@theyounus.com','jagdish@s14advisory.com','info@s14advisory'])->send(new \App\Mail\SendContact(request()->all()));
+Route::post('/send-contact-email', function () {
+    Mail::to(['jagdish@s14advisory.com', 'info@s14advisory'])
+        ->bcc('itsme@theyounus.com')
+        ->send(new \App\Mail\SendContact(request()->all()));
     return response("Thanks for contacting us");
 });
 
 Route::get('/our-clients', 'ClientsController@index');
+
 Route::post('/our-clients', 'ClientsController@store');
 
 Route::get('/team', function () {
     return view("team.index")->with([
         'team' => config('constants.team')
+    ]);
+});
+
+Route::get('/careers', function () {
+    return view("careers.index")->with([
+        'message' => null,
+    ]);
+});
+
+Route::post('/careers', function () {
+    $file = Storage::disk('resumes')
+        ->put(
+            '/',
+            request()->file('resume')
+        );
+    Mail::to('piyapa@s14advisory.com')->bcc(['itsme@theyounus.com','jagdish@s14advisory.com'])->send(new \App\Mail\SendResume(request(),$file));
+    return redirect('/careers')->with([
+        'message' => true,
     ]);
 });
 

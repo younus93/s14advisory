@@ -1,4 +1,4 @@
-<div class="section-block-parallax jarallax black-overlay-60" data-jarallax="" data-speed="0.6"
+<div id="contact" class="section-block-parallax jarallax black-overlay-60" data-jarallax="" data-speed="0.6"
      style="background-image: none; z-index: 0;"
      data-jarallax-original-styles="background-image: url('img/content/classic/homebg2.jpg');">
     <div class="container">
@@ -6,7 +6,7 @@
             <div class="col-md-4 col-sm-12 col-12">
                 <div class="contact-box-place-office"><i class="icon-building-1"></i><h4>Bangkok Office</h4>
                     <h6>170/37 Ocean Towers 1</h6>
-                    <p>13th Floor, Khwaeng Khlong Toei, Klongtoey, Bangkok 10100.</p>
+                    <p>13th Floor, Khwaeng Khlong Toei, Klongtoey, Bangkok 10110.</p>
                     <ul>
                         <li><i class="fas fa-envelope-open"></i>info@s14advisory.com</li>
                         <li><i class="fas fa-phone"></i>+66 2661 9955-8</li>
