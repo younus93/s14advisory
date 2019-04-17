@@ -4,7 +4,7 @@
 <head>
     <title>S14Advisory</title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logos/logo-shortcut.png"/>
+    <link rel="shortcut icon" href="/img/logos/logo.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/themify-icons.css')  }}">
@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-md-9 col-12">
                 <ul class="top-bar-info">
-                    <li><i class="fas fa-map-marker-alt"></i>Klongtoey, Bangkok 10100</li>
+                    <li><i class="fas fa-map-marker-alt"></i>Klongtoey, Bangkok 10110</li>
                     <li><i class="fas fa-phone-square"></i> Phone: +66 64 827 5371</li>
                     <li><i class="fa fa-envelope"></i>Email: info@s14advisory.com</li>
                 </ul>
@@ -125,7 +125,7 @@
                 <ul class="footer-style-1-contact-info">
                     <li><i class="fa fa-phone"></i> <span>+66 64 827 5371</span></li>
                     <li><i class="fa fa-envelope-open"></i> <span>info@s14advisory.com</span></li>
-                    <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10100</span></li>
+                    <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10110</span></li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6 col-12">
