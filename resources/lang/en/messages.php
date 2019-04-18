@@ -1,6 +1,19 @@
 <?php
 
 return [
+
+    'financial_advisory' => 'Financial Advisory Experts',
+    'financial_advisory_text' => 'S14 has a plentiful Experience in advising financial services such as merger and acquisition, fundraising and financial restructuring.',
+
+    'client_network' => 'Extensive client network',
+    'client_network_text' => 'A vast client network of local investors and including regional investors. S14 will commit to search thoroughly a project investor from the existing pool investors.',
+
+    'flexibility' => 'Flexibility',
+    'flexibility_text' => 'Alliance with financial institutions, legal advisors, external and internal auditors. We take no short-cuts yet are highly effective in articulating with our clients',
+
+    'professionalism' => 'Professionalism',
+    'professionalism_text' => 'S14 commits to input manpower exhaustively in every project in order to provide the best alternative advice to maximize clients benefits.',
+
     'about-1' => 'S14 Advisory Company Limited was founded on 29 Aug 2014 by Ms. Piyapa Chongsathien who graduated from Assumption University with Bachelor and master degree in Business and Administration majoring in Finance and has over 17 years of work experiences in the same field',
     'about-2' => 'S14 advisory company limited is an SEC certified in March 2016 and proudly serves the nations leading companies, small to medium-sized businesses, and other institutions',
 

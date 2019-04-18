@@ -14,32 +14,26 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="feature-block-3 left-holder"><i class="icon-shield-1"></i>
-                            <h4>Financial Advisory Experts</h4>
-                            <p>S14 has a plentiful Experience in advising financial services such as merger and
-                                acquisition, fundraising and financial restructuring.</p>
+                            <h4>{{ __('messages.financial_advisory') }}</h4>
+                            <p>{{ __('messages.financial_advisory_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="feature-block-3 left-holder"><i class="icon-networking-12"></i>
-                            <h4>Extensive client network</h4>
-                            <p>A vast client network of local investors and including regional investors. S14 will
-                                commit to search thoroughly a project investor from the existing pool investors.</p>
+                            <h4>{{ __('messages.client_network') }}</h4>
+                            <p>{{ __('messages.client_network_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="feature-block-3 left-holder"><i class="icon-briefcase"></i>
-                            <h4>Flexibility</h4>
-                            <p>Alliance with financial institutions, legal advisors, external and internal auditors.
-                                We
-                                take no short-cuts yet are highly effective in articulating with our clients</p>
+                            <h4>{{ __('messages.flexibility') }}</h4>
+                            <p>{{ __('messages.flexibility_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="feature-block-3 left-holder"><i class="icon-target2"></i>
-                            <h4>Professionalism</h4>
-                            <p>S14 commits to input manpower exhaustively in every project in order to provide the
-                                best
-                                alternative advice to maximize clients benefits.</p>
+                            <h4>{{ __('messages.professionalism') }}</h4>
+                            <p>{{ __('messages.professionalism_text') }}</p>
                         </div>
                     </div>
                 </div>
