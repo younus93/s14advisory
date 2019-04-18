@@ -52,18 +52,8 @@
                     <div class="section-heading-line"></div>
                 </div>
                 <div class="text-content">
-                    <p style="color: #222222;">S14 Advisory Company Limited was founded on 29 Aug 2014 by Ms. Piyapa
-                        Chongsathien who graduated from Assumption University with Bachelor and master
-                        degree in Business and Administration majoring in Finance and has over 17 years of
-                        work experiences in the same field.
-                        S14 advisory company limited is an SEC certified in March 2016 and proudly serves
-                        the nations leading companies, small to medium-sized businesses, and other
-                        institutions.</p>
-                    <p style="color: #222222;">
-                        S14 advisory company limited is an SEC certified in March 2016 and proudly serves
-                        the nations leading companies, small to medium-sized businesses, and other
-                        institutions.
-                    </p>
+                    <p style="color: #222222;">{{ __('messages.about-1') }}</p>
+                    <p style="color: #222222;">{{ __('messages.about-2') }}</p>
                 </div>
                 {{--<div class="mt-15"><a href="#" class="primary-button button-sm">Learn More</a></div>--}}
             </div>
@@ -73,29 +63,20 @@
                     <div class="section-heading-line"></div>
                 </div>
                 <ul class="primary-list">
-                    <li><i class="fa fa-check-square"></i>We are built on an uncompromising foundation that
-                        financial
-                        advice should be transparent and honest
-                    </li>
-                    <li><i class="fa fa-check-square"></i>We deliver services that solve complex problems in a
-                        beautifully uncomplicated way
-                    </li>
-                    <li><i class="fa fa-check-square"></i>We strive for the highest level of client service and are
-                        focused on creating long term partnership with our clients.
-                    </li>
-                    <li><i class="fa fa-check-square"></i>We work to make a positive impact on our nation&#39;s
-                        economy.
-                    </li>
+                    <li><i class="fa fa-check-square"></i>{{ __('messages.mission-1') }}</li>
+                    <li><i class="fa fa-check-square"></i>{{ __('messages.mission-2') }}</li>
+                    <li><i class="fa fa-check-square"></i>{{ __('messages.mission-3') }}</li>
+                    <li><i class="fa fa-check-square"></i>{{ __('messages.mission-4') }}</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6" style="background-image: url('img/content/bgs/bg3.png');">
+<div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6"
+     style="background-image: url('img/content/bgs/bg3.png');">
     <div class="container">
         <div class="large-heading center-holder">
-            <h2 class="white-color">Out to become the most client preferred financial advisory partner across the
-                country.</h2>
+            <h2 class="white-color">{{ __('messages.vision') }}</h2>
             <div class="section-heading-line"></div>
         </div>
         {{--<div class="mt-25 center-holder"><a href="#" class="white-button button-md">Become a Client</a></div>--}}
