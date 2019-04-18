@@ -23,7 +23,7 @@ class ClientsController extends Controller
             }
         }
         return view("clients.index")->with([
-            'visitor' => true
+            'visitor' => $visitor
         ]);
     }
 
