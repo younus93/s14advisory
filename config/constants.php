@@ -75,7 +75,7 @@ return [
             'bio' => 'Pawarunch Nopsiri is a Manager in S14 Advisory Company Limited. She graduated from Thammasat University in Engineering Management. She also holds Bachelor Degree in Business Administration majoring in Accounting from Ramkhamhaeng University. After graduated, she worked as consultant at PWC in Operation Consulting. Later, She worked with Underwriters Laboratories Ltd. as Engineer. S14 Advisory is her first career in the financial sector.',
             'role' => 'Manager',
             'experience' => [
-                'FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd. in 2017',
+                'FA on M&A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd. in 2017',
                 'IFA on backdoor and EBT transaction of Food Capital in 2018',
                 'IFA in related party transaction of Takuni Group PCL (“TAKUNI”)'
             ],
