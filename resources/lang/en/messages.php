@@ -32,4 +32,21 @@ return [
     'integrity' => 'We uphold the highest standards of integrity in all our actions.',
     'outstanding' => 'Our work speaks more than our word, that\'s why we are always outstanding in what we do.',
     'nimble' => 'We are quick and neat in what we do.',
+
+    "fundRaising" => "Fund <br>Raising",
+    'ma' => "Mergers &amp; Acquistions",
+    'shareValuation' => "Share <br> Valuation",
+    'ifa' => "IFA <br>Service",
+    'ipo' => "IPO <br>Advisory",
+    'br' => "Business <br> Restructuring",
+    'fs' => "Feasibility Study",
+
+    "fundRaising_text" => "Equity placement or recapitalization through our extensive network for a private placement or Pre initial public offering",
+    "ma_text" => "Provide advice on targets and execution of M&amp;A through a package, search the right buyer and lead deal coordination of potential investors through our extensive client network, evaluation and recommendation of a fair range of valuations of M&amp;A transaction.",
+    'shareValuation_text' => "Provides services at all stages of preparing a valuation of share/company based on their financial records and their perspective.",
+    'ifa_text' => "Render the opinion regarding the reasonableness of the transactions and the fairness of the price and conditions of the transactions.",
+    'ipo_text' => "Provides services at all stages of preparing for an IPO and transforming a company from private into a public entity.",
+    'br_text' => "Provide a full range of services in restructuring, Advise information of a viable financial restructuring plan and assist in negotiations with lenders or other parties.",
+    'fs_text' => "Provides a maximum range of services in the Feasibility study / Business plan which is used to determine the viability of an idea, such an ensuring that a project is legally and technically feasible as well as economically justifiable and also identifies the possible constraints in the project /Plan. We also provide possible solutions for the constraints.",
+
 ];
