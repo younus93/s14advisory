@@ -9,5 +9,14 @@ return [
     'mission-3' => "We strive for the highest level of client service and are focused on creating long term partnership with our clients",
     'mission-4' => "We work to make a positive impact on our nation's economy",
 
-    'vision' => "To become the most client preferred partners across the country"
+    'vision' => "To become the most client preferred partners across the country",
+
+    'success' => "We put our heart, mind, and soul into each and every single work. This is the secret of our success.",
+    'organization' => "We believe that the achievements of an organization are the results of the combined effort of each individual",
+    'loyalty' => "The strength of brand loyalty begins with our service makes our client's feelings.",
+    'understanding' => "We understand our client's needs and provide the service accordingly.",
+    'teamwork' => "We work together to meet the needs of our clients and to help the company win.",
+    'integrity' => 'We uphold the highest standards of integrity in all our actions.',
+    'outstanding' => 'Our work speaks more than our word, that\'s why we are always outstanding in what we do.',
+    'nimble' => 'We are quick and neat in what we do.',
 ];

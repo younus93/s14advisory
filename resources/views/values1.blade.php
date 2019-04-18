@@ -141,8 +141,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>S <b>Success</b> We put our heart, mind, and soul into each and every single
-                                            work. This is the secret of our success.</p>
+                                        <p>S <b>Success...</b> {{ __('messages.success') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,11 +151,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>O <b>Organization</b>
-                                            We believe that the achievements of an organization are the results of
-                                            the
-                                            combined
-                                            effort of each individual..</p>
+                                        <p>O <b>Organization...</b> {{ __('messages.organization') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -166,9 +161,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>L <b>Loyalty</b>
-                                            The strength of brand loyalty begins with our service makes our client's
-                                            feelings</p>
+                                        <p>L <b>Loyalty...</b> {{ __('messages.loyalty') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -178,9 +171,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>U <b>Understanding</b>
-                                            We understand our client's needs and provide the service
-                                            accordingly.</p>
+                                        <p>U <b>Understanding...</b> {{ __('messages.understanding') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,10 +181,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>T <b>Teamwork</b>
-                                            We work together to meet the needs of our clients and to help the
-                                            company
-                                            win.</p>
+                                        <p>T <b>Teamwork...</b> {{ __('messages.teamwork') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -203,8 +191,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>I <b>Integrity</b>
-                                            We uphold the highest standards of integrity in all our actions.</p>
+                                        <p>I <b>Integrity...</b> {{ __('messages.integrity') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -214,9 +201,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>O <b>Outstanding</b>
-                                            Our work speaks more than our word, that's why we are always outstanding in
-                                            what we do..</p>
+                                        <p>O <b>Outstanding...</b>{{ __('messages.outstanding') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -226,8 +211,7 @@
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
                                     <div class="dropcap-3 dropcap-sm text-content-big">
-                                        <p>N <b>Nimble</b>
-                                            We are quick and neat in what we do.</p>
+                                        <p>N <b>Nimble...</b> {{ __('messages.nimble') }}</p>
                                     </div>
                                 </div>
                             </div>
