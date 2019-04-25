@@ -5,7 +5,7 @@ return [
         'piyapa-chongsathien' => [
             'name' => 'Ms. Piyapa Chongsathien',
             'role' => 'Founder & Managing Director',
-            'bio' => 'Piyapa Chongsathien is a founder and a managing director of S14 Advisory Company Limited. She was graduated from Assumption University with Bachelor and master degree is Business and Administration majoring in Finance and has over 17 years of work experiences investment banking business. Her experiences cover all areas of investment banking including M&amp;A, IPO, fund raising, IFA service, Share(or) Company valuation, restructurings and financial advisory works.',
+            'bio' => 'Piyapa Chongsathien is a founder and a managing director of S14 Advisory Company Limited. She was graduated from Assumption University with Bachelor and master degree is Business and Administration majoring in Finance and has over 17 years of work experiences investment banking business. Her experiences cover all areas of investment banking including M&A, IPO, fund raising, IFA service, Share(or) Company valuation, restructurings and financial advisory works.',
             'experience' => [
                 'FA for IPO of CAZ (Thailand) Plc. in 2019(CAZ) (First day trade at Jan 22, 2019)',
                 'FA for Tender offer of Digital Tech Planet Plc (DIGI) in 2019',
