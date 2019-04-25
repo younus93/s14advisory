@@ -1,3 +1,12 @@
+@section('head')
+    @parent
+    <style>
+        .primary-list li{
+            font-weight: 500;
+        }
+    </style>
+@append
+
 <div class="section-block" id="about">
     <div class="container">
         <div class="section-heading center-holder mb-0">

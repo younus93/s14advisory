@@ -14,8 +14,8 @@ return [
     'professionalism' => 'Professionalism',
     'professionalism_text' => 'S14 commits to input manpower exhaustively in every project in order to provide the best alternative advice to maximize clients benefits.',
 
-    'about-1' => 'S14 Advisory Company Limited was founded on 29 Aug 2014 by Ms. Piyapa Chongsathien who graduated from Assumption University with Bachelor and master degree in Business and Administration majoring in Finance and has over 17 years of work experiences in the same field',
-    'about-2' => 'S14 advisory company limited is an SEC certified in March 2016 and proudly serves the nations leading companies, small to medium-sized businesses, and other institutions',
+    'about-1' => 'S14 Advisory Company Limited was founded on 29 August 2014 by Ms. Piyapa Chongsathien who graduated from Assumption University with Bachelor and Master degree in Business and Administration majoring in Finance and has over 17 years of work experiences in the same field',
+    'about-2' => 'S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation\'s leading companies, small to medium-sized businesses, and other institutions',
 
     'mission-1' => "We are built on an uncompromising foundation that financial advice should be transparent and honest",
     'mission-2' => "We deliver services that solve complex problems in a beautifully uncomplicated wayWe strive for the highest level of client service and are focused on creating long term partnership with our clients",
@@ -42,7 +42,7 @@ return [
     'fs' => "Feasibility Study",
 
     "fundRaising_text" => "Equity placement or recapitalization through our extensive network for a private placement or Pre initial public offering",
-    "ma_text" => "Provide advice on targets and execution of M&amp;A through a package, search the right buyer and lead deal coordination of potential investors through our extensive client network, evaluation and recommendation of a fair range of valuations of M&amp;A transaction.",
+    "ma_text" => "Provide advice on targets and execution of M&amp;A through a package, search the right buyer/seller and lead deal coordination of potential investors through our extensive client network, evaluation and recommendation of a fair range of valuations of M&amp;A transaction.",
     'shareValuation_text' => "Provides services at all stages of preparing a valuation of share/company based on their financial records and their perspective.",
     'ifa_text' => "Render the opinion regarding the reasonableness of the transactions and the fairness of the price and conditions of the transactions.",
     'ipo_text' => "Provides services at all stages of preparing for an IPO and transforming a company from private into a public entity.",
