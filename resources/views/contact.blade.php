@@ -55,7 +55,7 @@
 </div>
 <div id="map" class="map-1">
     <script async="" defer=""
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA&amp;callback=initMap"></script>
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA2lvudmnD4hV_2UbXm_n1REd2alVlXJw&amp;callback=initMap"></script>
 </div>
 
 @section('scripts')

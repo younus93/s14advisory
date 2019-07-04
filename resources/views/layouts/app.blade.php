@@ -141,7 +141,7 @@
             <div class="col-md-4 col-sm-6 col-12">
                 <h3>Contact Info</h3>
                 <ul class="footer-style-1-contact-info">
-                    <li><i class="fa fa-phone"></i> <span>+66 64 827 5371</span></li>
+                    <li><i class="fa fa-phone"></i> <span>+66 2661 9955-8</span></li>
                     <li><i class="fa fa-envelope-open"></i> <span>info@s14advisory.com</span></li>
                     <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10110</span></li>
                 </ul>
@@ -154,7 +154,7 @@
                     <li><a href="#values">Our Values</a></li>
                     <li><a href="#services">Our Services</a></li>
                     <li><a href="#team">Our Team</a></li>
-                    <li><a href="/clients">Our Clients</a></li>
+                    <li><a href="/our-clients">Our Clients</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -168,9 +168,9 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-12">
                     <ul class="footer-style-1-bar-links">
-                        <li><a href="#">Privacy Policy</a></li>
+                        <!-- <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li> -->
                     </ul>
                 </div>
             </div>
