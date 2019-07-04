@@ -54,7 +54,7 @@
             <div class="col-md-9 col-12">
                 <ul class="top-bar-info">
                     <li><i class="fas fa-map-marker-alt"></i>Klongtoey, Bangkok 10110</li>
-                    <li><i class="fas fa-phone-square"></i> Phone: +66 64 827 5371</li>
+                    <li><i class="fas fa-phone-square"></i> Phone: +66 2661 9955-8</li>
                     <li><i class="fa fa-envelope"></i>Email: info@s14advisory.com</li>
                 </ul>
             </div>
