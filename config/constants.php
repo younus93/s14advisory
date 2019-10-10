@@ -26,23 +26,6 @@ return [
             'closing' => 'Previously She worked as the Vice President, Investment Banking at Asia Plus Advisory Company Limited where she was one of the key member to operates in the management for 12 years.',
             'linkedIn' => 'https://www.linkedin.com/in/piyapa-chongsathien-7992b1104/'
         ],
-        'pakchata-manotaya' => [
-            'name' => 'Ms. Pakchata Manotaya',
-            'bio' => 'Pakchata Manotaya is a Vice President in S14 Advisory Company Limited, was graduated from Chulalongkorn University with Bachelor’s degree majoring in Economics. She has completed her Master of Science degree with distinction in Corporate Finance from University of Reading and a Master of Science degree in International Money and Banking from University of Birmingham. She has over 7 years of experience in the same field. She has a solid knowledge in corporate finance.',
-            'role' => 'Vice President',
-            'experience' => [
-                'FA in share acquisition of an IT company',
-                'Share valuation of 5 IT companies and 1 printing company',
-                'IFA in backdoor and EBT transaction of Food Capital Public Company Limited (FC)',
-                'IFA in related party transaction of Takuni Group Public Company Limited (Takuni)',
-                'IPO of CAZ (Thailand) Plc. in 2019 (CAZ) (First day trade at Jan 22, 2019)',
-                'Act as a Project Manager for each transaction and be the main contact person for the clients.',
-                'Coordinate with external parties for transaction-related matters.',
-                'Train junior staff on related skills including financial modeling and presentation'
-            ],
-            'closing' => 'Her previous work experiences include such as Assistant to Vice President at Global One Capital Co.Ltd, Manager in Development and Investment Department at Singha Estate Public Co., Ltd, Associate in Investment Banking Department at Trinity Securities Group, Ltd where she was one of the key member to operate in the premises for over 4 years.',
-            'linkedIn' => 'https://www.linkedin.com/in/pakchata-manotaya-a98309162/'
-        ],
         'suchat-olannaranon' => [
             'name' => 'Mr. Suchat Olannaranon',
             'bio' => 'Mr. Suchat Olannaranon is a Vice President in S14 Advisory Company Limited. He was graduated from Chulalongkorn University with Bachelor and Master degree in Business Administration majoring in Banking and Finance and also a Bachelor of laws from Ramkhamhaeng University. He has over 8 years of Experience in the same field. His contribution towards S14 Advisory Company Limited includes',
@@ -94,30 +77,6 @@ return [
             ],
             'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)',
             'linkedIn' => 'https://www.linkedin.com/in/sithavut-kayuraphan-a2316794/'
-        ],
-        'chicha-chotchutima' => [
-            'name' => 'Ms. Chicha Chotchutima',
-            'bio' => 'Chicha Chotchutima is a manager in S14 Advisory Company Limited who graduated from Sirindhorn International Institute of Technology Thammasat University with a bachelor of Science in Engineering Management major.',
-            'role' => 'Manager',
-            'experience' => [
-                'IFA for TAKUNI Land',
-                'IFA on backdoor and EBT transaction of Food Capital'
-            ],
-            'linkedIn' => 'https://www.linkedin.com/in/chicha-chotchutima-1b8283157/'
-        ],
-        'lalrima-nakthap' => [
-            'name' => 'Ms. Lalrima Nakthap',
-            'bio' => 'Lalrima Nakthap is a manager in S14 Advisory Company Limited and She was graduated from Burapha University, a bachelor of Business Administration Program in Finance with 4 years of work experiences in the same field.',
-            'role' => 'Manager',
-            'experience' => [
-                'FA for IPO of CAZ (Thailand) Public Company Limited. In 2019 (First day trade at Jan 22, 2019)',
-                'Print Master share valuation report for Share-Based Payment transaction'
-            ],
-            'past-experience' => [
-                'Consultant at 15 Business Advisory Limited. Where she was responsible of valuation on Business Valuation, Share Valuation, Intangible Assets Valuation, and Purchase Price Allocation.',
-                'Investment Consultant at KT ZMICO Securities Company Limited. As an investment consultant and passed a single license and derivative license exam which held by SEC.'
-            ],
-            'linkedIn' => 'https://www.linkedin.com/in/lalrima/'
         ],
         'kiattiyod-siriphan' => [
             'name' => 'Mr. Kiattiyod Siriphan',
