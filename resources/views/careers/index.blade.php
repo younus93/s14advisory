@@ -29,6 +29,20 @@
                             we are the right destination for you. Drop in your details along with a detailed resume and
                             we will get back to you.</p>
                     </div>
+                    <div class="section-heading left-holder mt-10">
+                        <h3 class="bold">Positions open</h3>
+                        <div class="section-heading-line"></div>
+                    </div>
+                    <div class="text-content">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a target="_blank" href="{{ asset('ประกาศหางาน Vice President.pdf') }}">Vice President</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a target="_blank" href="{{ asset('Investment Banking (Manager).pdf') }}">Investment Banking</a>
+                            </li>
+                        </ul>
+                    </div>
                     @if($message)
                         <div class="section-heading left-holder mt-10">
                             <h3 class="bold">Thanks for applying!</h3>

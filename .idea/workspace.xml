@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="780d593f-cc8e-48be-937c-51b422a81755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/careers/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/careers/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,60 +161,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="th" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s14advisory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s14advisory" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -269,7 +215,7 @@
       <workItem from="1555433364453" duration="14806000" />
       <workItem from="1555567729841" duration="4512000" />
       <workItem from="1556169134615" duration="755000" />
-      <workItem from="1570692115093" duration="242000" />
+      <workItem from="1570692115093" duration="603000" />
     </task>
     <servers />
   </component>
@@ -286,16 +232,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/config/constants.php</url>
-          <line>55</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
