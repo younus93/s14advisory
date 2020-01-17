@@ -47,6 +47,10 @@ return [
             'bio' => 'Jakkra Rattananukit is a Senior manager at S14 Advisory Company Limited who received bachelor degree of Economics, majoring in Business Economics from Assumption University (with full scholarship) and master degree of Art in Economics from Ritsumeikan University, Japan (with full scholarship). He has over 5 years of experience in the same field. Before joining S14 Advisory, he worked as senior analyst at CJ Morgan Company Limited.',
             'role' => 'Senior Manager',
             'experience' => [
+                'Currently working on IPO and M&amp;A for an industry in an Energy sector.',
+                'Currently working on M&amp;A for an industry in Food &amp; Beverage sector.'
+            ],
+            'past-experience' => [
                 'Senior Analyst at CJ Morgan Co., Ltd.',
                 'Project Management Officer in Strategy &amp; Operations Consulting Department at Deloitte (Thailand) Co., Ltd.',
             ],
