@@ -53,7 +53,7 @@
             </div>
             <div class="row justify-content-center mt-0">
                 @foreach($team as $slug => $person)
-                    @if($person['role'] == 'Manager')
+                    @if($person['role'] == 'Manager' || $person['role'] == 'Senior Manager' )
                         @include('team.partials._teamBlock1',[
                             'person' => $person
                         ])

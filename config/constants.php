@@ -42,6 +42,17 @@ return [
             'closing' => 'He also worked as Assistant Project Manager in Strategic Planning Department at Thai Beverage Public Limited Company, Business Analyst in Business Development Department at Mitrphol Biofuel Company limited, Senior Analyst in Investment Banking Department at KTB Advisory Company limited.',
             'linkedIn' => 'https://www.linkedin.com/in/suchat-olannaranon/'
         ],
+        'jakkra-rattananukit' => [
+            'name' => 'Mr. Jakkra Rattananukit',
+            'bio' => 'Jakkra Rattananukit is a Senior manager at S14 Advisory Company Limited who received bachelor degree of Economics, majoring in Business Economics from Assumption University (with full scholarship) and master degree of Art in Economics from Ritsumeikan University, Japan (with full scholarship). He has over 5 years of experience in the same field. Before joining S14 Advisory, he worked as senior analyst at CJ Morgan Company Limited.',
+            'role' => 'Senior Manager',
+            'experience' => [
+                'Senior Analyst at CJ Morgan Co., Ltd.',
+                'Project Management Officer in Strategy &amp; Operations Consulting Department at Deloitte (Thailand) Co., Ltd.',
+            ],
+            'linkedIn' => 'https://www.linkedin.com/in/jakkra-rattananukit-b62240176/'
+        ],
+
         'sitthiphat-sinfaphanit' => [
             'name' => 'Mr. Sitthiphat Sinfaphanit',
             'bio' => 'Sitthiphat Sinfaphanit is a manager in S14 Advisory Company Limited who graduated from Mahidol University International College with Business Administration Degree in Finance. After graduated, He worked with PwC (Thailand) Ltd. as a Tax Consultant responsible for Corporate Tax Advise, Tax Structuring and Tax due diligence. He also successfully completed his Student internship program (SIP 65) in Bangkok Bank S14 Advisory is his second career in the financial sector after graduation.',
@@ -52,18 +63,6 @@ return [
                 'IFA on Food Capitals Plc. (FC) – Acquisition and Disposal of Assets and Connected Transaction',
             ],
             'linkedIn' => 'https://www.linkedin.com/in/sitthiphat-sinfaphanit-2078ab85/'
-        ],
-        'pawarunch-nopsiri' => [
-            'name' => 'Ms. Pawarunch Nopsiri',
-            'bio' => 'Pawarunch Nopsiri is a Manager in S14 Advisory Company Limited. She graduated from Thammasat University in Engineering Management. She also holds Bachelor Degree in Business Administration majoring in Accounting from Ramkhamhaeng University. After graduated, she worked as consultant at PWC in Operation Consulting. Later, She worked with Underwriters Laboratories Ltd. as Engineer. S14 Advisory is her first career in the financial sector.',
-            'role' => 'Manager',
-            'experience' => [
-                'FA on M&A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd. in 2017',
-                'IFA on backdoor and EBT transaction of Food Capital in 2018',
-                'IFA in related party transaction of Takuni Group PCL (“TAKUNI”)'
-            ],
-            'closing' => 'She also excelled in internship programs such as Credit Control Intern in Chiatai Company limited and Assistant Auditor Intern in Kamolwan Audit Company.',
-            'linkedIn' => 'https://www.linkedin.com/in/pawarunch-nopsiri-3643a1165/'
         ],
         'sithavut-kayuraphan' => [
             'name' => 'Mr. Sithavut Kayuraphan',
@@ -102,15 +101,6 @@ return [
             'closing' => 'He has 5years of solid experience in Finance, Business Development, Marketing, Sales and Customer relations. He yet to start his achievements in investment banking at S14 Advisory Company limited.',
             'linkedIn' => 'https://www.linkedin.com/in/jagdish-g-mahendiran-67ab494b/'
 
-        ],
-        'vasiphong-vongvuttipornchai' => [
-            'name' => 'Mr. Vasiphong Vongvuttipornchai',
-            'bio' => 'Vasiphong Vongvuttipornchai graduated from the University of Westminster with first honors Bachelor of Arts in International Business. Following that he also received a degree in Master of Science in Banking and Finance with merit from King&#39;s College London. He is also interned at CLSA as a junior analyst. He successfully completed his Student Internship Program in Bangkok Bank PLC (SIP). He is also an Independent Stock Trader on The Stock Exchange of Thailand (SET).',
-            'role' => 'Manager',
-            'experience' => [
-                'FA for Bliss-Tel Plc at S14 Advisory'
-            ],
-            'linkedIn' => 'https://www.linkedin.com/in/vasiphong-vongvuttipornchai-6b8046182/'
         ],
     ],
     'clients' => [
