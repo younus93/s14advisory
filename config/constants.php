@@ -1,3 +1,4 @@
+
 <?php
 
 return [
@@ -81,14 +82,22 @@ return [
             'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)',
             'linkedIn' => 'https://www.linkedin.com/in/sithavut-kayuraphan-a2316794/'
         ],
-        'kiattiyod-siriphan' => [
-            'name' => 'Mr. Kiattiyod Siriphan',
-            'bio' => 'Kiattiyod Siriphan is a manager in S14 Advisory Company Limited who received a Master of Science degree with distinction in International Management from the University of Exeter. He also holds a Bachelor of Business Administration Degree in Tourism and Hospitality Management from Mahidol University International College. He also completed his internship program as a Finance intern at W Hotel Bangkok and Operation intern at Salaya Pavilion Hotel and Training Center. His past experience includes as Consultant at 15 Business Advisory Limited.',
+        'thantip-suwannarit' => [
+            'name' => 'Ms. Thantip Suwannarit',
+            'bio' => 'Thantip Suwannarit is a Manager at S14 Advisory Company Limited who
+received Bachelor Degree of Economics, majoring in Monetary and
+Management from Chulalongkorn University and Master Degree in Finance
+from Thammasat Business School, Thammasat University. She has over 7
+years of experience in different fields of finance, namely Treasury,
+Insurance, Wealth Management and Investment Banking. Before joining
+S14 Advisory, she worked as an Associate in Investment Banking at AEC
+Securities Public Company Limited.',
             'role' => 'Manager',
             'experience' => [
-                'IFA on backdoor and EBT transaction of Food Capital in 2018'
+                'Currently working on an IPO deal for a Services Industry Company.',
+                'Currently working on an M&amp;A deal in an Agro &amp; Food Industry Company.'
             ],
-            'linkedIn' => 'https://www.linkedin.com/in/kiattiyod-siriphan-069b38181/',
+            'linkedIn' => '',
         ],
         'jagdish' => [
             'name' => 'Mr. Jagdish Gopal Mahendiran',
