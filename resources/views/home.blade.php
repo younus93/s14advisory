@@ -36,6 +36,8 @@
 
     @include('contact')
 
+    @include('clients')
+
 @endsection
 @section('scripts')
 

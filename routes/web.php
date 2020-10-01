@@ -67,4 +67,6 @@ Route::get('/team/{slug}', function ($slug) {
     ]);
 });
 
-
+Route::get('/track-records',function(){
+    return view('track-records');
+});

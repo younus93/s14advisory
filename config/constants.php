@@ -43,45 +43,45 @@ return [
             'closing' => 'He also worked as Assistant Project Manager in Strategic Planning Department at Thai Beverage Public Limited Company, Business Analyst in Business Development Department at Mitrphol Biofuel Company limited, Senior Analyst in Investment Banking Department at KTB Advisory Company limited.',
             'linkedIn' => 'https://www.linkedin.com/in/suchat-olannaranon/'
         ],
-        'jakkra-rattananukit' => [
-            'name' => 'Mr. Jakkra Rattananukit',
-            'bio' => 'Jakkra Rattananukit is a Senior manager at S14 Advisory Company Limited who received bachelor degree of Economics, majoring in Business Economics from Assumption University (with full scholarship) and master degree of Art in Economics from Ritsumeikan University, Japan (with full scholarship). He has over 5 years of experience in the same field. Before joining S14 Advisory, he worked as senior analyst at CJ Morgan Company Limited.',
-            'role' => 'Senior Manager',
-            'experience' => [
-                'Currently working on IPO and M&amp;A for an industry in an Energy sector.',
-                'Currently working on M&amp;A for an industry in Food &amp; Beverage sector.'
-            ],
-            'past-experience' => [
-                'Senior Analyst at CJ Morgan Co., Ltd.',
-                'Project Management Officer in Strategy &amp; Operations Consulting Department at Deloitte (Thailand) Co., Ltd.',
-            ],
-            'linkedIn' => 'https://www.linkedin.com/in/jakkra-rattananukit-b62240176/'
-        ],
+        // 'jakkra-rattananukit' => [
+        //     'name' => 'Mr. Jakkra Rattananukit',
+        //     'bio' => 'Jakkra Rattananukit is a Senior manager at S14 Advisory Company Limited who received bachelor degree of Economics, majoring in Business Economics from Assumption University (with full scholarship) and master degree of Art in Economics from Ritsumeikan University, Japan (with full scholarship). He has over 5 years of experience in the same field. Before joining S14 Advisory, he worked as senior analyst at CJ Morgan Company Limited.',
+        //     'role' => 'Senior Manager',
+        //     'experience' => [
+        //         'Currently working on IPO and M&amp;A for an industry in an Energy sector.',
+        //         'Currently working on M&amp;A for an industry in Food &amp; Beverage sector.'
+        //     ],
+        //     'past-experience' => [
+        //         'Senior Analyst at CJ Morgan Co., Ltd.',
+        //         'Project Management Officer in Strategy &amp; Operations Consulting Department at Deloitte (Thailand) Co., Ltd.',
+        //     ],
+        //     'linkedIn' => 'https://www.linkedin.com/in/jakkra-rattananukit-b62240176/'
+        // ],
 
-        'sitthiphat-sinfaphanit' => [
-            'name' => 'Mr. Sitthiphat Sinfaphanit',
-            'bio' => 'Sitthiphat Sinfaphanit is a manager in S14 Advisory Company Limited who graduated from Mahidol University International College with Business Administration Degree in Finance. After graduated, He worked with PwC (Thailand) Ltd. as a Tax Consultant responsible for Corporate Tax Advise, Tax Structuring and Tax due diligence. He also successfully completed his Student internship program (SIP 65) in Bangkok Bank S14 Advisory is his second career in the financial sector after graduation.',
-            'role' => 'Manager',
-            'experience' => [
-                'The FA for IPO of CAZ (Thailand) Plc. In 2019 (First-day trade on Jan 22, 2019)',
-                'The FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd.',
-                'IFA on Food Capitals Plc. (FC) – Acquisition and Disposal of Assets and Connected Transaction',
-            ],
-            'linkedIn' => 'https://www.linkedin.com/in/sitthiphat-sinfaphanit-2078ab85/'
-        ],
-        'sithavut-kayuraphan' => [
-            'name' => 'Mr. Sithavut Kayuraphan',
-            'bio' => 'Sithavut Kayuraphan is a manager in S14 Advisory Company Limited. He was graduated from Northumbria University, United Kingdom with masters of Science in Business with Management with Commendation and Bachelor of Science in Agribusiness from Kasetsart University with 4 years of work experiences. He has excelled in certification programs such as Business Law for non-legal professionals from Thammasat University, Tax Planning for Business from Lawyers council of Thailand. He also holds Complex type 1 Capital Market Investment Consultant License Investment Planner License from the Securities and Exchange Commission, Thailand.',
-            'role' => 'Manager',
-            'experience' => [
-                'The FA for Tender offer of Digital Tech Planet Plc (DIGI) in 2019',
-                'IFA for Food Capitals Plc (FC) in 2018',
-                'Valuation for AQ Estate public company limited (“AQ”) in 2017',
-                'Valuation for Electronic Industry Plc (“EIC”) in 2016'
-            ],
-            'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)',
-            'linkedIn' => 'https://www.linkedin.com/in/sithavut-kayuraphan-a2316794/'
-        ],
+        // 'sitthiphat-sinfaphanit' => [
+        //     'name' => 'Mr. Sitthiphat Sinfaphanit',
+        //     'bio' => 'Sitthiphat Sinfaphanit is a manager in S14 Advisory Company Limited who graduated from Mahidol University International College with Business Administration Degree in Finance. After graduated, He worked with PwC (Thailand) Ltd. as a Tax Consultant responsible for Corporate Tax Advise, Tax Structuring and Tax due diligence. He also successfully completed his Student internship program (SIP 65) in Bangkok Bank S14 Advisory is his second career in the financial sector after graduation.',
+        //     'role' => 'Manager',
+        //     'experience' => [
+        //         'The FA for IPO of CAZ (Thailand) Plc. In 2019 (First-day trade on Jan 22, 2019)',
+        //         'The FA on M&amp;A transaction of Bliss-Tel Plc. 35% acquired ITG Group Co., Ltd.',
+        //         'IFA on Food Capitals Plc. (FC) – Acquisition and Disposal of Assets and Connected Transaction',
+        //     ],
+        //     'linkedIn' => 'https://www.linkedin.com/in/sitthiphat-sinfaphanit-2078ab85/'
+        // ],
+        // 'sithavut-kayuraphan' => [
+        //     'name' => 'Mr. Sithavut Kayuraphan',
+        //     'bio' => 'Sithavut Kayuraphan is a manager in S14 Advisory Company Limited. He was graduated from Northumbria University, United Kingdom with masters of Science in Business with Management with Commendation and Bachelor of Science in Agribusiness from Kasetsart University with 4 years of work experiences. He has excelled in certification programs such as Business Law for non-legal professionals from Thammasat University, Tax Planning for Business from Lawyers council of Thailand. He also holds Complex type 1 Capital Market Investment Consultant License Investment Planner License from the Securities and Exchange Commission, Thailand.',
+        //     'role' => 'Manager',
+        //     'experience' => [
+        //         'The FA for Tender offer of Digital Tech Planet Plc (DIGI) in 2019',
+        //         'IFA for Food Capitals Plc (FC) in 2018',
+        //         'Valuation for AQ Estate public company limited (“AQ”) in 2017',
+        //         'Valuation for Electronic Industry Plc (“EIC”) in 2016'
+        //     ],
+        //     'closing' => 'In his past experience he worked as an investment consultant for 2 years in KGI Securities (Thailand) public company limited (KGI)',
+        //     'linkedIn' => 'https://www.linkedin.com/in/sithavut-kayuraphan-a2316794/'
+        // ],
         'thantip-suwannarit' => [
             'name' => 'Ms. Thantip Suwannarit',
             'bio' => 'Thantip Suwannarit is a Manager at S14 Advisory Company Limited who

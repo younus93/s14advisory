@@ -39,102 +39,104 @@
             </h2>
             <div class="section-heading-line"></div>
         </div>
-        <div class="row mt-40">
-            <div class="offset-md-3 col-md-6 col-sm-12 col-12">
+        <div class="row mt-40 justify-content-center">
+            <div class="col-md-9 col-sm-12 col-12 text-center">
                 <div class="accordion" id="accordionExample">
-                    <table class="table table-bordered">
-                        <tr>
-                            <td style="width: 50px; background: #52ab22">
-                                <button class="btn btn-link" style="text-decoration: none !important"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                    <span class="checkboxText">S</span>
-                                </button>
-                            </td>
-                            <td style="width: 50px"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td style="width: 50px; background: #52ab22">
                                     <button class="btn btn-link" style="text-decoration: none !important"
                                             type="button" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="true"
-                                            aria-controls="collapseThree">
-                                        <span class="checkboxText">L</span>
+                                            data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        <span class="checkboxText">S</span>
                                     </button>
-                                </h5>
-                            </td>
-                            <td style="width: 50px"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseFive" aria-expanded="true"
-                                            aria-controls="collapseFive">
-                                        <span class="checkboxText">T</span>
-                                    </button>
-                                </h5>
-                            </td>
-                            <td style="width: 50px"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseSeven" aria-expanded="true"
-                                            aria-controls="collapseSeven">
-                                        <span class="checkboxText">O</span>
-                                    </button>
-                                </h5>
+                                </td>
+                                <td style="width: 50px"></td>
+                                <td style="width: 50px; background: #52ab22">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="true"
+                                                aria-controls="collapseThree">
+                                            <span class="checkboxText">L</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                                <td style="width: 50px"></td>
+                                <td style="width: 50px; background: #52ab22">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseFive" aria-expanded="true"
+                                                aria-controls="collapseFive">
+                                            <span class="checkboxText">T</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                                <td style="width: 50px"></td>
+                                <td style="width: 50px; background: #52ab22">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseSeven" aria-expanded="true"
+                                                aria-controls="collapseSeven">
+                                            <span class="checkboxText">O</span>
+                                        </button>
+                                    </h5>
 
-                            </td>
-                            <td style="width: 50px;"></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 50px;"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="true"
-                                            aria-controls="collapseTwo">
-                                        <span class="checkboxText">O</span>
-                                    </button>
-                                </h5>
-                            </td>
-                            <td style="width: 50px;"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="true"
-                                            aria-controls="collapseFour">
-                                        <span class="checkboxText">U</span>
-                                    </button>
-                                </h5>
-                            </td>
-                            <td style="width: 50px;"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseSix" aria-expanded="true"
-                                            aria-controls="collapseSix">
-                                        <span class="checkboxText">I</span>
-                                    </button>
-                                </h5>
-                            </td>
-                            <td style="width: 50px;"></td>
-                            <td style="width: 50px; background: #52ab22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" style="text-decoration: none !important"
-                                            type="button" data-toggle="collapse"
-                                            data-target="#collapseEight" aria-expanded="true"
-                                            aria-controls="collapseEight">
-                                        <span class="checkboxText">N</span>
-                                    </button>
-                                </h5>
-                            </td>
-                        </tr>
-                    </table>
+                                </td>
+                                <td style="width: 50px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;"></td>
+                                <td style="width: 50px; background: #ddb329">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="true"
+                                                aria-controls="collapseTwo">
+                                            <span class="checkboxText">O</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td style="width: 50px; background: #ddb329">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseFour" aria-expanded="true"
+                                                aria-controls="collapseFour">
+                                            <span class="checkboxText">U</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td style="width: 50px; background: #ddb329">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseSix" aria-expanded="true"
+                                                aria-controls="collapseSix">
+                                            <span class="checkboxText">I</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td style="width: 50px; background: #ddb329">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" style="text-decoration: none !important"
+                                                type="button" data-toggle="collapse"
+                                                data-target="#collapseEight" aria-expanded="true"
+                                                aria-controls="collapseEight">
+                                            <span class="checkboxText">N</span>
+                                        </button>
+                                    </h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                     <div class="mt-10">
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                              data-parent="#accordionExample">

@@ -10,12 +10,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/themify-icons.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/fontawesome-all.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/icomoon.css')  }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.css')  }}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.css')  }}"> -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css')  }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css')  }}">
     <link rel="stylesheet" href="{{ asset('css/slider.css')  }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navigation.css')  }}" id="navigation_menu">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/default.css')  }}">
+    <link rel='stylesheet' type="text/css" href="{{mix('css/app.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.css')  }}" id="main_styles">
     <script src="{{ asset('js/map.js')  }}"></script>
 
