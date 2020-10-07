@@ -85,22 +85,25 @@
             <ul class="nav-menu align-to-right">
                 @if(request()->path() == '/')
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="#home" id='home_link'>Home</a>
                     </li>
                     <li>
                         <a href="#about">About Us</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#values">Our Values</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#services">Our Services</a>
+                        <a href="#services">Services</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="{{ url("our-clients") }}">Our Clients</a>
-                    </li>
+                    </li> -->
+                    <!-- <li> -->
+                        <!-- <a href="#team">Our Team</a> -->
+                    <!-- </li> -->
                     <li>
-                        <a href="#team">Our Team</a>
+                        <a href="/track-records">Track Records</a>
                     </li>
                     <li>
                         <a href="/careers">Careers</a>
@@ -133,11 +136,11 @@
                     <p>Financial Advisory Services</p>
                 </div>
                 <ul class="footer-style-1-social-links">
-                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://m.facebook.com/s14advisory/"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/s14-advisory-company-limited"><i class="fab fa-linkedin"></i></a></li>
+                    <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fab fa-skype"></i></a></li> -->
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6 col-12">
@@ -187,6 +190,7 @@
 <script src="{{ asset('js/navigation.js')  }}"></script>
 <script src="{{ asset('js/navigation.fixed.js')  }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js')  }}"></script>
+<script src="{{ asset('js/filterizr.min.js')  }}"></script>
 <script src="{{ asset('js/main.js')  }}"></script>
 
 
@@ -210,6 +214,17 @@
         // animated top scrolling
         $('body, html').animate({scrollTop: pos}, 2000);
     });
+    $(document).ready(function(){
+        $('#home_link').hide()
+        $(document).scroll(function(){
+            if(document.querySelector('#nav-transparent .nav-white-bg')){
+                $('#home_link').show()
+            }
+            else{
+                $('#home_link').hide()
+            }
+        })
+    })
 </script>
 
 @yield('scripts')

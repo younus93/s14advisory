@@ -70,3 +70,7 @@ Route::get('/team/{slug}', function ($slug) {
 Route::get('/track-records',function(){
     return view('track-records');
 });
+
+Route::get('/careers/vice-president',function(){
+    return view('careers.vice-president');
+});

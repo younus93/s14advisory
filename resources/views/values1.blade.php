@@ -45,7 +45,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <tr>
-                                <td style="width: 50px; background: #52ab22">
+                                <td style="width: 50px; background: #ddb329">
                                     <button class="btn btn-link" style="text-decoration: none !important"
                                             type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="true"
@@ -54,7 +54,7 @@
                                     </button>
                                 </td>
                                 <td style="width: 50px"></td>
-                                <td style="width: 50px; background: #52ab22">
+                                <td style="width: 50px; background: #ddb329">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -65,7 +65,7 @@
                                     </h5>
                                 </td>
                                 <td style="width: 50px"></td>
-                                <td style="width: 50px; background: #52ab22">
+                                <td style="width: 50px; background: #ddb329">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -76,7 +76,7 @@
                                     </h5>
                                 </td>
                                 <td style="width: 50px"></td>
-                                <td style="width: 50px; background: #52ab22">
+                                <td style="width: 50px; background: #ddb329">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -91,7 +91,7 @@
                             </tr>
                             <tr>
                                 <td style="width: 50px;"></td>
-                                <td style="width: 50px; background: #ddb329">
+                                <td style="width: 50px; background: #52ab22">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -102,7 +102,7 @@
                                     </h5>
                                 </td>
                                 <td style="width: 50px;"></td>
-                                <td style="width: 50px; background: #ddb329">
+                                <td style="width: 50px; background: #52ab22">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -113,7 +113,7 @@
                                     </h5>
                                 </td>
                                 <td style="width: 50px;"></td>
-                                <td style="width: 50px; background: #ddb329">
+                                <td style="width: 50px; background: #52ab22">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
@@ -124,7 +124,7 @@
                                     </h5>
                                 </td>
                                 <td style="width: 50px;"></td>
-                                <td style="width: 50px; background: #ddb329">
+                                <td style="width: 50px; background: #52ab22">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" style="text-decoration: none !important"
                                                 type="button" data-toggle="collapse"
