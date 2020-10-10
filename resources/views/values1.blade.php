@@ -142,7 +142,7 @@
                              data-parent="#accordionExample">
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
-                                    <div class="dropcap-3 dropcap-sm text-content-big">
+                                    <div class="dropcap-3 yellow dropcap-sm text-content-big">
                                         <p>S <b>Success...</b> {{ __('messages.success') }}</p>
                                     </div>
                                 </div>
@@ -162,7 +162,7 @@
                              data-parent="#accordionExample">
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
-                                    <div class="dropcap-3 dropcap-sm text-content-big">
+                                    <div class="dropcap-3 yellow dropcap-sm text-content-big">
                                         <p>L <b>Loyalty...</b> {{ __('messages.loyalty') }}</p>
                                     </div>
                                 </div>
@@ -182,7 +182,7 @@
                              data-parent="#accordionExample">
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
-                                    <div class="dropcap-3 dropcap-sm text-content-big">
+                                    <div class="dropcap-3 yellow dropcap-sm text-content-big">
                                         <p>T <b>Teamwork...</b> {{ __('messages.teamwork') }}</p>
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@
                              data-parent="#accordionExample">
                             <div class="timeline-content">
                                 <div class="timeline-content-inner">
-                                    <div class="dropcap-3 dropcap-sm text-content-big">
+                                    <div class="dropcap-3 yellow dropcap-sm text-content-big">
                                         <p>O <b>Outstanding...</b>{{ __('messages.outstanding') }}</p>
                                     </div>
                                 </div>

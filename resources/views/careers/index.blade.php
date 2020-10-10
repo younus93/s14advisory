@@ -3,8 +3,8 @@
 
 @endsection
 @section('content')
-
-    <div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6"
+    
+    <!-- <div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6"
          style="background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
         <div class="container">
             <div class="large-heading center-holder">
@@ -13,9 +13,53 @@
             </div>
             {{--<div class="mt-25 center-holder"><a href="#" class="white-button button-md">Become a Client</a></div>--}}
         </div>
+    </div> -->
+    <div id='career-top-section'>
+        <div class="career-bg">
+            <div class="container">
+                <div class="col-md-5">
+                    <h3>Drop in a message</h3>
+                    <div class="text-content">
+                            <p>If you enjoy to work in a highly paced challenging environment where your actions directly
+                                impacts the results,
+                                we are the right destination for you. Drop in your details along with a detailed resume and
+                                we will get back to you.</p>
+                    </div>
+                </div>
+                <div class="career-img">
+                    <img src='/img/careers-bg1.jpeg' alt=''/>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="section-block">
+    <section class="positions">
+        <div class="container pt-5">
+            <h4 class="join-our-team">Join our team.</h4>
+
+            <div>
+                <p class="opening-heading">Positions open</p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="openings my-3">
+                            <p class="opening-name mb-0">Vice President</p>
+                            <a href='/careers/vice-president'>View</a>
+                        </div>
+                        <div class="openings my-3">
+                            <p class="opening-name mb-0">Investment Banking</p>
+                            <a href='/careers/vice-president'>View</a>
+                        </div>
+                        <div class="openings my-3">
+                            <p class="opening-name mb-0">Finance Analyst</p>
+                            <a href='/careers/vice-president'>View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="section-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-5 col-12">
@@ -37,6 +81,7 @@
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <a target="_blank" href="{{ asset('ประกาศหางาน Vice President.pdf') }}">Vice President</a>
+                                <a target="_blank" href="/careers/vice-president">Vice President</a>
                             </li>
                             <li class="list-group-item">
                                 <a target="_blank" href="{{ asset('Investment Banking (Manager).pdf') }}">Investment Banking</a>
@@ -76,13 +121,23 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 @endsection
 @section('scripts')
 
-    <script></script>
+    <script>
+        $(document).ready(function (){
+            $('.navigation-fixed-wrapper').addClass('without-scroll')
+        })
+        $(document).scroll(function(){
+           
+            var $nav = $(".navigation-fixed-wrapper");
+            $nav.toggleClass('scrolling',$(this).scrollTop() > $nav.height())
+            $nav.toggleClass('without-scroll', $(this).scrollTop() < $nav.height());
+        })
+    </script>
 
 @endsection
 

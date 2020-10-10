@@ -10899,6 +10899,18 @@ a.text-dark:focus {
   }
 }
 
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.client-section,
+.our-deals {
+  background-color: #fff;
+  padding: 40px 0px;
+}
+
 .client-section .heading,
 .our-deals .heading {
   text-transform: uppercase;
@@ -10923,7 +10935,30 @@ a.text-dark:focus {
 .client-section #our-clients .owl-carousel .owl-next,
 .our-deals #our-clients .owl-carousel .owl-prev,
 .our-deals #our-clients .owl-carousel .owl-next {
-  display: none !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.client-section #our-clients .owl-carousel .owl-prev span,
+.client-section #our-clients .owl-carousel .owl-next span,
+.our-deals #our-clients .owl-carousel .owl-prev span,
+.our-deals #our-clients .owl-carousel .owl-next span {
+  font-size: 24px;
+}
+
+.client-section #our-clients .owl-carousel .owl-prev,
+.our-deals #our-clients .owl-carousel .owl-prev {
+  background-color: #DDB32A !important;
+  margin-left: -60px;
+}
+
+.client-section #our-clients .owl-carousel .owl-next,
+.our-deals #our-clients .owl-carousel .owl-next {
+  background-color: #53ac1f !important;
+  margin-right: -60px;
 }
 
 .client-section #our-clients .owl-carousel .owl-dots .owl-dot,
@@ -10942,7 +10977,7 @@ a.text-dark:focus {
 
 .client-section #our-clients .owl-carousel .owl-dots .owl-dot.active,
 .our-deals #our-clients .owl-carousel .owl-dots .owl-dot.active {
-  background-color: #ddb329 !important;
+  background-color: #ddb32a !important;
 }
 
 .client-section #our-clients .owl-carousel .owl-item,
@@ -10952,8 +10987,8 @@ a.text-dark:focus {
 
 .client-section #our-clients .owl-carousel .owl-item .item,
 .our-deals #our-clients .owl-carousel .owl-item .item {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10978,39 +11013,115 @@ a.text-dark:focus {
   -o-transition: all 0.5s;
 }
 
-.our-deals {
-  background-color: #fff;
-  padding: 40px 0px;
-}
-
 .our-deals .filter-btn-grps {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@media (max-width: 575px) {
+  .our-deals .filter-btn-grps {
+    display: block;
+  }
+}
+
 .our-deals .filter-btn-grps .filter-btn {
   padding: 4px 10px;
-  border: 3px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
   margin: 0px 10px;
   transition: all 0.5s;
   border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .our-deals .filter-btn-grps .filter-btn:hover {
   cursor: pointer;
-  border-bottom: 3px solid #52AB22;
+  border-bottom: 2px solid #52AB22;
   color: #52AB22;
 }
 
 .our-deals .filter-btn-grps .filter-btn.active {
-  border-bottom: 3px solid #DDB32A;
+  border-bottom: 2px solid #DDB32A;
   color: #DDB32A;
 }
 
-.fancybox-bg {
-  background-color: #fff !important;
+.our-deals .filter-container {
+  padding: 0px 10% !important;
+}
+
+@media (max-width: 575px) {
+  .our-deals .filter-container {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .our-deals .filter-container {
+    padding: 0px 7% !important;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .our-deals .filter-container {
+    padding: 0px 8% !important;
+  }
+}
+
+.our-deals .filter-container .preview-link {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.our-deals .filter-container .outer-round {
+  width: 40px;
+  height: 40px;
+  background-color: #DDB32A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.our-deals .filter-container .outer-round i {
+  color: #52AB22;
+}
+
+.our-deals .filter-container .outer-round:hover {
+  background-color: #52AB22;
+}
+
+.our-deals .filter-container .outer-round:hover i {
+  color: #DDB32A;
+}
+
+.our-deals .filter-container .filtr-item {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+}
+
+.our-deals .filter-container .filtr-item:hover {
+  background-color: #29231B;
+}
+
+.our-deals .filter-container .filtr-item:hover .preview-link {
+  opacity: 1;
+  visibility: visible;
 }
 
 .track-records-bg {
@@ -11060,6 +11171,109 @@ a.text-dark:focus {
     justify-content: center;
     align-items: center;
   }
+}
+
+.dropcap-3.yellow p:first-letter {
+  background-color: #DDB32A;
+}
+
+#career-top-section {
+  height: 90%;
+}
+
+#career-top-section .career-bg {
+  background: linear-gradient(83deg, #020024 0%, #ddb329 0%, #aeb027 50%, #52ab22 100%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#career-top-section .career-bg h3 {
+  color: #ffffff;
+}
+
+#career-top-section .career-bg .text-content p {
+  color: #fff;
+}
+
+#career-top-section .career-bg .career-img {
+  position: absolute;
+  right: 0px;
+  bottom: -50px;
+  z-index: 1;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 575px) {
+  #career-top-section .career-bg .career-img {
+    bottom: -75px;
+  }
+}
+
+.navigation-fixed-wrapper.scrolling {
+  background-color: #fff;
+}
+
+.navigation-fixed-wrapper.without-scroll {
+  background-color: transparent;
+  position: absolute;
+  border-bottom: none;
+}
+
+@media (min-width: 993px) {
+  .navigation-fixed-wrapper.without-scroll {
+    top: 48px !important;
+  }
+}
+
+.navigation-fixed-wrapper.without-scroll .navigation {
+  background-color: transparent;
+}
+
+.positions {
+  padding: 50px 0px;
+}
+
+.positions .join-our-team {
+  font-weight: 700;
+}
+
+.positions .opening-heading {
+  text-transform: uppercase;
+}
+
+.positions .openings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.positions .openings .opening-name {
+  color: #000;
+  font-weight: 600;
+}
+
+.positions .openings:hover {
+  background-color: #EFEFEF;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.position-overview .position-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.position-overview .overview-heading {
+  text-transform: uppercase;
+}
+
+.position-overview ul li {
+  color: #999;
+  margin: 5px 0px;
 }
 
 .navbar-laravel {
