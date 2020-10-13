@@ -80,8 +80,8 @@ Route::get('/careers/investment-banking',function(){
 Route::get('/careers/finance-analyst',function(){
     return view('careers.finance-analyst');
 });
-Route::get('/careers-new', function () {
-    return view("careers.career-new")->with([
+Route::get('/careers-old', function () {
+    return view("careers.career-old")->with([
         'message' => null,
     ]);
 });

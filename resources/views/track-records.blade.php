@@ -37,14 +37,13 @@
                 </li>
                 <!-- To choose the value by which you want to sort add -->
                 <select class='filter-btn' data-sortOrder>
-                    <option value="month">Date / Month</option>
+                    <option value="year">Year</option>
                 </select>
             </ul>
 
             <div class="filter-container">
-                
-                <div class="filtr-item "  data-category="1" data-month="1" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item "  data-category="1" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/caz.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -53,8 +52,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="2, 1" data-month="2" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/accelence-1.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -63,8 +62,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1, 3,4" data-month="3">
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2019">
+                    <img src="/img/track-records/eng/normal/accelence-2.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -73,8 +72,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1,4" data-month="4" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/accelence-3.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -83,8 +82,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1, 4" data-month="5" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/aq-estate.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -93,8 +92,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1,2" data-month="6" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2020" >
+                    <img src="/img/track-records/eng/normal/bafs.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -103,8 +102,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1, 2,3" data-month="7" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="2" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/blisstel-1.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -113,8 +112,247 @@
                         </div>
                     </a>
                 </div>
-                <div class="filtr-item" data-category="1" data-month="8" >
-                    <img src="/img/track-records/caz.png" alt="sample" />
+                <div class="filtr-item" data-category="4" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/blisstel-valuation.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="filtr-item" data-category="3" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/country.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/cpl-1.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/cpl-2.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="filtr-item" data-category="2" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/digital-tech.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2020" >
+                    <img src="/img/track-records/eng/normal/eason.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2016" >
+                    <img src="/img/track-records/eng/normal/eic.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2018" >
+                    <img src="/img/track-records/eng/normal/food-capitals-1.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/food-capitals-2.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="filtr-item" data-category="2" data-year="2015" >
+                    <img src="/img/track-records/eng/normal/general-beverage.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="filtr-item" data-category="2" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/hydrotek.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="filtr-item" data-category="4" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/itc-1.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/itc-2.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="filtr-item" data-category="4" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/itm-1.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/itm-2.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="filtr-item" data-category="4" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/itm-3.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="filtr-item" data-category="1" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/kunalai.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2016" >
+                    <img src="/img/track-records/eng/normal/nathalin.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/prime.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="filtr-item" data-category="2" data-year="2015" >
+                    <img src="/img/track-records/eng/normal/pylon.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="2" data-year="2016" >
+                    <img src="/img/track-records/eng/normal/siam.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="3" data-year="2017" >
+                    <img src="/img/track-records/eng/normal/takuni.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2020" >
+                    <img src="/img/track-records/eng/normal/tu-property.png" alt="" />
+                    <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
+                        <div class="preview-link">
+                            <div class="outer-round">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="filtr-item" data-category="4" data-year="2019" >
+                    <img src="/img/track-records/eng/normal/world-united-logistic.png" alt="" />
                     <a href="/img/track-records/preview/caz-preview.png" data-fancybox="images" data-caption="My caption">
                         <div class="preview-link">
                             <div class="outer-round">
@@ -139,6 +377,6 @@
         })
         var filter = $('.filter-container').filterizr({
         })
-        filter.sort('month', 'desc');
+        filter.sort('year', 'desc');
     </script>
 @endsection

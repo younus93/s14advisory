@@ -11200,14 +11200,30 @@ html {
 #career-top-section .career-bg .career-img {
   position: absolute;
   right: 0px;
-  top: 10px;
+  top: 50%;
   z-index: 1;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: block;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   #career-top-section .career-bg .career-img {
-    bottom: -75px;
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  #career-top-section .career-bg .career-img {
+    transform: scale(0.9) translate(5%, -50%);
+    -webkit-transform: scale(0.9) translate(5%, -50%);
+    -moz-transform: scale(0.9) translate(5%, -50%);
+    -ms-transform: scale(0.9) translate(5%, -50%);
+    -o-transform: scale(0.9) translate(5%, -50%);
   }
 }
 

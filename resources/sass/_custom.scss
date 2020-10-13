@@ -338,12 +338,26 @@
         .career-img{
             position: absolute;
             right:0px;
-            // bottom: -50px;
-            top:10px;
+            //bottom: -50px;
+            top:50%;
             z-index: 1;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-            @media(max-width: 575px){
-                bottom: -75px;
+            display: block;
+            transform:translate(0%,-50%);
+            -webkit-transform:translate(0%,-50%);
+            -moz-transform:translate(0%,-50%);
+            -ms-transform:translate(0%,-50%);
+            -o-transform:translate(0%,-50%);
+            @media(max-width: 767px){
+                // bottom: -75px;
+                display: none;
+            }
+            @media(max-width:991px){
+                transform: scale(0.9) translate(5%,-50%);
+                -webkit-transform: scale(0.9) translate(5%,-50%);
+                -moz-transform: scale(0.9) translate(5%,-50%);
+                -ms-transform: scale(0.9) translate(5%,-50%);
+                -o-transform: scale(0.9) translate(5%,-50%);
             }
         }
     }
