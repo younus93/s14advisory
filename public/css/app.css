@@ -11178,11 +11178,11 @@ html {
 }
 
 #career-top-section {
-  height: 90%;
+  height: 60%;
 }
 
 #career-top-section .career-bg {
-  background: linear-gradient(83deg, #020024 0%, #ddb329 0%, #aeb027 50%, #52ab22 100%);
+  background: linear-gradient(83deg, #020024 0%, #ddb329 0%, #eeeeee 0%, #aaaaaa 100%);
   height: 100%;
   display: flex;
   align-items: center;
@@ -11190,17 +11190,17 @@ html {
 }
 
 #career-top-section .career-bg h3 {
-  color: #ffffff;
+  color: #000;
 }
 
 #career-top-section .career-bg .text-content p {
-  color: #fff;
+  color: #000;
 }
 
 #career-top-section .career-bg .career-img {
   position: absolute;
   right: 0px;
-  bottom: -50px;
+  top: 10px;
   z-index: 1;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
@@ -11231,16 +11231,14 @@ html {
   background-color: transparent;
 }
 
-.positions {
-  padding: 50px 0px;
-}
-
 .positions .join-our-team {
   font-weight: 700;
+  text-align: center;
 }
 
 .positions .opening-heading {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .positions .openings {
@@ -11269,6 +11267,7 @@ html {
 
 .position-overview .overview-heading {
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .position-overview ul li {

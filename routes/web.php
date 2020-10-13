@@ -74,3 +74,14 @@ Route::get('/track-records',function(){
 Route::get('/careers/vice-president',function(){
     return view('careers.vice-president');
 });
+Route::get('/careers/investment-banking',function(){
+    return view('careers.investment-banking');
+});
+Route::get('/careers/finance-analyst',function(){
+    return view('careers.finance-analyst');
+});
+Route::get('/careers-new', function () {
+    return view("careers.career-new")->with([
+        'message' => null,
+    ]);
+});

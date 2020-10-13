@@ -6,7 +6,7 @@
     <section class="position-overview">
         <div class="container">
             <div class="position-heading pt-5 pb-4">
-                <h3>Vice President (Financial Advisor)</h3>
+                <h3>Finance Analyst</h3>
                 <div>
                     <button class="primary-button button-sm full-width semi-rounded" data-toggle="modal" data-target="#positionForm">
                         Apply for position
@@ -24,25 +24,25 @@
             <div class="my-4">
                 <h6 class="overview-heading">Responsibilities:</h6>
                 <ul>
-                    <li>Lead engagement teams and manage client deliverables and engagement execution.</li>
-                    <li>Maximize clients’ benefits by providing financial advisory services in terms of issuing and 
-                        offering securities, merger and acquisition, independent financial advisor, etc.</li>
-                    <li>Manage and coach junior engagement team members</li>
-                    <li>Lead engagement documentation negotiations, due diligence meetings and serve as the primary client contact</li>
-                    <li>Review valuation opinions and financial models</li>
-                    <li>Present financial analysis to client senior management, internal engagement review committee and other relevant client advisors.</li>
+                    <li>Collect relevant data, analyzefinancial data,and create financial models for decision support.</li>
+                    <li>Conduct comparable analysis and market research to support financial analysis.</li>
+                    <li>Work closely with the team to ensure accurate financial reporting.</li>
+                    <li>Develop financial models to support valuation, planning, and forecasting.</li>
+                    <li>Prepare and give business reviews and presentationsto the Senior managementteam.</li>
+                    <li>Create recommendations to be presented to management and executives.</li>
+                    <li>Maintain up-to-date technical knowledge of financial instruments, market conditions, andtrends.</li>
+                    <li>Assist the senior management team inthedeal execution process</li>
                 </ul>
             </div>
             <div class="my-4">
                 <h6 class="overview-heading">Requirements:</h6>
                 <ul>
-                    <li>Master’s Degree in Finance or Accounting.</li>
-                    <li>CFA preferred.</li>
-                    <li>5+ year work experience in investment banking and possess FA license are preferable</li>
-                    <li>Able to execute various IB transactions i.e. IPO, Valuation, Merger and Acquisition, IFA, etc. with strong knowledge of SEC and SET regulations.</li>
-                    <li>Proven experience leading teams and executing client engagements</li>
-                    <li>Superb presentation, interpersonal, communication skills and positive attitude.</li>
-                    <li>Excellent spoken and written English</li>
+                    <li>Bachelor’s Degree or higher in Finance or Accounting.</li>
+                    <li>Ability to streamline functions and the passion to learn and grow.</li>
+                    <li>Strong interpersonal skills, including written and oral communication skills in English</li>
+                    <li>Strong fluency with Excel formulas and functions.</li>
+                    <li>Strong analytical and data gathering skills</li>
+                    <li>Strong quantitative and analytical competency.</li>
                 </ul>
             </div>
             <div class="my-4">

@@ -6,7 +6,7 @@
     <section class="position-overview">
         <div class="container">
             <div class="position-heading pt-5 pb-4">
-                <h3>Vice President (Financial Advisor)</h3>
+                <h3>Investment Banking (Manager Level)</h3>
                 <div>
                     <button class="primary-button button-sm full-width semi-rounded" data-toggle="modal" data-target="#positionForm">
                         Apply for position
@@ -24,25 +24,21 @@
             <div class="my-4">
                 <h6 class="overview-heading">Responsibilities:</h6>
                 <ul>
-                    <li>Lead engagement teams and manage client deliverables and engagement execution.</li>
-                    <li>Maximize clients’ benefits by providing financial advisory services in terms of issuing and 
-                        offering securities, merger and acquisition, independent financial advisor, etc.</li>
-                    <li>Manage and coach junior engagement team members</li>
-                    <li>Lead engagement documentation negotiations, due diligence meetings and serve as the primary client contact</li>
-                    <li>Review valuation opinions and financial models</li>
-                    <li>Present financial analysis to client senior management, internal engagement review committee and other relevant client advisors.</li>
+                    <li>Developing financial analysis and financial model for the valuation of securities such as pricing for offerings or M&A transaction.</li>
+                    <li>Conducting due diligence process.</li>
+                    <li>Conducting researches to perform various analysis in preparation for pitching with clients</li>
+                    <li>Producing presentation materials to convey key messages and preparing/reviewing valuation of a business</li>
+                    <li>Assisting deal execution process including corporate finance, regulatory and marketing process</li>
+                    <li>Drafting and preparing prospectus and/or information memorandumand/orroad show materials.</li>
+                    <li>Assisting senior bankers in servicing and maintaining client relationship</li>
                 </ul>
             </div>
             <div class="my-4">
                 <h6 class="overview-heading">Requirements:</h6>
                 <ul>
-                    <li>Master’s Degree in Finance or Accounting.</li>
-                    <li>CFA preferred.</li>
-                    <li>5+ year work experience in investment banking and possess FA license are preferable</li>
-                    <li>Able to execute various IB transactions i.e. IPO, Valuation, Merger and Acquisition, IFA, etc. with strong knowledge of SEC and SET regulations.</li>
-                    <li>Proven experience leading teams and executing client engagements</li>
-                    <li>Superb presentation, interpersonal, communication skills and positive attitude.</li>
-                    <li>Excellent spoken and written English</li>
+                    <li>Bachelor’s Degree or higher in Finance or Accounting.</li>
+                    <li>Excellent in spoken and written English.</li>
+                    <li>At least 2 years work experience in Investment Banking with strong knowledge of SEC and SET regulations, FA license are preferable (for manager level)</li>
                 </ul>
             </div>
             <div class="my-4">
