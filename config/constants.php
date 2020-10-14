@@ -101,9 +101,7 @@ return [
         ],
         'phanob-jaratpreedar' => [
             'name' => 'Mr. Phanob Jaratpreedar',
-            'bio' => 'Phanob Jaratpreedar graduated with the first-class honor in industrial engineering from Chulalongkorn University. He has over 4 years of experience in consulting and digital banking. His past projects include IFRS9 impact assessment, 
-                      liquidity risk modeling and AI-driven marketing analytics. Before joining S14 Advisory, he worked as a partnership engineer at KASIKORN LABS, the innovation lab at KASIKORNBANK GROUP. He enrolled the CFA program and passed all three levels 
-                      of the program.',
+            'bio' => 'Phanob Jaratpreedar graduated with the first-class honor in industrial engineering from Chulalongkorn University. He has over 4 years of experience in consulting and digital banking. His past projects include IFRS9 impact assessment, liquidity risk modeling and AI-driven marketing analytics. Before joining S14 Advisory, he worked as a partnership engineer at KASIKORN LABS, the innovation lab at KASIKORNBANK GROUP. He enrolled the CFA program and passed all three levels of the program.',
             'role' => 'Manager',
             'experience' => [
                 'Jun 2020 – present at S14 Advisory Co., Ltd. Manager in Investment Banking Department',

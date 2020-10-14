@@ -36,16 +36,16 @@
                     <i class="fa fa-arrow-down"></i>Year
                 </li>
                 <!-- To choose the value by which you want to sort add -->
-                <select class='filter-btn' data-sortOrder>
+                <select hidden class='filter-btn' data-sortOrder>
                     <option value="year">Year</option>
                 </select>
             </ul>
 
             <div class="filter-container">
                 @foreach($clientsRecord as $slug => $record)
-                    <div class="filtr-item" data-category="{{ $record['category'] }}" data-year="{{ $record['year']  }}" >
-                        <img src="{{ $record['url'] }}" alt="" />
-                        <a href="{{ $record['preview'] }}" data-fancybox="images" data-caption="">
+                    <div class="filtr-item" style="width : 300px; padding : 5px" data-category="{{ $record['category'] }}" data-year="{{ $record['year']  }}" >
+                        <img src="{{ __($record['url']) }}" alt="" />
+                        <a href="{{ __($record['preview']) }}" data-fancybox="images" data-caption="">
                             <div class="preview-link">
                                 <div class="outer-round">
                                     <i class="fa fa-eye"></i>
