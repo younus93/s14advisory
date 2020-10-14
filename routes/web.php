@@ -68,7 +68,9 @@ Route::get('/team/{slug}', function ($slug) {
 });
 
 Route::get('/track-records',function(){
-    return view('track-records');
+    return view('track-records')->with([
+        'clientsRecord' => config('constants.clients-record')
+    ]);
 });
 
 Route::get('/careers/vice-president',function(){
