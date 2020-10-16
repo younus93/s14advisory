@@ -144,7 +144,7 @@
         .outer-round{
             width: 40px;
             height: 40px;
-            background-color: #DDB32A;
+            background-color: #eee;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -155,12 +155,12 @@
             -ms-transition: all 0.5s;
             -o-transition: all 0.5s;
             i{
-                color: #52AB22;
+                color: #aaa;
             }
             &:hover{
-                background-color:#52AB22;
+                background-color:#aaa;
                 i{
-                    color: #DDB32A;
+                    color: #eee;
                 }
             }
         }
@@ -284,7 +284,14 @@
     }
     .main-heading{
         position: absolute;
-        bottom: 90px;
+        //bottom: 90px;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-25%);
+        -webkit-transform: translate(-50%,-25%);
+        -moz-transform: translate(-50%,-25%);
+        -ms-transform: translate(-50%,-25%);
+        -o-transform: translate(-50%,-25%);
         h2{
             font-size: 100px;
             color: #fff;

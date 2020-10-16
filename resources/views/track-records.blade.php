@@ -5,26 +5,40 @@
 @endsection
 
 @section('content')
-    <div class="track-records-bg">
+    <div class="track-records-bg swiper-main-slider-fade swiper-container">
         <!-- <div class="watery-heading">
             <h1>Track Records</h1>
         </div>
         <div class="main-heading">
             <h2>Track Records</h2>
         </div> -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="">
+                    <div class="slider-content center-holder">
+                        <div class="watery-heading extra-light animated fadeInDown">
+                            <h1>Track Records</h1>
+                        </div>
+                        <div class="main-heading">
+                            <h2 class="animated fadeInUp">Our Clients</h2>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     @include('clients')
 
-    <section class="our-deals ">
+    <section class="our-deals">
         <h2 class="heading text-center">Our Deals</h2>
         <div class="container">
             <ul class="filter-btn-grps">
                 <!-- For filtering controls add -->
                 <li class='filter-btn active' data-filter="all"> All</li>
-                <li class='filter-btn' data-filter="1">IPO</li>
-                <li class='filter-btn' data-filter="2">Financial Advisor</li>
-                <li class='filter-btn' data-filter="3">Independent Financial Advisor</li>
+                <li class='filter-btn' data-filter="1">Initial Public Offering(IPO)</li>
+                <li class='filter-btn' data-filter="2">Financial Advisor(FA)</li>
+                <li class='filter-btn' data-filter="3">Independent Financial Advisor(IFA)</li>
                 <li class='filter-btn' data-filter="4">Valuation</li>
                 <!-- For a shuffle control add -->
                 <!-- <li class='filter-btn' data-shuffle> Shuffle items </li> -->
@@ -60,16 +74,20 @@
 @endsection
 
 @section('scripts')
-    <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/buttonbs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script>
-        $('.filter-btn-grps .filter-btn').click(function(){
-                $('.filter-btn').removeClass("active");
-                $(this).addClass("active");
+        $(document).ready(function (){
+            $('.filter-btn-grps .filter-btn').click(function(){
+                    $('.filter-btn').removeClass("active");
+                    $(this).addClass("active");
+            })
+            var filter = $('.filter-container').filterizr({
+            })
+            $('header').css({
+                'position' : "absolute",
+                'width' : "100%"
+            })
         })
-        var filter = $('.filter-container').filterizr({
-        })
-        filter.sort('year', 'desc');
     </script>
 @endsection

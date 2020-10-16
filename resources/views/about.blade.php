@@ -17,7 +17,7 @@
         <div class="row mt-40">
             <div class="hidden-md-down col-md-6 col-sm-12 col-12">
                 <div class="pr-45-md text-center">
-                <img src="img/content/finance/about-us.jpeg"
+                <img src="img/content/finance/about-us.png"
                 class="rounded-border shadow-primary full-width" alt="img"
                 style="width: 70%;"></div>
             </div>

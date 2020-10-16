@@ -315,6 +315,24 @@ return [
             'preview' => '/img/track-records/eng/preview/world-united-logistic-preview.png',
             'year' => 2019,
             'category' => 4,
+        ],    
+        'ccg' => [
+            'url' => '/img/track-records/eng/normal/ccg.png',
+            'preview' => '/img/track-records/eng/preview/ccg-preview.png',
+            'year' => 2017,
+            'category' => 4,
         ],      
+        'click' => [
+            'url' => '/img/track-records/eng/normal/click.png',
+            'preview' => '/img/track-records/eng/preview/click-preview.png',
+            'year' => 2018,
+            'category' => 4,
+        ],    
+        'print-master' => [
+            'url' => '/img/track-records/eng/normal/print-master.png',
+            'preview' => '/img/track-records/eng/preview/print-master-preview.png',
+            'year' => 2018,
+            'category' => 4,
+        ],    
     ]
 ];

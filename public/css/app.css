@@ -11087,7 +11087,7 @@ html {
 .our-deals .filter-container .outer-round {
   width: 40px;
   height: 40px;
-  background-color: #DDB32A;
+  background-color: #eee;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -11100,15 +11100,15 @@ html {
 }
 
 .our-deals .filter-container .outer-round i {
-  color: #52AB22;
+  color: #aaa;
 }
 
 .our-deals .filter-container .outer-round:hover {
-  background-color: #52AB22;
+  background-color: #aaa;
 }
 
 .our-deals .filter-container .outer-round:hover i {
-  color: #DDB32A;
+  color: #eee;
 }
 
 .our-deals .filter-container .filtr-item {
@@ -11156,7 +11156,13 @@ html {
 
 .track-records-bg .main-heading {
   position: absolute;
-  bottom: 90px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
+  -webkit-transform: translate(-50%, -25%);
+  -moz-transform: translate(-50%, -25%);
+  -ms-transform: translate(-50%, -25%);
+  -o-transform: translate(-50%, -25%);
 }
 
 .track-records-bg .main-heading h2 {

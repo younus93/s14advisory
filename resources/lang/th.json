@@ -243,6 +243,15 @@
   "/img/track-records/eng/preview/tu-property-preview.png" : "/img/track-records/thai/preview/tu-property-preview-thai.png",
 
   "/img/track-records/eng/normal/world-united-logistic.png" : "/img/track-records/thai/normal/world-united-logistic-thai.png",
-  "/img/track-records/eng/preview/world-united-logistic-preview.png" : "/img/track-records/thai/preview/world-united-logistic-preview-thai.png"
+  "/img/track-records/eng/preview/world-united-logistic-preview.png" : "/img/track-records/thai/preview/world-united-logistic-preview-thai.png",
+
+  "/img/track-records/eng/normal/ccg.png" : "/img/track-records/thai/normal/ccg-thai.png",
+  "/img/track-records/eng/preview/ccg-preview.png" : "/img/track-records/thai/preview/ccg-preview-thai.png",
+
+  "/img/track-records/eng/normal/click.png" : "/img/track-records/thai/normal/click-thai.png",
+  "/img/track-records/eng/preview/click-preview.png" : "/img/track-records/thai/preview/click-preview-thai.png",
+
+  "/img/track-records/eng/normal/print-master.png" : "/img/track-records/thai/normal/print-master-thai.png",
+  "/img/track-records/eng/preview/print-master-preview.png" : "/img/track-records/thai/preview/print-master-preview-thai.png"
 
 }

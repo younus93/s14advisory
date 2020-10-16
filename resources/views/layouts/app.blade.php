@@ -111,6 +111,13 @@
                     <li>
                         <a href="#contact">Contact Us</a>
                     </li>
+                @elseif(request()->path() == 'track-records')
+                    <li>
+                        <a href="#client-sec">Our Clients</a>
+                    </li>
+                    <li>
+                        <a href="/">Return Home</a>
+                    </li>
                 @else
                     <li>
                         <a href="/team">Our Team</a>

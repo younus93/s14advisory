@@ -52,8 +52,8 @@
             <div class="row justify-content-center align-items-center text-center">
                 <div class="col-md-6">
                     <img src="/img/logos/logo.png" style="max-height: 50px;" alt="logo" id="main_logo">
-                    <h6 class="overview-heading mt-3">S14 Advisory Company Limited</h6>
-                    <p>
+                    <h6 class="overview-heading mt-3 mb-0">S14 Advisory Company Limited</h6>
+                    <p style="line-height: 18px;margin: 0;">
                     170/37 Ocean Tower 1, 13thFloor, Soi Sukhumvit 16 (Sammitr),Ratchadaphisek Road, Klongtoey, Bangkok 10110
                     </p>
                 </div>
