@@ -19,8 +19,9 @@
                         <div class="watery-heading extra-light animated fadeInDown">
                             <h1>Track Records</h1>
                         </div>
-                        <div class="main-heading">
-                            <h2 class="animated fadeInUp">Our Clients</h2>
+                        <div class="main-heading animated fadeInUp">
+                            <h2 class=" sub-head1">Our Clients</h2>
+                            <!-- <h2 class="sub-head2">Our Deals</h2> -->
                         </div> 
                     </div>
                 </div>
@@ -32,7 +33,7 @@
 
     <section class="our-deals">
         <h2 class="heading text-center">Our Deals</h2>
-        <div class="container">
+        <div class="container for-large-window">
             <ul class="filter-btn-grps">
                 <!-- For filtering controls add -->
                 <li class='filter-btn active' data-filter="all"> All</li>
@@ -57,8 +58,8 @@
 
             <div class="filter-container">
                 @foreach($clientsRecord as $slug => $record)
-                    <div class="filtr-item" style="width : 300px; padding : 5px" data-category="{{ $record['category'] }}" data-year="{{ $record['year']  }}" >
-                        <img src="{{ __($record['url']) }}" alt="" />
+                    <div class="filtr-item for-large-window"  data-category="{{ $record['category'] }}" data-year="{{ $record['year']  }}" >
+                        <img src="{{ __($record['url']) }}" alt="" class="w-100 h-100"/>
                         <a href="{{ __($record['preview']) }}" data-fancybox="images" data-caption="">
                             <div class="preview-link">
                                 <div class="outer-round">
@@ -88,6 +89,16 @@
                 'position' : "absolute",
                 'width' : "100%"
             })
+            window.setInterval(function(){
+                changeText();
+            }, 5000);
+            function changeText(){
+                $('.slider-content .main-heading h2').animate({'opacity': 1, 'transition' : 'all 0.5s' }, 4000, function () {
+                    $(this).text('Our Deals');
+                }).animate({'opacity': 1, 'transition' : 'all 0.5s' }, 4000, function () {
+                    $(this).text('Our Clients');
+                })
+            }
         })
     </script>
 @endsection

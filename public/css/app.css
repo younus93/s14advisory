@@ -11013,6 +11013,14 @@ html {
   -o-transition: all 0.5s;
 }
 
+@media (min-width: 1400px) {
+  .client-section .for-large-window.container,
+  .our-deals .for-large-window.container {
+    width: 90% !important;
+    max-width: unset !important;
+  }
+}
+
 .our-deals .filter-btn-grps {
   display: flex;
   justify-content: center;
@@ -11113,6 +11121,15 @@ html {
 
 .our-deals .filter-container .filtr-item {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+  width: 300px;
+  padding: 5px;
+}
+
+@media (min-width: 1400px) {
+  .our-deals .filter-container .filtr-item.for-large-window {
+    width: 450px;
+    height: 400px;
+  }
 }
 
 .our-deals .filter-container .filtr-item:hover {
@@ -11156,7 +11173,7 @@ html {
 
 .track-records-bg .main-heading {
   position: absolute;
-  left: 50%;
+  left: 0%;
   top: 50%;
   transform: translate(-50%, -25%);
   -webkit-transform: translate(-50%, -25%);
@@ -11176,6 +11193,21 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #about .container {
+    max-width: unset;
+    width: 90%;
+  }
+
+  .fancybox-container .fancybox-stage img.fancybox-image {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
   }
 }
 

@@ -1,6 +1,6 @@
 
 <div class="client-section py-5" id="client-sec">
-    <div class="container">
+    <div class="container for-large-window">
         <h2 class="heading text-center">Our Clients</h2>
 
         <div id='our-clients'>
