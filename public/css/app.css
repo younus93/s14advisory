@@ -11171,6 +11171,33 @@ html {
   font-weight: 600;
 }
 
+@media (max-width: 360px) {
+  .track-records-bg .watery-heading h1,
+  .track-records-bg .watery-heading h2,
+  .track-records-bg .main-heading h1,
+  .track-records-bg .main-heading h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 575px) {
+  .track-records-bg .watery-heading h1,
+  .track-records-bg .watery-heading h2,
+  .track-records-bg .main-heading h1,
+  .track-records-bg .main-heading h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .track-records-bg .watery-heading h1,
+  .track-records-bg .watery-heading h2,
+  .track-records-bg .main-heading h1,
+  .track-records-bg .main-heading h2 {
+    font-size: 76px;
+  }
+}
+
 .track-records-bg .main-heading {
   position: absolute;
   left: 0%;
@@ -11185,6 +11212,42 @@ html {
 .track-records-bg .main-heading h2 {
   font-size: 100px;
   color: #fff;
+}
+
+@media (max-width: 360px) {
+  .track-records-bg .main-heading h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .track-records-bg .main-heading h2 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .track-records-bg .main-heading h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 360px) {
+  .track-records-bg .main-heading {
+    top: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .track-records-bg .main-heading {
+    top: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .track-records-bg .main-heading {
+    top: 65%;
+  }
 }
 
 @media (max-width: 576px) {
