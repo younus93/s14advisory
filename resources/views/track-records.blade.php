@@ -6,12 +6,6 @@
 
 @section('content')
     <div class="track-records-bg swiper-main-slider-fade swiper-container">
-        <!-- <div class="watery-heading">
-            <h1>Track Records</h1>
-        </div>
-        <div class="main-heading">
-            <h2>Track Records</h2>
-        </div> -->
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="">
@@ -98,6 +92,17 @@
                 }).animate({'opacity': 1, 'transition' : 'all 0.5s' }, 4000, function () {
                     $(this).text('Our Clients');
                 })
+            }
+
+            $('.navigation-fixed-wrapper').addClass('white-bg-remove')
+        })
+        $(document).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if(scroll > 30){
+                $('.navigation-fixed-wrapper').removeClass('white-bg-remove')
+            }
+            else{
+                $('.navigation-fixed-wrapper').addClass('white-bg-remove')
             }
         })
     </script>

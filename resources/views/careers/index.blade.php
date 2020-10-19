@@ -3,20 +3,9 @@
 
 @endsection
 @section('content')
-    
-    <!-- <div class="section-block-parallax jarallax black-overlay-20" data-jarallax data-speed="0.6"
-         style="background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
-        <div class="container">
-            <div class="large-heading center-holder">
-                <h2 class="white-color">We'd love to have you on board with us!</h2>
-                <div class="section-heading-line"></div>
-            </div>
-            {{--<div class="mt-25 center-holder"><a href="#" class="white-button button-md">Become a Client</a></div>--}}
-        </div>
-    </div> -->
     <div id='career-top-section'>
         <div class="career-bg">
-            <div class="container">
+            <div class="container for-large-window">
                 <div class="col-md-5">
                     <h3>Drop in a message</h3>
                     <div class="text-content">
@@ -34,7 +23,7 @@
     </div>
 
     <section class="positions">
-        <div class="container pt-5">
+        <div class="container pt-5 for-large-window">
             <h4 class="join-our-team">Join our team.</h4>
 
             <div>
