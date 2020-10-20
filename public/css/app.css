@@ -10905,6 +10905,16 @@ html {
   margin: 0;
 }
 
+@media (max-width: 575px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .client-section,
 .our-deals {
   background-color: #fff;
@@ -11274,6 +11284,10 @@ html {
   background-color: #DDB32A;
 }
 
+#values .wrapper {
+  font-family: unset;
+}
+
 @media (min-width: 1400px) {
   #about .container {
     max-width: unset;
@@ -11465,10 +11479,46 @@ html {
   border: 0.2em solid white;
   border-radius: 50%;
   position: absolute;
-  counter-increment: section;
-  content: counter(section);
   text-shadow: 0 1px 0 #424242;
   left: -4.5em;
+}
+
+.timeline--entry:nth-child(1):before {
+  content: "S";
+}
+
+.timeline--entry:nth-child(2):before {
+  content: "O";
+}
+
+.timeline--entry:nth-child(3):before {
+  content: "L";
+}
+
+.timeline--entry:nth-child(4):before {
+  content: "U";
+}
+
+.timeline--entry:nth-child(5):before {
+  content: "T";
+}
+
+.timeline--entry:nth-child(6):before {
+  content: "I";
+}
+
+.timeline--entry:nth-child(7):before {
+  content: "O";
+}
+
+.timeline--entry:nth-child(8):before {
+  content: "N";
+}
+
+@media (max-width: 768px) {
+  .timeline--entry {
+    margin: 10px 56px 10px 56px;
+  }
 }
 
 .timeline--entry__title {
@@ -11566,24 +11616,10 @@ html {
   border-right: 0;
 }
 
-@media (max-width: 768px) {
-  .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
-    left: -3%;
-    border-right: 10px solid #52AB22;
-    border-left: 0;
-  }
-}
-
 .timeline--entry:nth-of-type(even):before {
   left: 103%;
   z-index: 1;
   background-color: #52AB22;
-}
-
-@media (max-width: 768px) {
-  .timeline--entry:nth-of-type(even):before {
-    left: -3.8em;
-  }
 }
 
 .navbar-laravel {

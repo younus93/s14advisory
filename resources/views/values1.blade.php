@@ -225,70 +225,70 @@
                     <div class="wrapper">
                         <!-- <h1>Timeline Created With CSS Grid</h1> -->
                         <div class="timeline">
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title">
+                            <div class="timeline--entry" id='timeline1'>
+                                <div class="timeline--entry__title">
                                     Success
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.success') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title greenish">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline2'>
+                                <div class="timeline--entry__title greenish">
                                     Organization
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.organization') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline3'>
+                                <div class="timeline--entry__title">
                                     Loyalty
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.loyalty') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title greenish">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline4'>
+                                <div class="timeline--entry__title greenish">
                                     Understanding
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.understanding') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline5'>
+                                <div class="timeline--entry__title">
                                     Teamwork
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.teamwork') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title greenish">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline6'>
+                                <div class="timeline--entry__title greenish">
                                     Integrity
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.integrity') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline7'>
+                                <div class="timeline--entry__title">
                                     Outstanding
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.outstanding') }}
-                                </dd>
-                            </dl>
-                            <dl class="timeline--entry">
-                                <dt class="timeline--entry__title greenish">
+                                </div>
+                            </div>
+                            <div class="timeline--entry" id='timeline8'>
+                                <div class="timeline--entry__title greenish">
                                     Nimble
-                                </dt>
-                                <dd class="timeline--entry__detail">
+                                </div>
+                                <div class="timeline--entry__detail">
                                     {{ __('messages.nimble') }}
-                                </dd>
-                            </dl> 
+                                </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -448,13 +448,74 @@
 
 @section('scripts')
     @parent
+    <!-- Gsap Animation js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script> 
+    <!-- scrollmagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <!-- Debug Scrollmagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script>
         $('#accordionExample .card').on("click", function () {
             $(this).siblings().find(".card-header").removeClass("card-header-active");
             $(this).find(".card-header").toggleClass("card-header-active");
         });
-        $(document).scroll(function (){
-            console.log($( ".outer-box button" ).scrollTop());
-        })
+       
+        function solutionAnimation(){
+            var tl = new TimelineMax();
+            var width = window.innerWidth
+            const controller = new ScrollMagic.Controller();
+            
+            tl.from('.timeline #timeline1', {duration:1, xPercent: 100 , opacity: 0});
+            tl.from('.timeline #timeline2', {duration:1, xPercent: -100 , opacity: 0});
+            tl.from('.timeline #timeline3', {duration:1, xPercent: 100 , opacity: 0});
+            tl.from('.timeline #timeline4', {duration:1, xPercent: -100 , opacity: 0});
+            tl.from('.timeline #timeline5', {duration:1, xPercent: 100 , opacity: 0});
+            tl.from('.timeline #timeline6', {duration:1, xPercent: -100 , opacity: 0});
+            tl.from('.timeline #timeline7', {duration:1, xPercent: 100 , opacity: 0});
+            tl.from('.timeline #timeline8', {duration:1, xPercent: -100 , opacity: 0});
+            
+            if(width > 300 && width < 575){
+                const scene = new ScrollMagic.Scene({
+                    triggerElement: "#values .wrapper",
+                    triggerHook: "onEnter",
+                    duration: "200%",
+                })
+                .setTween(tl)
+                .addTo(controller)
+            }
+            else if(width > 575 && width < 992){
+                const scene = new ScrollMagic.Scene({
+                    triggerElement: "#values .wrapper",
+                    triggerHook: "onEnter",
+                    duration: "100%",
+                })
+                .setTween(tl)
+                .addTo(controller)
+            }
+            else if(width > 991 && width < 1400){
+                const scene = new ScrollMagic.Scene({
+                    triggerElement: "#values .wrapper",
+                    triggerHook: "onEnter",
+                    duration: "220%",
+                })
+                .setTween(tl)
+                .addTo(controller)
+            }
+            else if(width > 1400){
+                const scene = new ScrollMagic.Scene({
+                    triggerElement: "#values .wrapper",
+                    triggerHook: "onEnter",
+                    duration: "100%",
+                })
+                .setTween(tl)
+                .addTo(controller)
+            }
+        }
+
+        var solution_section = gsap.timeline();// solution section
+
+            solution_section.add(solutionAnimation())
     </script>
 @append

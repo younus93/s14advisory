@@ -2,6 +2,14 @@
     padding: 0;
     margin:0;
 }
+@media(max-width:575px){
+    html{
+        overflow-x: hidden;
+    }
+}
+body{
+    overflow-x: hidden;
+}
 .client-section,.our-deals{
     background-color: #fff;
     padding: 40px 0px;
@@ -296,6 +304,9 @@
             }
         }
     }
+    .wrapper{
+        font-family: unset;
+    }
 }
 
 @media(min-width:1400px){
@@ -512,11 +523,54 @@
 		border: .2em solid white;
 		border-radius: 50%;
 		position: absolute;
-		counter-increment: section;
-		content: counter(section);
+		// counter-increment: section;
+		// content: counter(section);
 		text-shadow: 0 1px 0 #424242;
 		left: -4.5em;
+    }
+    &:nth-child(1) {
+        &:before{
+            content: "S";
+        }
 	}
+	&:nth-child(2) {
+        &:before{
+            content: "O";
+        }
+	}
+	&:nth-child(3) {
+		&:before{
+            content: "L";
+        }
+	}
+	&:nth-child(4) {
+		&:before{
+            content: "U";
+        }
+	}
+	&:nth-child(5) {
+		&:before{
+            content: "T";
+        }
+    }
+    &:nth-child(6) {
+		&:before{
+            content: "I";
+        }
+    }
+    &:nth-child(7) {
+		&:before{
+            content: "O";
+        }
+    }
+    &:nth-child(8) {
+		&:before{
+            content: "N";
+        }
+    }
+    @media(max-width:768px){
+        margin:10px 56px 10px 56px;
+    }
 }
 .timeline--entry__title {
 	color: white;
@@ -548,15 +602,6 @@
     padding: 1em;
 }
 
-// @supports {
-// 	(display: {
-// 		grid) {
-// 			@media (min-width: 768px) { .timeline { display: grid;
-// 			grid-gap: 4.75em;
-// 			grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5";
-// 		}
-// 	}
-// }
 @media (min-width: 768px) {
     .timeline {
       display: grid;
@@ -611,11 +656,11 @@
 					left: 100%;
 					border-left: 10px solid #52AB22;
                     border-right: 0;
-                    @media(max-width: 768px){
-                        left: -3%;
-                        border-right: 10px solid #52AB22;
-                        border-left: 0;
-                    }
+                    // @media(max-width: 768px){
+                    //     left: -3%;
+                    //     border-right: 10px solid #52AB22;
+                    //     border-left: 0;
+                    // }
 				}
 			}
 		}
@@ -623,9 +668,9 @@
             left: 103%;
             z-index: 1;
             background-color: #52AB22;
-            @media(max-width: 768px){
-                left: -3.8em;
-            }
+            // @media(max-width: 768px){
+            //     left: -3.8em;
+            // }
 		}
 	}
 }
