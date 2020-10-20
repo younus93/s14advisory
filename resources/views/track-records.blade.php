@@ -95,9 +95,16 @@
             }
 
             $('.navigation-fixed-wrapper').addClass('white-bg-remove')
+
+            var scroll_width = $(window).innerWidth();
+            // alert(scroll_width)
+            if(scroll_width < 575){
+                $('.navigation-fixed-wrapper').removeClass('white-bg-remove')   
+            }
         })
         $(document).scroll(function(){
             var scroll = $(window).scrollTop();
+    
             if(scroll > 30){
                 $('.navigation-fixed-wrapper').removeClass('white-bg-remove')
             }
