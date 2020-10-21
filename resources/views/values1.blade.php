@@ -466,15 +466,15 @@
             var tl = new TimelineMax();
             var width = window.innerWidth
             const controller = new ScrollMagic.Controller();
-            
-            tl.from('.timeline #timeline1', {duration:1, xPercent: 100 , opacity: 0});
-            tl.from('.timeline #timeline2', {duration:1, xPercent: -100 , opacity: 0});
-            tl.from('.timeline #timeline3', {duration:1, xPercent: 100 , opacity: 0});
-            tl.from('.timeline #timeline4', {duration:1, xPercent: -100 , opacity: 0});
-            tl.from('.timeline #timeline5', {duration:1, xPercent: 100 , opacity: 0});
-            tl.from('.timeline #timeline6', {duration:1, xPercent: -100 , opacity: 0});
-            tl.from('.timeline #timeline7', {duration:1, xPercent: 100 , opacity: 0});
-            tl.from('.timeline #timeline8', {duration:1, xPercent: -100 , opacity: 0});
+            // {x: -100}, {duration: 1, x: 100}
+            tl.fromTo('.timeline #timeline1',{xPercent: 100,opacity:0},{duration:1, xPercent: 4,opacity:1});
+            tl.fromTo('.timeline #timeline2',{xPercent: -100,opacity:0},{duration:1, xPercent: -5 , opacity: 1});
+            tl.fromTo('.timeline #timeline3',{xPercent: 100,opacity:0},{duration:1, xPercent: 4,opacity:1});
+            tl.fromTo('.timeline #timeline4',{xPercent: -100,opacity:0}, {duration:1, xPercent: -5 , opacity: 1});
+            tl.fromTo('.timeline #timeline5',{xPercent: 100,opacity:0}, {duration:1, xPercent: 4,opacity:1});
+            tl.fromTo('.timeline #timeline6',{xPercent: -100,opacity:0}, {duration:1, xPercent: -5 , opacity: 1});
+            tl.fromTo('.timeline #timeline7',{xPercent: 100,opacity:0}, {duration:1, xPercent: 4,opacity:1});
+            tl.fromTo('.timeline #timeline8',{xPercent: -100,opacity:0}, {duration:1, xPercent: -5 , opacity: 1});
             
             if(width > 300 && width < 575){
                 const scene = new ScrollMagic.Scene({

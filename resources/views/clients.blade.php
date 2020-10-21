@@ -20,11 +20,11 @@
                         <img src="{{ asset('img/clients/bafs.jpg') }}"/>
                     </div>
                 </a>
-                <a href="/track-records">
+                <!-- <a href="/track-records">
                     <div class="item">
                         <img src="{{ asset('img/clients/eason.jpg') }}"/>
                     </div>
-                </a>
+                </a> -->
                 <a href="/track-records">
                     <div class="item">
                         <img src="{{ asset('img/clients/tu-property.jpg') }}"/>

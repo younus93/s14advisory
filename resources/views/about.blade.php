@@ -24,25 +24,41 @@
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="feature-block-3 left-holder"><i class="icon-shield-1"></i>
+                        <div class="feature-block-3 left-holder">
+                            <!-- <i class="icon-shield-1"></i> -->
+                            <div>
+                                <img src="/img/icons/financial-advisory-expert.png"/>
+                            </div>
                             <h4>{{ __('messages.financial_advisory') }}</h4>
                             <p>{{ __('messages.financial_advisory_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="feature-block-3 left-holder"><i class="icon-networking-12"></i>
+                        <div class="feature-block-3 left-holder">
+                            <div>
+                                <img src="/img/icons/extensive-client-network1.png"/>
+                            </div>
+                            <!-- <i class="icon-networking-12"></i> -->
                             <h4>{{ __('messages.client_network') }}</h4>
                             <p>{{ __('messages.client_network_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="feature-block-3 left-holder"><i class="icon-briefcase"></i>
+                        <div class="feature-block-3 left-holder">
+                            <div>
+                                <img src="/img/icons/flexibility.png"/>
+                            </div>
+                            <!-- <i class="icon-briefcase"></i> -->
                             <h4>{{ __('messages.flexibility') }}</h4>
                             <p>{{ __('messages.flexibility_text') }}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
-                        <div class="feature-block-3 left-holder"><i class="icon-target2"></i>
+                        <div class="feature-block-3 left-holder">
+                            <div>
+                                <img src="/img/icons/professionalism2.png"/>
+                            </div>
+                            <!-- <i class="icon-target2"></i> -->
                             <h4>{{ __('messages.professionalism') }}</h4>
                             <p>{{ __('messages.professionalism_text') }}</p>
                         </div>

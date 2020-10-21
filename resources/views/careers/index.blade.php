@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="career-img">
-                    <img src='/img/careers-bg1.jpeg' alt=''/>
+                    <img src='/img/careers-bg1.jpg' alt=''/>
                 </div>
             </div>
         </div>

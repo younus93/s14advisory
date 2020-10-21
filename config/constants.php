@@ -202,12 +202,12 @@ return [
             'year' => 2019,
             'category' => 2,
         ],
-        'eason' => [
-            'url' => '/img/track-records/eng/normal/eason.png',
-            'preview' => '/img/track-records/eng/preview/eason-preview.png',
-            'year' => 2020,
-            'category' => 4,
-        ],
+        // 'eason' => [
+        //     'url' => '/img/track-records/eng/normal/eason.png',
+        //     'preview' => '/img/track-records/eng/preview/eason-preview.png',
+        //     'year' => 2020,
+        //     'category' => 4,
+        // ],
         'eic' => [
             'url' => '/img/track-records/eng/normal/eic.png',
             'preview' => '/img/track-records/eng/preview/eic-preview.png',
