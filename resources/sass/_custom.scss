@@ -309,6 +309,11 @@ body{
             .yes{
                 display: none;
             }
+            @media(max-width:575px){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
 }
@@ -437,6 +442,12 @@ body{
                 -moz-transform: scale(0.9) translate(5%,-50%);
                 -ms-transform: scale(0.9) translate(5%,-50%);
                 -o-transform: scale(0.9) translate(5%,-50%);
+            }
+            @media(min-width: 1280px){
+                right: 7.5%;
+            }
+            @media(min-width: 1500px){
+                right: 6.5%;
             }
         }
     }

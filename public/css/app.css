@@ -11304,6 +11304,14 @@ body {
   display: none;
 }
 
+@media (max-width: 575px) {
+  #services .tab-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 #values .outer-box .inner-box {
   padding: 10px;
   height: 70px;
@@ -11407,6 +11415,18 @@ body {
     -moz-transform: scale(0.9) translate(5%, -50%);
     -ms-transform: scale(0.9) translate(5%, -50%);
     -o-transform: scale(0.9) translate(5%, -50%);
+  }
+}
+
+@media (min-width: 1280px) {
+  #career-top-section .career-bg .career-img {
+    right: 7.5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #career-top-section .career-bg .career-img {
+    right: 6.5%;
   }
 }
 
