@@ -4,7 +4,7 @@
 <head>
     <title>S14Advisory</title>
     <meta charset="UTF-8">
-    <meta name="description" content="description of your website/webpage, make sure you use keywords!">
+    <meta name="description" content="S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation's leading companies, small to medium-sized businesses, and other institutions">
     <meta property="og:title" content="s14advisory" />
     <meta property="og:url" content="https://s14advisory.com" />
     <meta property="og:description" content="S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation's leading companies, small to medium-sized businesses, and other institutions">
