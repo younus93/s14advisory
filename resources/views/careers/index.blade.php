@@ -77,6 +77,9 @@
                             <li class="list-group-item">
                                 <a target="_blank" href="{{ asset('Investment Banking (Manager).pdf') }}">Investment Banking</a>
                             </li>
+                            <li class="list-group-item">
+                                <a target="_blank" href="{{ asset('Finance Analyst.pdf') }}">Finance Analyst</a>
+                            </li>
                         </ul>
                     </div>
                     @if($message)
