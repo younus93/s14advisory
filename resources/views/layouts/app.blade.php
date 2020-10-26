@@ -5,10 +5,10 @@
     <title>S14Advisory</title>
     <meta charset="UTF-8">
     <meta name="description" content="description of your website/webpage, make sure you use keywords!">
-    <meta property="og:title" content="short title of your website/webpage" />
+    <meta property="og:title" content="s14advisory" />
     <meta property="og:url" content="https://s14advisory.com" />
-    <meta property="og:description" content="description of your website/webpage">
-    <meta property="og:image" content="/img/logos/logo.png">
+    <meta property="og:description" content="S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation's leading companies, small to medium-sized businesses, and other institutions">
+    <meta property="og:image" content="/img/logos/logo.png" style="width: 300px;height:200px">
     <link rel="shortcut icon" href="/img/logos/logo.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
