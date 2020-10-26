@@ -8,7 +8,7 @@
     <meta property="og:title" content="short title of your website/webpage" />
     <meta property="og:url" content="https://s14advisory.com" />
     <meta property="og:description" content="description of your website/webpage">
-    <meta property="og:image" content="/logos/logo.png">
+    <meta property="og:image" content="/img/logos/logo.png">
     <link rel="shortcut icon" href="/img/logos/logo.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
