@@ -32,6 +32,8 @@
 
     @include('services1')
 
+    @include('clients')
+
     @include('team')
 
     @include('contact')

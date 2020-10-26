@@ -67,4 +67,23 @@ Route::get('/team/{slug}', function ($slug) {
     ]);
 });
 
+Route::get('/track-records',function(){
+    return view('track-records')->with([
+        'clientsRecord' => config('constants.clients-record')
+    ]);
+});
 
+Route::get('/careers/vice-president',function(){
+    return view('careers.vice-president');
+});
+Route::get('/careers/investment-banking',function(){
+    return view('careers.investment-banking');
+});
+Route::get('/careers/finance-analyst',function(){
+    return view('careers.finance-analyst');
+});
+Route::get('/careers-old', function () {
+    return view("careers.career-old")->with([
+        'message' => null,
+    ]);
+});

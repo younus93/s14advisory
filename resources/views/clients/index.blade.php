@@ -283,7 +283,7 @@
         </div>
     </div>
 
-    @if(!$visitor)
+    <!-- @if(!$visitor)
         <div class="izimodal iziModal" id="modal6" data-izimodal-width="450px" data-izimodal-fullscreen="true"
              data-izimodal-transitionin="comingIn" aria-hidden="false" aria-labelledby="modal6" role="dialog"
              style="z-index: 999999; border-radius: 3px; max-width: 450px; display: block; max-height: 400px;">
@@ -335,7 +335,7 @@
             </div>
         </div>
         <div class="iziModal-overlay" style="background-color: rgba(0, 0, 0, 0.7); z-index: 999997;"></div>
-    @endif
+    @endif -->
 @endsection
 @section('scripts')
     <script>
