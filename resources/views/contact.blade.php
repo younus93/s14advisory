@@ -4,13 +4,34 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12 col-12">
-                <div class="contact-box-place-office"><i class="icon-building-1"></i><h4>S14 Advisory Company Limited</h4>
+                <div class="contact-box-place-office">
+                    <!-- <i class="icon-building-1"></i> -->
+                    <img src="/img/icons/building.png" style="width: 45px;"/>
+                    <h4>S14 Advisory Company Limited</h4>
                     <!-- <h6>170/37 Ocean Towers 1</h6> -->
                     <p>170/37, Ocean tower 1, 13th floor, Soi Sukhumvit 16(Sammitr), Ratchadaphisek Road, Klongtoey, Bangkok 10110.</p>
-                    <ul>
-                        <li><i class="fas fa-envelope-open"></i>info@s14advisory.com</li>
-                        <li><i class="fas fa-phone"></i>+66 2661 9955-8</li>
+                    <div class="d-flex justify-content-center align-items-center">
+                    <ul class="text-left">
+                        <li>
+                            <!-- <i class="fas fa-envelope-open"></i> -->
+                            <img src="/img/icons/email.png" style="width: 14px;margin-right:6px;"/>
+                            info@s14advisory.com
+                        </li>
+                        <li>
+                            <!-- <i class="fas fa-phone"></i> -->
+                            <img src="/img/icons/telephone.png" style="width: 14px;margin-right:6px;"/>
+                            +66 2661 9955-8
+                        </li>
+                        <li class="d-flex align-items-baseline">
+                            <img src="/img/icons/working-hours.png" style="width: 14px;margin-right:6px;"/>
+                            <div>
+                                <p class="mb-0">Working hours</p>
+                                <p class="mb-0">Weekdays: 08.00 - 19.00</p>
+                                <p class="mb-0">Weekends: Closed</p>
+                            </div> 
+                        </li>
                     </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-md-8 col-sm-12 col-12">

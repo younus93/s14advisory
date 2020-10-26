@@ -360,7 +360,7 @@ body{
             }
         }
     }
-    header{
+    header,#top-bar{
         .for-large-window{
             &.container{
                 max-width: unset;
@@ -734,4 +734,28 @@ body{
             }
 		}
 	}
+}
+
+
+#contact{
+    &.section-block-parallax{
+        padding: 90px 0px 48px 0px;
+        .contact-box-place-office{
+            padding: 20px;
+            li{
+                p{
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+#top-bar{
+    .top-bar-info{
+        li{
+            border-right: 1px solid #eee;
+        }
+    }
 }
