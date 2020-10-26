@@ -8,7 +8,7 @@
     <meta property="og:title" content="s14advisory" />
     <meta property="og:url" content="https://s14advisory.com" />
     <meta property="og:description" content="S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation's leading companies, small to medium-sized businesses, and other institutions">
-    <meta property="og:image" content="/img/logos/logo.png" style="max-width:50px;">
+    <meta property="og:image" content="/img/logos/logo-preview.png">
     <link rel="shortcut icon" href="/img/logos/logo.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
@@ -148,8 +148,8 @@
                     <p>Financial Advisory Services</p>
                 </div>
                 <ul class="footer-style-1-social-links">
-                    <li><a href="https://m.facebook.com/s14advisory/"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/s14-advisory-company-limited"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/s14advisory"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/s14-advisory-company-limited"><i class="fab fa-linkedin"></i></a></li>
                     <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
                     <li><a href="#"><i class="fab fa-skype"></i></a></li> -->
@@ -161,6 +161,14 @@
                     <li><i class="fa fa-phone"></i> <span>+66 2661 9955-8</span></li>
                     <li><i class="fa fa-envelope-open"></i> <span>info@s14advisory.com</span></li>
                     <li><i class="fa fa-map-marker-alt"></i> <span>Klongtoey, Bangkok 10110</span></li>
+                    <li class="d-flex align-items-baseline">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <div class="ml-1">
+                            <p class="mb-0">Working hours</p>
+                            <p class="mb-0">Weekdays: 08.00 - 19.00</p>
+                            <p class="mb-0">Weekends: Closed</p>
+                        </div> 
+                    </li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6 col-12">
