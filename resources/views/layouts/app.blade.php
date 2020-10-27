@@ -9,7 +9,7 @@
     <meta property="og:url" content="https://s14advisory.com" />
     <meta property="og:description" content="S14 Advisory Company Limited is the SEC certified in March 2016 and proudly serves the nation's leading companies, small to medium-sized businesses, and other institutions">
     <meta property="og:image" content="/img/logos/logo-preview.png">
-    <link rel="shortcut icon" href="/img/logos/logo.png"/>
+    <link rel="shortcut icon" href="/img/logos/logo-preview.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/themify-icons.css')  }}">
@@ -193,8 +193,8 @@
                         <!-- <i class="fa fa-map-marker-alt"></i> -->
                         <div class="ml-1">
                             <p class="mb-0">Working hours</p>
-                            <p class="mb-0">Weekdays: 08.00 - 19.00</p>
-                            <p class="mb-0">Weekends: Closed</p>
+                            <p class="mb-0" style="margin-left:-24px;">Weekdays: 08.00 - 19.00</p>
+                            <p class="mb-0" style="margin-left:-24px;">Weekends: Closed</p>
                         </div> 
                     </li>
                     <li>
