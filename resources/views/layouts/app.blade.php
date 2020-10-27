@@ -19,7 +19,7 @@
 
     <!-- Image to display -->
     <!-- Replace   «example.com/image01.jpg» with your own -->
-    <meta property="og:image" content="http://puredrizzle.theyoucorp.com/img/content/finance/about-us.png">
+    <meta property="og:image" content="http://puredrizzle.theyoucorp.com/img/icons/financial-advisory-expert.png">
 
     <!-- No need to change anything here -->
     <meta property="og:type" content="website" />
