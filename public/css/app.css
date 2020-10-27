@@ -11745,6 +11745,20 @@ body {
   border-right: 1px solid #eee;
 }
 
+footer .footer-style-1-social-links li {
+  background: unset;
+}
+
+footer .footer-style-1-social-links li a {
+  padding: unset;
+  width: 22px;
+  height: 22px;
+}
+
+footer .footer-style-1-social-links li:hover {
+  background: unset;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

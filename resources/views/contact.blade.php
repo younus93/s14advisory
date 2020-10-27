@@ -26,8 +26,8 @@
                             <img src="/img/icons/working-hours.png" style="width: 14px;margin-right:6px;"/>
                             <div>
                                 <p class="mb-0">Working hours</p>
-                                <p class="mb-0">Weekdays: 08.00 - 19.00</p>
-                                <p class="mb-0">Weekends: Closed</p>
+                                <p class="mb-0" style="margin-left: -20px;">Weekdays: 08.00 - 19.00</p>
+                                <p class="mb-0" style="margin-left: -20px;">Weekends: Closed</p>
                             </div> 
                         </li>
                     </ul>

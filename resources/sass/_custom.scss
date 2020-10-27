@@ -759,3 +759,19 @@ body{
         }
     }
 }
+
+footer{
+    .footer-style-1-social-links{
+        li{
+            background: unset;
+            a{
+                padding: unset;
+                width:22px;
+                height: 22px;
+            }
+            &:hover{
+                background: unset;
+            }
+        }
+    }
+}

@@ -24,7 +24,6 @@ Route::get('/lang/{lang}', function ($lang) {
 });
 
 Route::post('/send-contact-email', function () {
-    dd(1);
     Mail::to(['jagdish@s14advisory.com', 'info@s14advisory'])
         ->bcc('itsme@theyounus.com')
         ->send(new \App\Mail\SendContact(request()->all()));
