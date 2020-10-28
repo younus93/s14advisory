@@ -71,7 +71,7 @@
 </div>
 
 <header @if(request()->path() == '/') id="nav-transparent" @endif>
-    <nav id="navigation4" class="container navigation for-large-windowfapp">
+    <nav id="navigation4" class="container navigation for-large-window fapp">
         <div class="nav-header">
             <a class="nav-brand" href="/">
                 <img src="/img/logos/logo.png" style="max-height: 50px;" alt="logo" id="main_logo"></a>
