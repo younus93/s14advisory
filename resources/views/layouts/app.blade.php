@@ -215,8 +215,8 @@
                         <img src="/img/icons/working-hours.png" style="width: 14px;margin-right:6px;"/>
                         <!-- <i class="fa fa-map-marker-alt"></i> -->
                         <div class="ml-1">
-                            <p class="mb-0">Working hours</p>
-                            <p class="mb-0" style="margin-left:-24px;">Weekdays: 08.00 - 19.00</p>
+                            <!-- <p class="mb-0">Working hours</p> -->
+                            <p class="mb-0">Weekdays: 08.00 - 19.00</p>
                             <p class="mb-0" style="margin-left:-24px;">Weekends: Closed</p>
                         </div> 
                     </li>
