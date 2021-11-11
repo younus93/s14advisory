@@ -99,19 +99,19 @@ return [
             ],
             'linkedIn' => '',
         ],
-        'phanob-jaratpreedar' => [
-            'name' => 'Mr. Phanob Jaratpreedar',
-            'bio' => 'Phanob Jaratpreedar graduated with the first-class honor in industrial engineering from Chulalongkorn University. He has over 4 years of experience in consulting and digital banking. His past projects include IFRS9 impact assessment, liquidity risk modeling and AI-driven marketing analytics. Before joining S14 Advisory, he worked as a partnership engineer at KASIKORN LABS, the innovation lab at KASIKORNBANK GROUP. He enrolled the CFA program and passed all three levels of the program.',
-            'role' => 'Manager',
-            'experience' => [
-                'Jun 2020 – present at S14 Advisory Co., Ltd. Manager in Investment Banking Department',
-                'Jan 2018 – Jun 2020 at KASIKORN LABS Co., Ltd. Advanced Partnership Engineer, Innovation Solution and Platform',
-                'Sep 2015 – Nov 2017 at KPMG Phoomchai Business Advisory Co., Ltd. Senior Associate, Financial Risk Management',
-            ],
-            'closing' => 'Share valuation for sale of minority interest, a consumer electric company. IFA for a connected transaction on asset disposition, a luxury property developer.',
-            'linkedIn' => ''
+        // 'phanob-jaratpreedar' => [
+        //     'name' => 'Mr. Phanob Jaratpreedar',
+        //     'bio' => 'Phanob Jaratpreedar graduated with the first-class honor in industrial engineering from Chulalongkorn University. He has over 4 years of experience in consulting and digital banking. His past projects include IFRS9 impact assessment, liquidity risk modeling and AI-driven marketing analytics. Before joining S14 Advisory, he worked as a partnership engineer at KASIKORN LABS, the innovation lab at KASIKORNBANK GROUP. He enrolled the CFA program and passed all three levels of the program.',
+        //     'role' => 'Manager',
+        //     'experience' => [
+        //         'Jun 2020 – present at S14 Advisory Co., Ltd. Manager in Investment Banking Department',
+        //         'Jan 2018 – Jun 2020 at KASIKORN LABS Co., Ltd. Advanced Partnership Engineer, Innovation Solution and Platform',
+        //         'Sep 2015 – Nov 2017 at KPMG Phoomchai Business Advisory Co., Ltd. Senior Associate, Financial Risk Management',
+        //     ],
+        //     'closing' => 'Share valuation for sale of minority interest, a consumer electric company. IFA for a connected transaction on asset disposition, a luxury property developer.',
+        //     'linkedIn' => ''
 
-        ],
+        // ],
         'jagdish' => [
             'name' => 'Mr. Jagdish Gopal Mahendiran',
             'bio' => 'Jagdish Gopal Mahendiran was recently appointed as manager at S14 Advisory Company Limited who was graduated from SRM University, Chennai, India with a Bachelor of Technology degree majoring in Engineering.',
