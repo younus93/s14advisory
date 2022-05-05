@@ -30,43 +30,57 @@
                         <ul class="tab-menu center-holder">
                             <li class="active-tab">
                                 <a href="#tab-f-1">
-                                    <i class="icon-banking"></i>
+                                    <!-- <i class="icon-banking"></i> -->
+                                    <img class='no' src="/img/icons/fund-raising-not.png"/>
+                                    <img class='yes' src="/img/icons/fund-raising.png"/>
                                     @lang('messages.fundRaising')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-2">
-                                    <i class="icon-money-bag-1"></i>
+                                    <!-- <i class="icon-money-bag-1"></i> -->
+                                    <img class='no' src="/img/icons/merger-acquistion-not.png"/>
+                                    <img class='yes' src="/img/icons/merger-acquistion.png"/>
                                     @lang('messages.ma')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-3">
-                                    <i class="icon-analytics-3"></i>
+                                    <!-- <i class="icon-analytics-3"></i> -->
+                                    <img class='no' src="/img/icons/share-valuation-not.png"/>
+                                    <img class='yes' src="/img/icons/share-valuation.png"/>
                                     @lang('messages.shareValuation')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-4">
-                                    <i class="icon-balance"></i>
+                                    <!-- <i class="icon-balance"></i> -->
+                                    <img class='no' src="/img/icons/ifa-service-not.png"/>
+                                    <img class='yes' src="/img/icons/ifa-service.png"/>
                                     @lang('messages.ifa')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-5">
-                                    <i class="icon-cheque-1"></i>
+                                    <img class='no' src="/img/icons/ipo-advisory-not.png"/>
+                                    <img class='yes' src="/img/icons/ipo-advisory.png"/>
+                                    <!-- <i class="icon-cheque-1"></i> -->
                                     @lang('messages.ipo')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-6">
-                                    <i class="icon-watch-1"></i>
+                                    <img class='no' src="/img/icons/business-restructring-not.png"/>
+                                    <img class='yes' src="/img/icons/business-restructring.png"/>
+                                    <!-- <i class="icon-watch-1"></i> -->
                                     @lang('messages.br')
                                 </a>
                             </li>
                             <li class="">
                                 <a href="#tab-f-7">
-                                    <i class="icon-school-material"></i>
+                                    <img class='no' src="/img/icons/feasibility-study-not.png"/>
+                                    <img class='yes' src="/img/icons/feasibility-study.png"/>
+                                    <!-- <i class="icon-school-material"></i> -->
                                     @lang('messages.fs')
                                 </a>
                             </li>
