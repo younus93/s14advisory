@@ -16,9 +16,12 @@ class CreateEmployeesTable extends Migration
         Schema::create('employees', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('rank');
-            $table->string('full_name');
-            $table->string('url-slug');
-            $table->string('pic_url');
+            $table->string('eng_full_name');
+            $table->string('thai_full_name');
+            $table->string('eng_designation');
+            $table->string('thai_designation');
+            $table->string('url_slug');
+            $table->string('pic_url')->nullable();
             $table->timestamps();
         });
     }

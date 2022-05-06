@@ -19,11 +19,12 @@
                 <th>ID</th>
                 <th>Rank</th>
                 <th>Full Name</th>
+                <th>Designation</th>
                 <th>Pic</th>
                 <th></th>
             </tr>
             </thead>
-            @forelse($employees as $employee)
+            @forelse($employees as $emp)
                 <tr>
                     <td>
                         {{ $emp->id }}
@@ -32,7 +33,12 @@
                         {{ $emp->rank }}
                     </td>
                     <td>
-                        {{ $emp->full_name }}
+                        {{ $emp->eng_full_name }}<br>
+                        {{ $emp->thai_full_name }}
+                    </td>
+                    <td>
+                        {{ $emp->eng_designation }}<br>
+                        {{ $emp->thai_designation }}
                     </td>
                     <td>
                         {{ $emp->pic_url }}

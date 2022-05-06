@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780d593f-cc8e-48be-937c-51b422a81755" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/s14advisory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/s14advisory.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_05_06_174542_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_05_06_174542_create_employees_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +118,7 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/te7a-houdini/laravel-trix" />
     </include_path>
   </component>
   <component name="ProjectId" id="1S0ESTyCg23sU0fsarzg1Tmlrls" />
@@ -191,13 +201,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="616" height="445" key="SwitcherDM" timestamp="1651834797868">
+    <state width="616" height="445" key="SwitcherDM" timestamp="1651838686951">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="616" height="445" key="SwitcherDM/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651834797868" />
-    <state x="305" y="74" width="670" height="676" key="search.everywhere.popup" timestamp="1651834184731">
+    <state width="616" height="445" key="SwitcherDM/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651838686951" />
+    <state x="305" y="74" width="670" height="676" key="search.everywhere.popup" timestamp="1651838215402">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state x="305" y="74" width="670" height="676" key="search.everywhere.popup/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651834184731" />
+    <state x="305" y="74" width="670" height="676" key="search.everywhere.popup/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651838215402" />
   </component>
 </project>
