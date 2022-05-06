@@ -7,7 +7,7 @@
     <div class="container min-vh-100 p-5" style="">
         <div class="d-flex justify-content-end">
             <div>
-                <a href="employees/create" class="btn btn-primary">
+                <a href="{{ route('employees.create') }}" class="btn btn-primary">
                     <i class="fa fa-plus mr-2"></i>
                     Add Employee
                 </a>
