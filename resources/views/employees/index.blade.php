@@ -44,7 +44,9 @@
                         {{ $emp->pic_url }}
                     </td>
                     <td>
-
+                        <a class="btn btn-primary" href="{{ route('employees.show', $emp->url_slug) }}">
+                            <i class="fa fa-eye"></i>
+                        </a>
                     </td>
                 </tr>
             @empty
