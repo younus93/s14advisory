@@ -30,10 +30,13 @@ class EmployeeController extends Controller
             'employee-trixFields' => request('employee-trixFields'),
             'eng_full_name' => $request->eng_full_name,
             'thai_full_name' => $request->thai_full_name,
-            'url_slug' => Str::snake($request->eng_full_name),
+            'url_slug' => uniqid(),
             'rank' => $request->rank,
             'eng_designation' => $request->eng_designation,
             'thai_designation' => $request->thai_designation,
+        ]);
+        $employee = $employee->update([
+            'url_slug' => sprintf("%s_%s", $employee->id, Str::snake($employee->eng_full_name)),
         ]);
         return redirect('/home');
     }
