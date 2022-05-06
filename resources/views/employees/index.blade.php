@@ -41,7 +41,7 @@
                         {{ $emp->thai_designation }}
                     </td>
                     <td>
-                        {{ $emp->pic_url }}
+                        <img style="max-height: 100px;" src="{{ url("images/{$emp->pic_url}") }}" alt="emp_pic">
                     </td>
                     <td>
                         <a class="btn btn-primary" href="{{ route('employees.show', $emp->url_slug) }}">

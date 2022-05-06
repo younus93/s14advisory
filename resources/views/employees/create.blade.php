@@ -12,7 +12,7 @@
 
     <div class="container min-vh-100 p-5" style="">
 
-        <form action="{{ route('employees.store') }}" method="POST">
+        <form action="{{ route('employees.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
 
             <div class="form-group">

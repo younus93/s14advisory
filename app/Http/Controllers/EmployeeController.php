@@ -35,9 +35,16 @@ class EmployeeController extends Controller
             'eng_designation' => $request->eng_designation,
             'thai_designation' => $request->thai_designation,
         ]);
-        $employee = $employee->update([
+        $employee->update([
             'url_slug' => sprintf("%s_%s", $employee->id, Str::snake($employee->eng_full_name)),
         ]);
+        if ($request->has('pic')) {
+            $imageName = time().'.'.$request->pic->extension();
+            $request->pic->move(public_path('images'),$imageName);
+            $employee->update([
+                'pic_url' => $imageName
+            ]);
+        }
         return redirect('/home');
     }
 
