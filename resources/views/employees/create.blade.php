@@ -9,7 +9,7 @@
 
 
     </div>
-    
+
 @endsection
 @section('scripts')
 
