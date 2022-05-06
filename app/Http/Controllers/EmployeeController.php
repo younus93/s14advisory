@@ -41,7 +41,9 @@ class EmployeeController extends Controller
     public function show($url_slug)
     {
         $employee = Employee::where('url_slug', $url_slug)->firstOrFail();
-        return view('');
+        return view('employees.show')->with([
+            'employee' => $employee
+        ]);
     }
 
 }
