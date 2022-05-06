@@ -26,8 +26,10 @@ class EmployeeController extends Controller
 
     public function store(Request $request)
     {
+        $trix_content = request('employee-trixFields');
+        $trix_content = str_replace('h1', 'h4', $trix_content);
         $employee = Employee::create([
-            'employee-trixFields' => request('employee-trixFields'),
+            'employee-trixFields' => $trix_content,
             'eng_full_name' => $request->eng_full_name,
             'thai_full_name' => $request->thai_full_name,
             'url_slug' => uniqid(),
@@ -54,6 +56,12 @@ class EmployeeController extends Controller
         return view('employees.show')->with([
             'employee' => $employee
         ]);
+    }
+
+    public function destroy(Employee $employee)
+    {
+        $employee->delete();
+        return back();
     }
 
 }

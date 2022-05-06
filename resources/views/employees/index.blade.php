@@ -44,9 +44,22 @@
                         <img style="max-height: 100px;" src="{{ url("images/{$emp->pic_url}") }}" alt="emp_pic">
                     </td>
                     <td>
-                        <a class="btn btn-primary" href="{{ route('employees.show', $emp->url_slug) }}">
-                            <i class="fa fa-eye"></i>
-                        </a>
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <a class="btn btn-primary" href="{{ route('employees.show', $emp->url_slug) }}">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <form action="{{ route('employees.destroy', $emp->id) }}" method="POST">
+                                    @csrf
+                                    @method('delete')
+                                    <button class="btn btn-danger">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             @empty

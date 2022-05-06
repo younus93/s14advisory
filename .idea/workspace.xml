@@ -4,8 +4,9 @@
     <list default="true" id="780d593f-cc8e-48be-937c-51b422a81755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/employees/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/employees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,10 +195,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="616" height="445" key="SwitcherDM" timestamp="1651879126596">
+    <state width="616" height="445" key="SwitcherDM" timestamp="1651881246312">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="616" height="445" key="SwitcherDM/0.25.1280.775@0.25.1280.775" timestamp="1651879126596" />
+    <state width="616" height="445" key="SwitcherDM/0.25.1280.775@0.25.1280.775" timestamp="1651881246312" />
     <state width="616" height="445" key="SwitcherDM/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651839719077" />
     <state x="305" y="74" width="670" height="676" key="search.everywhere.popup" timestamp="1651838888144">
       <screen x="0" y="25" width="1280" height="775" />

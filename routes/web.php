@@ -95,5 +95,7 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/home', 'EmployeeController@index')->name('employees.index');
     Route::get('/employees/create', 'EmployeeController@create')->name('employees.create');
     Route::post('/employees', 'EmployeeController@store')->name('employees.store');
+    Route::get('/latest-team', 'EmployeeController@team')->name('employees.team');
+    Route::delete('/employees/{employee}', 'EmployeeController@destroy')->name('employees.destroy');
 });
 Route::get('/employees/{url_slug}', 'EmployeeController@show')->name('employees.show');
