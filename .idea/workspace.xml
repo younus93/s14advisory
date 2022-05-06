@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="780d593f-cc8e-48be-937c-51b422a81755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_05_06_173648_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_05_06_173648_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,10 +233,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="616" height="445" key="SwitcherDM" timestamp="1651833685222">
+    <state width="616" height="445" key="SwitcherDM" timestamp="1651833896641">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
-    <state width="616" height="445" key="SwitcherDM/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651833685222" />
+    <state width="616" height="445" key="SwitcherDM/257.-1055.1920.1055/0.25.1280.775@0.25.1280.775" timestamp="1651833896641" />
     <state x="305" y="74" width="670" height="676" key="search.everywhere.popup" timestamp="1651833456215">
       <screen x="0" y="25" width="1280" height="775" />
     </state>
