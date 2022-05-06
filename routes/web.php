@@ -91,4 +91,7 @@ Route::get('login', 'Auth\LoginController@showLoginForm');
 Route::post('login', 'Auth\LoginController@login')->name('login');
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware(['auth'])->group(function(){
+    Route::get('/home', 'EmployeeController@index')->name('employees.index');
+    Route::get('/employees/create', 'EmployeeController@create')->name('employees.create');
+});
