@@ -64,4 +64,12 @@ class EmployeeController extends Controller
         return back();
     }
 
+    public function team()
+    {
+        $employees = Employee::all()->groupBy('rank');
+        return view('employees.team')->with([
+            'ranks' => $employees
+        ]);
+    }
+
 }
