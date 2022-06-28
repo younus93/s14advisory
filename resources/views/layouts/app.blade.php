@@ -164,7 +164,7 @@
                     </li>
                 @else
                     <li>
-                        <a href="/team">Our Team</a>
+                        <a href="/latest-team">Our Team</a>
                     </li>
                     <li>
                         <a href="/">Return Home</a>
