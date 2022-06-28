@@ -52,7 +52,7 @@
                          <!-- <img src="https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" -->
                          <img src='/img/our-team.jpg' class="w-100" style="max-height: 450px;" alt="img">
                     <div class="team-classic-overlay">
-                        <a href="/team">
+                        <a href="/latest-team">
                             <div class="team-classic-name">
                                 <h4>Meet our Team</h4>
                             </div>

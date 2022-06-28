@@ -239,7 +239,7 @@
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#values">Our Values</a></li>
                     <li><a href="#services">Our Services</a></li>
-                    <li><a href="/team">Our Team</a></li>
+                    <li><a href="/latest-team"">Our Team</a></li>
                     <li><a href="/track-records">Our Clients</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
