@@ -34,11 +34,11 @@
                         <div class="team-classic-content">
                             <a href="https://www.linkedin.com/in/piyapa-chongsathien-7992b1104/"><i class="fab fa-linkedin"></i></a>
                         </div>
-                        <a href="/team/piyapa-chongsathien">
+                        <a href="https://s14advisory.com/employees/6_piyapa_chongsathien">
                             <div class="team-classic-name">
                                 <h4>Ms. Piyapa Chongsathien</h4>
                                 <h6 class="italic libre-baskerville">
-                                    Founder & Managing Director
+                                    Founder and CEO
                                 </h6>
                             </div>
                         </a>
