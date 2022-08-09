@@ -66,7 +66,7 @@ class EmployeeController extends Controller
 
     public function team()
     {
-        $employees = Employee::all()->groupBy('rank');
+        $employees = Employee::all()->groupBy('rank')->sortKeys();
         return view('employees.team')->with([
             'ranks' => $employees
         ]);
